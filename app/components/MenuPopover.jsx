@@ -10,9 +10,9 @@ function MyPopover () {
         Menu
         <BiChevronDown className='ml-1 ui-open:rotate-180 ui-open:transform' />
       </Popover.Button>
-      <Popover.Overlay className='fixed inset-0 bg-black opacity-50' />
 
       <Transition
+        className='fixed inset-0 z-50'
         enter='transition duration-300 ease-out'
         enterFrom='transform scale-95 opacity-0'
         enterTo='transform scale-100 opacity-100'
@@ -20,13 +20,38 @@ function MyPopover () {
         leaveFrom='transform scale-100 opacity-100'
         leaveTo='transform scale-95 opacity-0'
       >
-        <Popover.Panel className='absolute z-10'>
-          <div className='grid grid-cols-2 mt-10'>
-            <a href='/analytics'>Analytics</a>
-            <a href='/engagement'>Engagement</a>
-            <a href='/security'>Security</a>
-            <a href='/integrations'>Integrations</a>
+        <Popover.Overlay className='fixed inset-0 z-50 bg-zinc-800/40 backdrop-blur-sm dark:bg-black/80 opacity-100' />
+        <Popover.Panel className='fixed inset-x-4 top-6 z-50 origin-top scale-100 rounded-3xl bg-white p-8 opacity-100 ring-1 ring-zinc-900/5 dark:bg-zinc-900 dark:ring-zinc-800'>
+          <div className='flex flex-row-reverse items-center justify-between'>
+            <Popover.Button className='-m-1 p-1'>X</Popover.Button>
+            <h2 className='text-sm font-medium text-zinc-600 dark:text-zinc-400'>
+              Navigation
+            </h2>
           </div>
+          <nav className='mt-6'>
+            <ul className='-my-2 divide-y divide-zinc-100 text-base text-zinc-800 dark:divide-zinc-100/5 dark:text-zinc-300'>
+              <li>
+                <a class='block py-2' href='/about'>
+                  About
+                </a>
+              </li>
+              <li>
+                <a class='block py-2' href='/about'>
+                  Projects
+                </a>
+              </li>
+              <li>
+                <a class='block py-2' href='/about'>
+                  Articles
+                </a>
+              </li>
+              <li>
+                <a class='block py-2' href='/about'>
+                  Contact
+                </a>
+              </li>
+            </ul>
+          </nav>
         </Popover.Panel>
       </Transition>
     </Popover>

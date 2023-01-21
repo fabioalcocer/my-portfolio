@@ -15,10 +15,10 @@ function Hero () {
           className='mb-1 h-20 w-20 rounded-full'
         />
         <h1 className='text-[32px] font-bold leading-10 tracking-tighter text-zinc-100'>
-          Software designer, founder, and amateur astronaut.
+          Software developer, founder, and content creator.
         </h1>
         <p className='text-base font-light leading-7 text-zinc-400'>
-          I’m Spencer, a software designer and entrepreneur based in
+          I’m Fabio, a software designer and entrepreneur based in
           New York City. I’m the founder and CEO of Planetaria, where
           we develop technologies that empower regular people to
           explore space on their own terms.
