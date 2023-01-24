@@ -3,6 +3,7 @@ import Footer from './Footer'
 import Form from './Form'
 import Header from './Header'
 import Hero from './Hero'
+import Projects from './Projects'
 
 function Main () {
   return (
@@ -12,6 +13,8 @@ function Main () {
         <Hero />
         <Experience />
         <Form />
+
+        <Projects />
       </main>
       <Footer />
     </div>
