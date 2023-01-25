@@ -1,9 +1,9 @@
 import Experience from './Experience'
+import FeaturedProjects from './FeaturedProjects'
 import Footer from './Footer'
 import Form from './Form'
 import Header from './Header'
 import Hero from './Hero'
-import Projects from './Projects'
 
 function Main () {
   return (
@@ -14,7 +14,7 @@ function Main () {
         <Experience />
         <Form />
 
-        <Projects />
+        <FeaturedProjects />
       </main>
       <Footer />
     </div>

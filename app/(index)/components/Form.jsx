@@ -1,18 +1,21 @@
-import ContactIcon from 'app/icons/ContactIcon'
+import ContactIcon from 'app/(index)/icons/ContactIcon'
 
 function Form () {
   return (
     <form
       action=''
-      className='rounded-2xl border border-zinc-100 p-6 dark:border-zinc-700/40'
+      className='rounded-2xl border border-zinc-100 p-6 shadow-inner shadow-zinc-800 transition-shadow duration-500 hover:shadow-transparent dark:border-zinc-700/40'
     >
       <h2 className='flex font-semibold text-zinc-900 dark:text-zinc-100'>
         <ContactIcon />
         <span className='ml-3 text-lg'>Contact me</span>
       </h2>
-      <p className='mt-2 text-sm sm:text-base text-zinc-600 dark:text-zinc-400'>
+      <p className='mt-2 text-sm text-zinc-600 dark:text-zinc-400 sm:text-base'>
         Want to work with me? Send a message to{' '}
-        <a className='text-zinc-200 font-semibold' href='mailto:fabioalcocerdev@gmail.com'>
+        <a
+          className='font-semibold text-zinc-200'
+          href='mailto:fabioalcocerdev@gmail.com'
+        >
           fabioalcocerdev@gmail.com
         </a>{' '}
         or use the contact form.

@@ -6,9 +6,19 @@ module.exports = {
     './components/**/*.{js,ts,jsx,tsx}'
   ],
   theme: {
-    extend: {}
+    extend: {
+      keyframes: {
+        btnpulse: {
+          '0%': { 'box-shadow': '0 0 0 0 theme("colors.zinc.400")' },
+          '30%': {
+            'box-shadow': '0 0 0 0 theme("colors.zinc.400/50")'
+          },
+          '100%': {
+            'box-shadow': '0 0 0 12px theme("colors.zinc.400/0")'
+          }
+        }
+      }
+    }
   },
-  plugins: [
-    require('@headlessui/tailwindcss')({ prefix: 'ui' })
-  ]
+  plugins: [require('@headlessui/tailwindcss')({ prefix: 'ui' })]
 }

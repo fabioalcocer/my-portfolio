@@ -1,11 +1,11 @@
 import Image from 'next/image'
-import SuitcaseIcon from 'app/icons/SuitcaseIcon'
+import SuitcaseIcon from 'app/(index)/icons/SuitcaseIcon'
 import logoOB from '../assets/ob-logo.png'
 import { BsArrowDownShort } from 'react-icons/bs'
 
 function Experience () {
   return (
-    <div className='mt-10 rounded-2xl border border-zinc-100 p-6 dark:border-zinc-700/40'>
+    <div className='mt-10 rounded-2xl border border-zinc-100 p-6 shadow-inner shadow-zinc-800 transition-shadow duration-500 hover:shadow-transparent dark:border-zinc-700/40'>
       <div className='flex items-center gap-3'>
         <SuitcaseIcon />
         <h2 className='flex text-lg font-semibold text-zinc-900 dark:text-zinc-100'>
@@ -36,10 +36,10 @@ function Experience () {
 
       <a
         href=''
-        className='group mt-6 inline-flex w-full items-center justify-center gap-2 rounded-md bg-zinc-50 py-2 px-3 text-sm font-medium text-zinc-900 outline-offset-2 transition hover:bg-zinc-100 active:bg-zinc-100 active:text-zinc-900/60 active:transition-none dark:bg-zinc-800/50 dark:text-zinc-300 dark:hover:bg-zinc-800 dark:hover:text-zinc-50 dark:active:bg-zinc-800/50 dark:active:text-zinc-50/70'
+        className='group mt-6 inline-flex w-full animate-[btnpulse_2s_infinite] items-center justify-center gap-2 rounded-md bg-zinc-50 py-2 px-3 text-sm font-medium text-zinc-900 outline-offset-2 transition-all duration-300 hover:bg-zinc-100 active:bg-zinc-100 active:text-zinc-900/60 active:transition-none dark:bg-zinc-800/50 dark:text-zinc-300 dark:hover:bg-zinc-800 dark:hover:text-zinc-50 dark:active:bg-zinc-800/50 dark:active:text-zinc-50/70'
       >
         <span>Download CV</span>
-        <BsArrowDownShort className='text-xl stroke-zinc-400 transition group-active:stroke-zinc-600 dark:group-hover:stroke-zinc-50 dark:group-active:stroke-zinc-50' />
+        <BsArrowDownShort className='stroke-zinc-400 text-xl transition group-active:stroke-zinc-600 dark:group-hover:stroke-zinc-50 dark:group-active:stroke-zinc-50' />
       </a>
     </div>
   )
