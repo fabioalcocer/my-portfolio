@@ -7,7 +7,7 @@ import {
 
 function Hero () {
   return (
-    <div className='mt-16'>
+    <div className=''>
       <div className='flex flex-col gap-4'>
         <img
           src='https://i.pinimg.com/564x/b4/c4/84/b4c484a289f0b065b471f13275be917a.jpg'

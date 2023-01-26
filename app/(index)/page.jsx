@@ -1,13 +1,14 @@
-import { Inter } from '@next/font/google'
-
-import Container from './components/Container'
-
-const inter = Inter({ subsets: ['latin'] })
-
+import Experience from './components/Experience'
+import FeaturedProjects from './components/FeaturedProjects'
+import Form from './components/Form'
+import Hero from './components/Hero'
 export default function Home () {
   return (
-    <div className={`bg-black min-h-screen ${inter.className}`}>
-      <Container />
-    </div>
+    <>
+      <Hero />
+      <Experience />
+      <FeaturedProjects />
+      <Form />
+    </>
   )
 }

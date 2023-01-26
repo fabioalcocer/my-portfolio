@@ -1,7 +1,27 @@
 'use client'
 
+import Link from 'next/link'
 import { Popover, Transition } from '@headlessui/react'
 import { BiChevronDown, BiX } from 'react-icons/bi'
+
+const links = [
+  {
+    label: 'About',
+    route: '/about'
+  },
+  {
+    label: 'Projects',
+    route: '/projects'
+  },
+  {
+    label: 'Books',
+    route: '/books'
+  },
+  {
+    label: 'Contact',
+    route: '/contact'
+  }
+]
 
 function MyPopover () {
   return (
@@ -20,7 +40,7 @@ function MyPopover () {
         leaveFrom='transform scale-100 opacity-100'
         leaveTo='transform scale-95 opacity-0'
       >
-        <Popover.Overlay className='fixed inset-0 z-50 bg-zinc-800/40 backdrop-blur-sm dark:bg-black/80 opacity-100' />
+        <Popover.Overlay className='fixed inset-0 z-50 bg-zinc-800/40 opacity-100 backdrop-blur-sm dark:bg-black/80' />
         <Popover.Panel className='fixed inset-x-4 top-6 z-50 origin-top scale-100 rounded-3xl bg-white p-8 opacity-100 ring-1 ring-zinc-900/5 dark:bg-zinc-900 dark:ring-zinc-800'>
           <div className='flex flex-row-reverse items-center justify-between'>
             <Popover.Button className='-m-1 p-1'>
@@ -32,26 +52,13 @@ function MyPopover () {
           </div>
           <nav className='mt-6'>
             <ul className='-my-2 divide-y divide-zinc-100 text-base text-zinc-800 dark:divide-zinc-100/5 dark:text-zinc-300'>
-              <li>
-                <a class='block py-3' href='/about'>
-                  About
-                </a>
-              </li>
-              <li>
-                <a class='block py-3' href='/about'>
-                  Projects
-                </a>
-              </li>
-              <li>
-                <a class='block py-3' href='/about'>
-                  Articles
-                </a>
-              </li>
-              <li>
-                <a class='block py-3' href='/about'>
-                  Contact
-                </a>
-              </li>
+              {links.map(({ label, route }) => (
+                <li className='block py-3' key={route}>
+                  <Popover.Button>
+                    <Link href={route}>{label}</Link>
+                  </Popover.Button>
+                </li>
+              ))}
             </ul>
           </nav>
         </Popover.Panel>
