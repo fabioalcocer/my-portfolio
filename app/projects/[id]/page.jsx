@@ -40,13 +40,13 @@ function Player ({ params }) {
         <div className='mt-8 mb-1 flex w-full flex-1 flex-col justify-center gap-4 md:mt-0 md:mb-8 md:flex-row md:items-start md:justify-end'>
           <Link
             href='/'
-            className='group inline-flex items-center justify-center gap-2 rounded-md bg-zinc-50 py-2 px-3 text-sm font-extrabold text-zinc-900 outline-offset-2 transition hover:bg-zinc-100 active:bg-zinc-100 active:text-zinc-900/60 active:transition-none dark:bg-zinc-700/50 dark:text-zinc-200 dark:hover:bg-zinc-700/70 dark:hover:text-zinc-50 dark:active:bg-zinc-800/50 dark:active:text-zinc-50/70 md:px-4 lg:text-base'
+            className='group inline-flex items-center justify-center gap-2 rounded-md bg-zinc-50 py-2 px-3 text-sm font-extrabold text-zinc-900 outline-offset-2 transition hover:bg-zinc-100 active:bg-zinc-100 active:text-zinc-900/60 active:transition-none dark:bg-zinc-700/50 dark:text-zinc-200 dark:hover:bg-zinc-700/70 dark:hover:text-zinc-50 dark:active:bg-zinc-800/50 dark:active:text-zinc-50/70 md:px-4 md:py-3 lg:text-base'
           >
             <IoMdReturnLeft className='mr-2 text-lg' />
             Go Back
           </Link>
 
-          <a className='inline-flex cursor-pointer items-center justify-center gap-2 rounded-md bg-emerald-600 py-2 px-3 text-sm font-semibold text-zinc-100 outline-offset-2 transition hover:bg-zinc-700 active:bg-zinc-800 active:text-zinc-100/70 active:transition-none dark:bg-emerald-500 dark:hover:bg-emerald-600 dark:active:bg-zinc-700 dark:active:text-zinc-100/70 lg:text-base'>
+          <a className='inline-flex cursor-pointer items-center justify-center gap-2 rounded-md bg-emerald-600 py-2 px-3 md:py-3 text-sm font-semibold text-zinc-100 outline-offset-2 transition hover:bg-zinc-700 active:bg-zinc-800 active:text-zinc-100/70 active:transition-none dark:bg-emerald-500 dark:hover:bg-emerald-600 dark:active:bg-zinc-700 dark:active:text-zinc-100/70 lg:text-base'>
             <IoMdOpen className='mr-1 text-xl' />
             View Repository
           </a>

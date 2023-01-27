@@ -9,19 +9,19 @@ import { IoMdMail } from 'react-icons/io'
 
 function Hero () {
   return (
-    <div className=''>
-      <div className='flex flex-col gap-4'>
-        <div className='relative flex h-20 w-20 flex-none cursor-pointer items-center justify-center rounded-full shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 dark:border dark:border-zinc-700/50 dark:bg-zinc-900 dark:ring-0'>
+    <div className='max-w-3xl md:px-8'>
+      <div className='flex flex-col gap-4 md:gap-6'>
+        <div className='relative flex h-20 w-20 md:w-24 md:h-24 flex-none cursor-pointer items-center justify-center rounded-full shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 dark:border dark:border-zinc-700/50 dark:bg-zinc-900 dark:ring-0'>
           <Image
             src={myLogo}
             alt='photo profile'
-            className='h-24 w-24 object-cover'
+            className='h-24 w-24 object-cover md:h-32 md:w-32'
           />
         </div>
-        <h1 className='text-[32px] font-bold leading-10 tracking-tighter text-zinc-100'>
+        <h1 className='text-[32px] font-bold leading-10 tracking-tighter text-zinc-100 md:text-5xl'>
           I’m Fabio Alcocer. Software developer, founder, and content creator.
         </h1>
-        <p className='text-base font-light leading-7 text-zinc-400'>
+        <p className='text-base font-light leading-7 text-zinc-400 md:text-lg md:pr-10'>
           I’m Fabio, a software designer and entrepreneur based in New
           York City. I’m the founder and CEO of Planetaria, where we
           develop technologies that empower regular people to explore

@@ -4,7 +4,7 @@ import { skills } from '../data/skills'
 function SkillsBoard () {
   return (
     <div className='mt-16'>
-      <h2 className='inline-block border-b-8 border-b-emerald-600 pb-4 text-4xl font-bold leading-10 tracking-tighter text-zinc-100 sm:pb-8 md:text-8xl'>
+      <h2 className='inline-block border-b-8 border-b-emerald-500 pb-4 text-4xl font-bold leading-10 tracking-tighter text-zinc-100 sm:pb-8 md:text-8xl'>
         Skills & Tools
       </h2>
 

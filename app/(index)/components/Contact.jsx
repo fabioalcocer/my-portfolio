@@ -3,7 +3,7 @@ import ContactIcon from 'app/(index)/icons/ContactIcon'
 function Contact () {
   return (
     <div className='mt-16 flex gap-7 flex-col md:flex-row'>
-      <h2 className='pr-4 mr-4 flex flex-col h-max self-center border-b-emerald-600 pb-4 text-4xl font-bold leading-10 tracking-tighter text-zinc-100 sm:pb-8 lg:text-8xl'>
+      <h2 className='pr-4 mr-4 flex flex-col h-max self-center pb-4 text-4xl font-bold leading-10 tracking-tighter text-zinc-100 sm:pb-8 lg:text-8xl'>
         Contact me!
         <span className='mt-4 bg-primary  animate-[rightGrow_2s_infinite]  bg-emerald-500 w-full inline-flex h-2 rounded-md z-20' />
       </h2>
