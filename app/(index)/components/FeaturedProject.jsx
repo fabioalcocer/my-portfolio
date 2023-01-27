@@ -36,7 +36,7 @@ function FeaturedProject ({ project }) {
           {project.description}
         </p>
 
-        <div className='mt-8 flex justify-between items-center h-5'>
+        <div className='mt-8 flex h-5 items-center justify-between'>
           {project.progress && (
             <p className='font-semibold text-emerald-500'>
               Work in Progress
@@ -46,19 +46,6 @@ function FeaturedProject ({ project }) {
             {project.date}
           </p>
         </div>
-
-        {/* TODO Use this for the projects section */}
-        {/* <div className='mt-2 flex items-center gap-3'>
-          <a className='inline-flex flex-1 items-center justify-center gap-2 rounded-md bg-zinc-800 py-2 px-3 text-sm font-semibold text-zinc-100 outline-offset-2 transition hover:bg-zinc-700 active:bg-zinc-800 active:text-zinc-100/70 active:transition-none dark:bg-zinc-700 dark:hover:bg-zinc-600 dark:active:bg-zinc-700 dark:active:text-zinc-100/70'>
-            Open App
-          </a>
-          <a
-            href=''
-            className='group inline-flex w-full flex-1 items-center justify-center gap-2 rounded-md bg-zinc-50 py-2 px-3 text-sm font-medium text-zinc-900 outline-offset-2 transition hover:bg-zinc-100 active:bg-zinc-100 active:text-zinc-900/60 active:transition-none dark:bg-zinc-800/50 dark:text-zinc-200 dark:hover:bg-zinc-800 dark:hover:text-zinc-50 dark:active:bg-zinc-800/50 dark:active:text-zinc-50/70'
-          >
-            View more
-          </a>
-        </div> */}
       </div>
     </div>
   )
