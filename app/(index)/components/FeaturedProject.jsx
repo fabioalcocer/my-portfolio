@@ -8,7 +8,7 @@ function FeaturedProject ({ project }) {
           <Image
             className='object-cover'
             fill
-            src={project.img}
+            src={project?.img}
             alt='Ecommerce project screenshot'
           />
         </div>
@@ -17,12 +17,12 @@ function FeaturedProject ({ project }) {
       <div className='flex flex-1 flex-col gap-4 p-5 pb-6'>
         <div className='flex items-center gap-3'>
           <h2 className='flex text-xl font-semibold text-zinc-900 dark:text-zinc-100'>
-            {project.name}
+            {project?.name}
           </h2>
         </div>
 
         <ul className='flex gap-3 text-xs text-zinc-200'>
-          {project.stack.map((technology) => (
+          {project?.stack.map((technology) => (
             <li
               className={`rounded-sm border ${technology.color} p-1 font-semibold`}
               key={technology.name}
@@ -33,17 +33,17 @@ function FeaturedProject ({ project }) {
         </ul>
 
         <p className='text-sm text-zinc-600 dark:text-zinc-300 sm:text-base'>
-          {project.description}
+          {project?.description}
         </p>
 
         <div className='mt-8 flex h-5 items-center justify-between'>
-          {project.progress && (
+          {project?.progress && (
             <p className='font-semibold text-emerald-500'>
               Work in Progress
             </p>
           )}
           <p className='text-sm font-medium text-zinc-900 dark:text-zinc-100'>
-            {project.date}
+            {project?.date}
           </p>
         </div>
       </div>
