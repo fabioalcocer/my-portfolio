@@ -16,6 +16,14 @@ module.exports = {
           '100%': {
             'box-shadow': '0 0 0 12px theme("colors.zinc.400/0")'
           }
+        },
+        rightGrow: {
+          '0%': {
+            width: '0'
+          },
+          '100%': {
+            width: '100%'
+          }
         }
       }
     }

@@ -7,7 +7,7 @@ function ContactIcon () {
       strokeLinecap='round'
       strokeLinejoin='round'
       aria-hidden='true'
-      className='h-6 w-6 flex-none'
+      className='h-6 w-6 flex-none md:h-8 md:w-8'
     >
       <path
         d='M2.75 7.75a3 3 0 0 1 3-3h12.5a3 3 0 0 1 3 3v8.5a3 3 0 0 1-3 3H5.75a3 3 0 0 1-3-3v-8.5Z'

@@ -1,6 +1,6 @@
 import Experience from './components/Experience'
 import FeaturedProjects from './components/FeaturedProjects'
-import Form from './components/Form'
+import Contact from './components/Contact'
 import Hero from './components/Hero'
 import SkillsBoard from './components/SkillsBoard'
 
@@ -11,7 +11,7 @@ export default function Home () {
       <Experience />
       <FeaturedProjects />
       <SkillsBoard />
-      <Form />
+      <Contact />
     </>
   )
 }
