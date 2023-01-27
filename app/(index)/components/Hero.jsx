@@ -19,7 +19,7 @@ function Hero () {
           />
         </div>
         <h1 className='text-[32px] font-bold leading-10 tracking-tighter text-zinc-100'>
-          Software developer, founder, and content creator.
+          I’m Fabio Alcocer. Software developer, founder, and content creator.
         </h1>
         <p className='text-base font-light leading-7 text-zinc-400'>
           I’m Fabio, a software designer and entrepreneur based in New

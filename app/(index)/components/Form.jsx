@@ -4,7 +4,7 @@ function Form () {
   return (
     <form
       action='POST'
-      className='rounded-2xl mt-10 border border-zinc-100 p-6 shadow-inner shadow-zinc-800 transition-shadow duration-500 hover:shadow-transparent dark:border-zinc-700/40'
+      className='rounded-xl mt-10 border border-zinc-100 p-6 shadow-inner shadow-zinc-800 transition-shadow duration-500 hover:shadow-transparent dark:border-zinc-700/40'
     >
       <h2 className='flex font-semibold text-zinc-900 dark:text-zinc-100'>
         <ContactIcon />

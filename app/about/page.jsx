@@ -8,7 +8,7 @@ import { BsTwitter, BsGithub, BsLinkedin } from 'react-icons/bs'
 function page () {
   return (
     <div className='sm:px-8'>
-      <div className='mb-12 flex items-center justify-between px-16'>
+      <div className='mb-12 flex items-center justify-between px-0 lg:px-16'>
         <h2 className='inline-block border-b-8 border-b-emerald-600 pb-4 text-4xl font-bold leading-10 tracking-tighter text-zinc-100 sm:pb-8 md:text-6xl'>
           About me
         </h2>
@@ -34,8 +34,8 @@ function page () {
             </div>
             <div className='lg:order-first lg:row-span-2'>
               <h1 className='text-4xl font-bold tracking-tighter text-zinc-800 dark:text-zinc-100 sm:text-5xl sm:leading-[3.5rem]'>
-                I’m Fabio Alcocer. I live in New York City, where I
-                design the future.
+                I’m Fabio Alcocer. Software developer, founder, and
+                content creator.
               </h1>
               <div className='mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400'>
                 <p>
