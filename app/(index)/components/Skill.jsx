@@ -26,13 +26,13 @@ function Skill ({ skill }) {
       <span
         className={`absolute top-4 left-4 rounded-full ${skill.color} p-[6px]`}
       />
-      {ICONS[skill.name]}
+      {ICONS[skill?.name]}
       <h3 className='flex text-xl font-semibold text-zinc-900 dark:text-zinc-100'>
         {skill.name}
       </h3>
 
       <p className='px-5 text-center text-sm text-zinc-600 dark:text-zinc-300 sm:text-base'>
-        {skill.description}
+        {skill?.description}
       </p>
     </div>
   )
