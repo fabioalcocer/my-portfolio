@@ -1,5 +1,4 @@
 'use client'
-
 import Link from 'next/link'
 import { Popover, Transition } from '@headlessui/react'
 import { BiChevronDown, BiX } from 'react-icons/bi'
@@ -41,7 +40,7 @@ function MyPopover () {
         leaveTo='transform scale-95 opacity-0'
       >
         <Popover.Overlay className='fixed inset-0 z-50 bg-zinc-800/40 opacity-100 backdrop-blur-sm dark:bg-black/80' />
-        <Popover.Panel className='fixed inset-x-4 top-6 z-50 origin-top scale-100 rounded-3xl bg-white p-8 opacity-100 ring-1 ring-zinc-900/5 dark:bg-zinc-900 dark:ring-zinc-800'>
+        <Popover.Panel className='fixed mx-auto inset-x-4 max-w-sm top-6 z-50 origin-top scale-100 rounded-3xl bg-white p-8 opacity-100 ring-1 ring-zinc-900/5 dark:bg-zinc-900 dark:ring-zinc-800'>
           <div className='flex flex-row-reverse items-center justify-between'>
             <Popover.Button className='-m-1 p-1'>
               <BiX className='text-2xl' />
@@ -53,9 +52,9 @@ function MyPopover () {
           <nav className='mt-6'>
             <ul className='-my-2 divide-y divide-zinc-100 text-base text-zinc-800 dark:divide-zinc-100/5 dark:text-zinc-300'>
               {links.map(({ label, route }) => (
-                <li className='block py-3' key={route}>
-                  <Popover.Button>
-                    <Link href={route}>{label}</Link>
+                <li className='block py-3' key={label}>
+                  <Popover.Button as={Link} href={route}>
+                    {label}
                   </Popover.Button>
                 </li>
               ))}

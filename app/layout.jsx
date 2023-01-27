@@ -12,7 +12,7 @@ export default function RootLayout ({ children }) {
       <head />
       <body>
         <div className={`min-h-screen bg-black ${inter.className}`}>
-          <div className='mx-auto flex min-h-screen max-w-7xl flex-col bg-zinc-900 bg-opacity-90 px-4'>
+          <div className='mx-auto flex min-h-screen max-w-7xl flex-col bg-zinc-900 bg-opacity-90 px-6 sm:px-8'>
             <Header />
             <Container>{children}</Container>
             <Footer />

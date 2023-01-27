@@ -23,12 +23,12 @@ export const projects = [
     description:
       'Nize a web app that helps you create beautiful images of screenshots and code fast and with little effort. Blurred background images, gradients, easy rotation and tilt, coding fonts.',
     img: 'https://res.cloudinary.com/daobmfotr/image/upload/v1674671775/projects/ecommerce_d9olau.webp',
-    progress: 'Work in Progress',
+    progress: false,
     date: 'During 2022'
   },
   {
     id: 2,
-    name: 'E-Commerce Fullstack',
+    name: 'SNK Magic Player',
     stack: [
       {
         name: 'React',
@@ -50,12 +50,12 @@ export const projects = [
     description:
       'Nize a web app that helps you create beautiful images of screenshots and code fast and with little effort. Blurred background images, gradients, easy rotation and tilt, coding fonts.',
     img: 'https://res.cloudinary.com/daobmfotr/image/upload/v1674671775/projects/ecommerce_d9olau.webp',
-    progress: 'Work in Progress',
+    progress: true,
     date: 'Since February 2022'
   },
   {
     id: 3,
-    name: 'E-Commerce Fullstack',
+    name: 'Studio Ghibli App',
     stack: [
       {
         name: 'React',
@@ -77,7 +77,7 @@ export const projects = [
     description:
       'Nize a web app that helps you create beautiful images of screenshots and code fast and with little effort. Blurred background images, gradients, easy rotation and tilt, coding fonts.',
     img: 'https://res.cloudinary.com/daobmfotr/image/upload/v1674671775/projects/ecommerce_d9olau.webp',
-    progress: 'Work in Progress',
+    progress: false,
     date: 'Since July 2022'
   }
 ]

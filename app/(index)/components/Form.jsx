@@ -20,7 +20,7 @@ function Form () {
         </a>{' '}
         or use the contact form.
       </p>
-      <div className='mt-6 flex flex-wrap gap-5'>
+      <div className='mt-6 flex flex-wrap gap-4'>
         <div className='flex w-full flex-col gap-2'>
           <label
             htmlFor='name'
