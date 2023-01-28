@@ -11,10 +11,11 @@ function Player ({ params }) {
     <>
       <div className='flex flex-col md:flex-row'>
         <div className='flex flex-1 flex-col gap-5'>
-          <h2 className='inline-block border-b-8 border-b-emerald-500 pb-4 text-3xl font-bold leading-10 tracking-tighter text-zinc-100 sm:pb-6 md:text-6xl'>
+          <h2 className='flex w-max flex-col pb-2 text-3xl font-bold leading-10 tracking-tighter text-zinc-100 md:text-6xl'>
             {project?.name}
+            <span className='mt-2 inline-flex h-2 w-full rounded-md bg-emerald-500 md:mt-4' />
           </h2>
-          <div className='mt-8'>
+          <div className='mt-2 md:mt-4'>
             <p className='text-sm font-medium text-zinc-200/90'>
               <span className='font-semibold text-zinc-100'>
                 Timeframe:
@@ -32,7 +33,7 @@ function Player ({ params }) {
               </li>
             ))}
           </ul>
-          <p className='mt-3 text-sm text-zinc-600 dark:text-zinc-300 sm:text-base'>
+          <p className='mt-1 text-sm text-zinc-600 dark:text-zinc-300 sm:text-base'>
             {project?.description}
           </p>
         </div>
@@ -46,7 +47,7 @@ function Player ({ params }) {
             Go Back
           </Link>
 
-          <a className='inline-flex cursor-pointer items-center justify-center gap-2 rounded-md bg-emerald-600 py-2 px-3 md:py-3 text-sm font-semibold text-zinc-100 outline-offset-2 transition hover:bg-zinc-700 active:bg-zinc-800 active:text-zinc-100/70 active:transition-none dark:bg-emerald-500 dark:hover:bg-emerald-600 dark:active:bg-zinc-700 dark:active:text-zinc-100/70 lg:text-base'>
+          <a className='inline-flex cursor-pointer items-center justify-center gap-2 rounded-md bg-emerald-600 py-2 px-3 text-sm font-semibold text-zinc-100 outline-offset-2 transition hover:bg-zinc-700 active:bg-zinc-800 active:text-zinc-100/70 active:transition-none dark:bg-emerald-500 dark:hover:bg-emerald-600 dark:active:bg-zinc-700 dark:active:text-zinc-100/70 md:py-3 lg:text-base'>
             <IoMdOpen className='mr-1 text-xl' />
             View Repository
           </a>

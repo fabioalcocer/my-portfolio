@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 function FeaturedProject ({ project }) {
   return (
-    <div className='duration-400 flex max-w-sm cursor-pointer flex-col overflow-hidden rounded-xl border border-zinc-100 p-0 shadow-inner shadow-zinc-800 transition-all hover:-translate-y-4  hover:bg-zinc-800 hover:shadow-transparent dark:border-zinc-700/40'>
+    <div className='duration-400 flex max-w-sm cursor-pointer flex-col overflow-hidden rounded-xl border border-zinc-100 p-0 shadow-inner shadow-zinc-800 transition-all hover:-translate-y-4 hover:bg-zinc-600/30 hover:shadow-transparent dark:border-zinc-700/40'>
       <div className='flex-1'>
         <div className='relative h-72'>
           <Image
