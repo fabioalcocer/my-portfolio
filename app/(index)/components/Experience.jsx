@@ -5,43 +5,58 @@ import { BsArrowDownShort } from 'react-icons/bs'
 
 function Experience () {
   return (
-    <div className='mt-10 rounded-2xl border border-zinc-100 p-6 shadow-inner shadow-zinc-800 transition-shadow duration-500 hover:shadow-transparent dark:border-zinc-700/40'>
-      <div className='flex items-center gap-3'>
-        <SuitcaseIcon />
-        <h2 className='flex text-lg font-semibold text-zinc-900 dark:text-zinc-100'>
-          Work experience
-        </h2>
-      </div>
+    <div className='mt-16 mb-5 flex flex-col gap-7'>
+      <h2 className='pr-4 mr-4 flex flex-col h-max w-max pb-4 text-4xl font-bold leading-10 tracking-tighter text-zinc-100 sm:pb-8 lg:text-8xl'>
+        Experience
+        <span className='mt-4 bg-primary  animate-[rightGrow_2s_infinite]  bg-emerald-500 w-full inline-flex h-2 rounded-md z-20' />
+      </h2>
+      <div className='flex max-w-xl flex-1 flex-col rounded-2xl border border-zinc-100 p-6 shadow-inner shadow-zinc-800 transition-shadow duration-500 hover:shadow-transparent dark:border-zinc-700/40 md:gap-2'>
+        <div className='flex items-center gap-3'>
+          <SuitcaseIcon />
+          <h2 className='flex text-lg font-semibold text-zinc-900 dark:text-zinc-100 md:text-xl'>
+            Work experience
+          </h2>
+        </div>
 
-      <ul className='mt-6'>
-        <li className='flex items-center gap-4'>
-          <div className='relative mt-1 flex h-14 w-14 flex-none items-center justify-center rounded-full shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 dark:border dark:border-zinc-700/50 dark:bg-zinc-800 dark:ring-0'>
-            <Image width={35} src={logoOB} alt='logo openbootcamp' />
-          </div>
-          <div className='flex w-full flex-col gap-1'>
-            <p className='w-full flex-none font-medium text-zinc-900 dark:text-zinc-100'>
-              OpenBootcamp
-            </p>
-            <div className='flex flex-wrap justify-between gap-1'>
-              <p className='text-sm text-zinc-500 dark:text-zinc-400'>
-                Front-end Developer
-              </p>
-              <p className='text-sm text-zinc-500 dark:text-zinc-500'>
-                Apr 2022 - Present
-              </p>
+        <ul className='mt-6 flex flex-col gap-4'>
+          <li className='flex items-center gap-4'>
+            <div className='relative mt-1 flex h-14 w-14 flex-none items-center justify-center rounded-full shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 dark:border dark:border-zinc-700/50 dark:bg-zinc-800 dark:ring-0'>
+              <Image
+                width={35}
+                src={logoOB}
+                alt='logo openbootcamp'
+              />
             </div>
-          </div>
-        </li>
-      </ul>
+            <div className='flex w-full flex-col gap-1'>
+              <p className='w-full flex-none font-medium text-zinc-900 dark:text-zinc-100'>
+                OpenBootcamp
+              </p>
+              <div className='flex flex-wrap justify-between gap-1'>
+                <p className='text-sm text-zinc-500 dark:text-zinc-400'>
+                  Front-end Developer
+                </p>
+                <p className='text-sm text-zinc-500 dark:text-zinc-500'>
+                  Apr 2022 - Present
+                </p>
+              </div>
+            </div>
+          </li>
+        </ul>
 
-      <a
-        href=''
-        download='../assets/CV Fabio Alcocer.pdf'
-        className='group mt-6 inline-flex w-full animate-[btnpulse_2s_infinite] items-center justify-center gap-2 rounded-md bg-zinc-50 py-2 px-3 text-sm font-medium text-zinc-900 outline-offset-2 transition-all duration-300 hover:bg-zinc-100 active:bg-zinc-100 active:text-zinc-900/60 active:transition-none dark:bg-zinc-800/50 dark:text-zinc-300 dark:hover:bg-zinc-800 dark:hover:text-zinc-50 dark:active:bg-zinc-800/50 dark:active:text-zinc-50/70'
-      >
-        <span>Download CV</span>
-        <BsArrowDownShort className='stroke-zinc-400 text-xl transition group-active:stroke-zinc-600 dark:group-hover:stroke-zinc-50 dark:group-active:stroke-zinc-50' />
-      </a>
+        <p className='mt-2 text-sm text-zinc-600 dark:text-zinc-300/90 sm:text-base'>
+          I created different dynamics that consist of leading
+          development teams made up of students, in which they learn
+          to develop in a real team workflow.
+        </p>
+        <a
+          href=''
+          download='../assets/CV Fabio Alcocer.pdf'
+          className='group mt-6 inline-flex w-full animate-[btnpulse_2s_infinite] items-center justify-center gap-2 rounded-md bg-zinc-50 py-2 px-3 text-sm font-medium text-zinc-900 outline-offset-2 transition-all duration-300 hover:bg-zinc-100 active:bg-zinc-100 active:text-zinc-900/60 active:transition-none dark:bg-zinc-800/50 dark:text-zinc-300 dark:hover:bg-zinc-800 dark:hover:text-zinc-50 dark:active:bg-zinc-800/50 dark:active:text-zinc-50/70'
+        >
+          <span>Download CV</span>
+          <BsArrowDownShort className='stroke-zinc-400 text-xl transition group-active:stroke-zinc-600 dark:group-hover:stroke-zinc-50 dark:group-active:stroke-zinc-50' />
+        </a>
+      </div>
     </div>
   )
 }
