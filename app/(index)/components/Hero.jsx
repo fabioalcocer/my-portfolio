@@ -8,7 +8,7 @@ import myLogo from '../assets/logo.png'
 
 function Hero () {
   return (
-    <div className='max-w-3xl md:px-8 lg:px-14 mt-14'>
+    <div className='max-w-3xl md:px-8 lg:px-14'>
       <div className='flex flex-col gap-4 md:gap-6'>
         <div className='relative flex h-20 w-20 md:w-24 md:h-24 flex-none cursor-pointer items-center justify-center rounded-full shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 dark:border dark:border-zinc-700/50 dark:bg-zinc-900 dark:ring-0'>
           <Image

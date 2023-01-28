@@ -39,7 +39,7 @@ function MyPopover () {
         leaveFrom='transform scale-100 opacity-100'
         leaveTo='transform scale-95 opacity-0'
       >
-        <Popover.Overlay className='fixed inset-0 z-50 bg-zinc-800/40 opacity-100 backdrop-blur-sm dark:bg-black/80' />
+        <Popover.Overlay className='fixed inset-0 z-50 min-h-screen bg-zinc-800/40 opacity-100 backdrop-blur-sm dark:bg-black/80' />
         <Popover.Panel className='fixed inset-x-4 top-6 z-50 mx-auto max-w-sm origin-top scale-100 rounded-3xl bg-white p-8 opacity-100 ring-1 ring-zinc-900/5 dark:bg-zinc-900 dark:ring-zinc-800'>
           <div className='flex flex-row-reverse items-center justify-between'>
             <Popover.Button className='-m-1 p-1'>
