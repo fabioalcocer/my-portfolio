@@ -5,7 +5,7 @@ import { BsArrowDownShort } from 'react-icons/bs'
 
 function Experience () {
   return (
-    <div className='mt-16 mb-5 flex flex-col gap-7 md:px-8'>
+    <div className='mt-16 mb-5 flex flex-col gap-7 md:px-8 lg:px-14'>
       <h2 className='mx-auto flex h-max w-max flex-col items-center pr-4 pb-4 text-4xl font-bold leading-10 tracking-tighter text-zinc-100 sm:pb-8 md:mx-0 md:text-7xl'>
         Experience
         <span className='bg-primary z-20  mt-4  inline-flex h-2 w-full animate-[rightGrow_2s_infinite_alternate] rounded-md bg-emerald-500' />
@@ -20,16 +20,16 @@ function Experience () {
           </div>
           <ul className='mt-6 flex flex-col gap-4'>
             <li className='flex items-center gap-4'>
-              <div className='relative mt-1 flex h-14 w-14 flex-none items-center justify-center rounded-full shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 dark:border dark:border-zinc-700/50 dark:bg-zinc-800 dark:ring-0 md:h-28 md:w-28'>
+              <div className='relative mt-1 flex h-14 w-14 flex-none items-center justify-center rounded-full shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 dark:border dark:border-zinc-700/50 dark:bg-zinc-800 dark:ring-0 md:h-24 md:w-24'>
                 <Image
                   width={35}
-                  className='md:h-20 md:w-20'
+                  className='md:h-16 md:w-16'
                   src={logoOB}
                   alt='logo openbootcamp'
                 />
               </div>
-              <div className='flex w-full flex-col gap-1 md:gap-3'>
-                <p className='w-full flex-none font-medium text-zinc-900 dark:text-zinc-100 md:text-3xl md:font-bold'>
+              <div className='flex w-full flex-col gap-1'>
+                <p className='w-full flex-none font-medium text-zinc-900 dark:text-zinc-100 md:text-[26px] md:font-bold'>
                   OpenBootcamp
                 </p>
                 <div className='flex flex-wrap items-center justify-between gap-1'>
@@ -43,7 +43,7 @@ function Experience () {
               </div>
             </li>
           </ul>
-          <p className='mt-2 text-sm text-zinc-600 dark:text-zinc-300/90 sm:text-base md:text-lg'>
+          <p className='mt-2 text-sm text-zinc-600 dark:text-zinc-300/90 sm:text-base md:text-base md:pl-1'>
             The free bootcamp that adapts to you. Specialize in
             development regardless of your level of knowledge and
             experience, we will adapt to your objectives.
@@ -65,8 +65,8 @@ function Experience () {
             </h2>
           </div>
           <div className='mt-3 flex flex-col gap-4'>
-            <div className='flex w-full flex-col gap-1 md:gap-2'>
-              <p className='w-full flex-none font-medium text-zinc-900 dark:text-zinc-100 md:text-3xl md:font-bold'>
+            <div className='flex w-full flex-col gap-1'>
+              <p className='w-full flex-none font-medium text-zinc-900 dark:text-zinc-100 md:text-[26px] md:font-bold'>
                 OpenBootcamp
               </p>
               <p className='text-sm text-zinc-500 dark:text-zinc-400 md:text-lg'>

@@ -24,8 +24,8 @@ const links = [
 
 function MyPopover () {
   return (
-    <Popover className='relative text-white'>
-      <Popover.Button className='group flex items-center rounded-full bg-white/90 px-4 py-2 text-sm font-medium text-zinc-800 shadow-lg shadow-zinc-800/5 ring-1 ring-zinc-900/5 backdrop-blur dark:bg-zinc-800/90 dark:text-zinc-200 dark:ring-white/10 dark:hover:ring-white/20'>
+    <Popover className='relative block text-white md:hidden'>
+      <Popover.Button className='group flex items-center rounded-full bg-white/90 px-4 py-2 text-sm font-medium text-zinc-800 shadow-lg shadow-zinc-800/5 ring-1 ring-zinc-900/5 backdrop-blur dark:bg-zinc-800/40 dark:text-zinc-200 dark:ring-white/10 dark:hover:ring-white/20'>
         Menu
         <BiChevronDown className='ml-1 ui-open:rotate-180 ui-open:transform' />
       </Popover.Button>
@@ -40,7 +40,7 @@ function MyPopover () {
         leaveTo='transform scale-95 opacity-0'
       >
         <Popover.Overlay className='fixed inset-0 z-50 bg-zinc-800/40 opacity-100 backdrop-blur-sm dark:bg-black/80' />
-        <Popover.Panel className='fixed mx-auto inset-x-4 max-w-sm top-6 z-50 origin-top scale-100 rounded-3xl bg-white p-8 opacity-100 ring-1 ring-zinc-900/5 dark:bg-zinc-900 dark:ring-zinc-800'>
+        <Popover.Panel className='fixed inset-x-4 top-6 z-50 mx-auto max-w-sm origin-top scale-100 rounded-3xl bg-white p-8 opacity-100 ring-1 ring-zinc-900/5 dark:bg-zinc-900 dark:ring-zinc-800'>
           <div className='flex flex-row-reverse items-center justify-between'>
             <Popover.Button className='-m-1 p-1'>
               <BiX className='text-2xl' />
