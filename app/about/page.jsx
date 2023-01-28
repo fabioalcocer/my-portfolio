@@ -11,7 +11,7 @@ function page () {
       <div className='mb-12 flex items-center justify-between px-0 lg:px-16'>
         <h2 className='w-max flex flex-col pb-4 text-3xl font-bold leading-10 tracking-tighter text-zinc-100 sm:pb-6 md:text-6xl'>
           About Me
-          <span className='mt-4 inline-flex h-2 w-full rounded-md bg-emerald-500' />
+          <span className='mt-2 md:mt-4 inline-flex h-2 w-full rounded-md bg-emerald-500' />
         </h2>
         <Link
           href='/'

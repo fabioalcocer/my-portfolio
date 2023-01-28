@@ -7,8 +7,9 @@ export default function Home () {
   return (
     <div className='md:p-6'>
       <div className='flex items-center justify-between'>
-        <h2 className='inline-block border-b-8 border-b-emerald-500 pb-4 text-4xl font-bold leading-10 tracking-tighter text-zinc-100 sm:pb-8 md:text-8xl'>
+        <h2 className='w-max flex flex-col pb-4 text-3xl font-bold leading-10 tracking-tighter text-zinc-100 sm:pb-6 md:text-6xl'>
           Projects
+          <span className='mt-2 md:mt-4 inline-flex h-2 w-full rounded-md bg-emerald-500' />
         </h2>
         <Link
           href='/'
@@ -18,7 +19,7 @@ export default function Home () {
           Go Back
         </Link>
       </div>
-      <div className='mt-12 flex flex-col items-center gap-8 md:mt-20 lg:gap-10'>
+      <div className='mt-12 flex flex-col items-center gap-8 md:mt-16 lg:gap-10'>
         {projects.map((project) => (
           <DefaultProject key={project.id} project={project} />
         ))}
