@@ -3,14 +3,14 @@ import ContactIcon from 'app/(index)/icons/ContactIcon'
 function Contact () {
   return (
     <div className='mt-16 flex gap-7 flex-col md:flex-row'>
-      <h2 className='pr-4 mr-4 flex flex-col h-max self-center pb-4 text-4xl font-bold leading-10 tracking-tighter text-zinc-100 sm:pb-8 lg:text-8xl'>
+      <h2 className='pr-4 mr-4 flex flex-col h-max self-center pb-4 text-4xl font-bold leading-10 tracking-tighter text-zinc-100 sm:pb-8 lg:text-8xl items-center'>
         Contact me!
-        <span className='mt-4 bg-primary  animate-[rightGrow_2s_infinite]  bg-emerald-500 w-full inline-flex h-2 rounded-md z-20' />
+        <span className='mt-4 animate-[rightGrow_3s_infinite_alternate]  bg-emerald-500 w-full inline-flex h-2 rounded-md z-20' />
       </h2>
 
       <form
         action='POST'
-        className='ml-5 mx-auto mt-10 max-w-2xl flex-1 rounded-xl border border-zinc-100 p-6 shadow-inner shadow-zinc-800 transition-shadow duration-500 hover:shadow-transparent dark:border-zinc-700/40'
+        className='md:ml-5 mx-auto md:mt-10 max-w-2xl flex-1 rounded-xl border border-zinc-100 p-6 shadow-inner shadow-zinc-800 transition-shadow duration-500 hover:shadow-transparent dark:border-zinc-700/40'
       >
         <h2 className='flex font-semibold text-zinc-900 dark:text-zinc-100 items-center'>
           <ContactIcon />
@@ -79,7 +79,7 @@ function Contact () {
             type='submit'
             className='mt-2 inline-flex flex-none items-center justify-center gap-2 rounded-md bg-zinc-800 py-2 px-4 text-base font-semibold text-zinc-100 outline-offset-2 transition hover:bg-zinc-700 active:bg-zinc-800 active:text-zinc-100/70 active:transition-none dark:bg-zinc-700 dark:hover:bg-zinc-600 dark:active:bg-zinc-700 dark:active:text-zinc-100/70'
           >
-            Send
+            Get in Touch
           </button>
         </div>
       </form>

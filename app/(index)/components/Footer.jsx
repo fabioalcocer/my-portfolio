@@ -1,3 +1,5 @@
+import Link from 'next/link'
+
 function Footer () {
   return (
     <footer className='mt-28'>
@@ -8,30 +10,30 @@ function Footer () {
               <div className='mx-auto max-w-2xl lg:max-w-5xl'>
                 <div className='flex flex-col items-center justify-between gap-6 sm:flex-row'>
                   <div className='flex gap-6 text-sm font-medium text-zinc-800 dark:text-zinc-200'>
-                    <a
-                      href=''
+                    <Link
+                      href='/about'
                       className='transition hover:text-teal-500 dark:hover:text-teal-400'
                     >
                       About
-                    </a>
-                    <a
-                      href=''
+                    </Link>
+                    <Link
+                      href='/projects'
                       className='transition hover:text-teal-500 dark:hover:text-teal-400'
                     >
                       Projects
-                    </a>
-                    <a
+                    </Link>
+                    <Link
                       href=''
                       className='transition hover:text-teal-500 dark:hover:text-teal-400'
                     >
                       Articles
-                    </a>
-                    <a
+                    </Link>
+                    <Link
                       href=''
                       className='transition hover:text-teal-500 dark:hover:text-teal-400'
                     >
                       Contact
-                    </a>
+                    </Link>
                   </div>
                   <p className='text-sm text-zinc-400 dark:text-zinc-500'>
                     © 2023 Fabio Alcocer. All rights reserved.
