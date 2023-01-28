@@ -8,7 +8,7 @@ function page () {
     <div className='sm:px-8'>
       <div className='mb-10 flex items-center justify-between px-0 lg:px-16'>
         <h2 className='flex w-max flex-col pb-4 text-3xl font-bold leading-10 tracking-tighter text-zinc-100 sm:pb-6 md:text-6xl'>
-          About Me
+          Contact me
           <span className='mt-2 inline-flex h-2 w-full rounded-md bg-emerald-500 md:mt-4' />
         </h2>
         <Link
@@ -19,10 +19,10 @@ function page () {
           Go Back
         </Link>
       </div>
-      <div className='mx-auto flex max-w-7xl justify-between gap-5 lg:px-8'>
+      <div className='mx-auto flex flex-col md:flex-row max-w-7xl justify-between gap-5 lg:px-8'>
         <form
           action='POST'
-          className='ml-6 max-w-2xl flex-1 rounded-xl border border-zinc-100 p-6 shadow-inner shadow-zinc-800 transition-shadow duration-500 hover:shadow-transparent dark:border-zinc-700/40 md:p-8'
+          className='lg:ml-6 max-w-2xl flex-1 rounded-xl border border-zinc-100 p-6 shadow-inner shadow-zinc-800 transition-shadow duration-500 hover:shadow-transparent dark:border-zinc-700/40 md:p-8'
         >
           <h2 className='flex items-center font-semibold text-zinc-900 dark:text-zinc-100'>
             <ContactIcon />
@@ -97,7 +97,7 @@ function page () {
             </button>
           </div>
         </form>
-        <div className='md:pt-8 lg:pr-20'>
+        <div className='md:pt-8 lg:pr-20 mt-6 ml-2 md:mt-0'>
           <ul className='flex flex-col gap-4 md:gap-6' role='list'>
             <li className='flex items-center'>
               <a
