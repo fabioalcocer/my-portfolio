@@ -6,7 +6,7 @@ import { BsArrowDownShort } from 'react-icons/bs'
 function Experience () {
   return (
     <div className='mt-16 mb-5 flex flex-col gap-7 md:px-8 lg:px-14'>
-      <h2 className='mx-auto flex h-max w-max flex-col items-center pr-4 pb-4 text-4xl font-bold leading-10 tracking-tighter text-zinc-100 sm:pb-8 md:mx-0 md:text-7xl'>
+      <h2 className='mx-auto flex h-max w-max flex-col items-center pr-4 pb-4 text-4xl font-bold leading-10 tracking-tighter text-zinc-100 sm:pb-8 md:mx-0 md:text-6xl'>
         Experience
         <span className='bg-primary z-20  mt-4  inline-flex h-2 w-full animate-[rightGrow_2s_infinite_alternate] rounded-md bg-emerald-500' />
       </h2>
@@ -74,17 +74,17 @@ function Experience () {
               </p>
             </div>
           </div>
-          <ul className='list-disc pl-5 mt-2 md:mt-0'>
-            <li className='mt-2 text-sm text-zinc-600 dark:text-zinc-300/90 sm:text-base md:text-base'>
+          <ul className='list-disc pl-5 mt-2 flex flex-col gap-3'>
+            <li className='text-sm text-zinc-600 dark:text-zinc-300/90 md:text-[15px]'>
               Develop and maintain the Front-End of the different
               endpoints of the company's website.
             </li>
-            <li className='mt-2 text-sm text-zinc-600 dark:text-zinc-300/90 sm:text-base md:text-base'>
+            <li className='text-sm text-zinc-600 dark:text-zinc-300/90 md:text-[15px]'>
               Develop and maintain the Front-End side code to ensure
               that the user interface is properly integrated with the
               functionalities of the company's different websites.
             </li>
-            <li className='mt-2 text-sm text-zinc-600 dark:text-zinc-300/90 sm:text-base md:text-base'>
+            <li className='text-sm text-zinc-600 dark:text-zinc-300/90 md:text-[15px]'>
               Guiding teams of students during the development process
               of the different dynamics organized by the company, in
               order to prepare students for real work environments.
