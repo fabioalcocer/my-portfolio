@@ -1,3 +1,4 @@
+import Container from 'app/(index)/components/Container'
 import Link from 'next/link'
 import Image from 'next/image'
 import { projects } from '../../(index)/data/projects'
@@ -8,7 +9,7 @@ function Player ({ params }) {
   const project = projects.find((p) => p.id === parseInt(id))
 
   return (
-    <>
+    <Container>
       <div className='flex flex-col gap-9 md:flex-row lg:px-12'>
         <div className='flex flex-1 flex-col gap-5'>
           <h2 className='flex w-max flex-col pb-2 text-3xl font-bold leading-10 tracking-tighter text-zinc-100 md:text-4xl lg:text-[55px]'>
@@ -61,7 +62,7 @@ function Player ({ params }) {
           alt='Ecommerce project screenshoot'
         />
       </div>
-    </>
+    </Container>
   )
 }
 

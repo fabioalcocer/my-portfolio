@@ -6,10 +6,6 @@ import MailSuccess from './MailSuccess'
 function Contact () {
   const [state, handleSubmit] = useForm('xbjedgoy')
 
-  // if (state.succeeded) {
-  //   return setSucceeded(true)
-  // }
-
   return (
     <div className='mt-16 flex flex-col gap-7 md:flex-row'>
       <h2 className='mr-4 flex h-max flex-col items-center self-center pr-4 pb-4 text-4xl font-bold leading-10 tracking-tighter text-zinc-100 sm:pb-8 lg:px-14 lg:text-7xl'>

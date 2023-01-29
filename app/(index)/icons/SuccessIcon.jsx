@@ -5,7 +5,7 @@ function SuccessIcon () {
       class='icon'
       xmlns='http://www.w3.org/2000/svg'
       fill='#fff'
-      className='h-40 w-40 mx-auto mt-8 mb-5'
+      className='mx-auto mt-8 mb-5 h-40 w-40'
     >
       <g id='SVGRepo_bgCarrier' stroke-width='' />
       <g

@@ -10,7 +10,7 @@ function Experience () {
         Experience
         <span className='bg-primary z-20  mt-4  inline-flex h-2 w-full animate-[rightGrow_2s_infinite_alternate] rounded-md bg-emerald-500' />
       </h2>
-      <div className='flex gap-6 flex-col lg:flex-row mx-auto'>
+      <div className='mx-auto flex flex-col gap-6 lg:flex-row'>
         <div className='flex max-w-xl flex-1 flex-col rounded-2xl border border-zinc-100 p-6 shadow-inner shadow-zinc-800 transition-shadow duration-500 hover:shadow-transparent dark:border-zinc-700/40 md:gap-2'>
           <div className='flex items-center gap-3'>
             <SuitcaseIcon />
@@ -43,7 +43,7 @@ function Experience () {
               </div>
             </li>
           </ul>
-          <p className='mt-2 text-sm text-zinc-600 dark:text-zinc-300/90 sm:text-base md:text-base md:pl-1'>
+          <p className='mt-2 text-sm text-zinc-600 dark:text-zinc-300/90 sm:text-base md:pl-1 md:text-base'>
             The free bootcamp that adapts to you. Specialize in
             development regardless of your level of knowledge and
             experience, we will adapt to your objectives.
@@ -74,7 +74,7 @@ function Experience () {
               </p>
             </div>
           </div>
-          <ul className='list-disc pl-5 mt-2 flex flex-col gap-3'>
+          <ul className='mt-2 flex list-disc flex-col gap-3 pl-5'>
             <li className='text-sm text-zinc-600 dark:text-zinc-300/90 md:text-[15px]'>
               Develop and maintain the Front-End of the different
               endpoints of the company's website.

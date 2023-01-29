@@ -4,7 +4,9 @@ function MailSuccess () {
   return (
     <>
       <SuccessIcon />
-      <p className='text-xl md:text-2xl text-center pb-5 font-bold text-zinc-200'>Thanks for touch me!</p>
+      <p className='pb-5 text-center text-xl font-bold text-zinc-200 md:text-2xl'>
+        Thanks for touch me!
+      </p>
     </>
   )
 }
