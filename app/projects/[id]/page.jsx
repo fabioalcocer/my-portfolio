@@ -9,9 +9,9 @@ function Player ({ params }) {
 
   return (
     <>
-      <div className='flex flex-col md:flex-row'>
+      <div className='flex flex-col gap-9 md:flex-row lg:px-12'>
         <div className='flex flex-1 flex-col gap-5'>
-          <h2 className='flex w-max flex-col pb-2 text-3xl font-bold leading-10 tracking-tighter text-zinc-100 md:text-6xl'>
+          <h2 className='flex w-max flex-col pb-2 text-3xl font-bold leading-10 tracking-tighter text-zinc-100 md:text-4xl lg:text-[55px]'>
             {project?.name}
             <span className='mt-2 inline-flex h-2 w-full rounded-md bg-emerald-500 md:mt-4' />
           </h2>
@@ -38,16 +38,16 @@ function Player ({ params }) {
           </p>
         </div>
 
-        <div className='mt-8 mb-1 flex w-full flex-1 flex-col justify-center gap-4 md:mt-0 md:mb-8 md:flex-row md:items-start md:justify-end'>
+        <div className='mt-5 mb-1 flex w-full flex-1 flex-col justify-center gap-4 md:mt-0 md:mb-8 md:flex-row md:items-start md:justify-end lg:items-start lg:justify-end'>
           <Link
-            href='/'
-            className='group inline-flex items-center justify-center gap-2 rounded-md bg-zinc-50 py-2 px-3 text-sm font-extrabold text-zinc-900 outline-offset-2 transition hover:bg-zinc-100 active:bg-zinc-100 active:text-zinc-900/60 active:transition-none dark:bg-zinc-700/50 dark:text-zinc-200 dark:hover:bg-zinc-700/70 dark:hover:text-zinc-50 dark:active:bg-zinc-800/50 dark:active:text-zinc-50/70 md:px-4 md:py-3 lg:text-base'
+            href='/projects'
+            className='group inline-flex items-center justify-center gap-2 rounded-md bg-zinc-50 py-2 px-3 text-sm font-extrabold text-zinc-900 outline-offset-2 transition hover:bg-zinc-100 active:bg-zinc-100 active:text-zinc-900/60 active:transition-none dark:bg-zinc-700/50 dark:text-zinc-200 dark:hover:bg-zinc-700/70 dark:hover:text-zinc-50 dark:active:bg-zinc-800/50 dark:active:text-zinc-50/70 md:px-4 md:py-3 lg:text-[15px]'
           >
             <IoMdReturnLeft className='mr-2 text-lg' />
             Go Back
           </Link>
 
-          <a className='inline-flex cursor-pointer items-center justify-center gap-2 rounded-md bg-emerald-600 py-2 px-3 text-sm font-semibold text-zinc-100 outline-offset-2 transition hover:bg-zinc-700 active:bg-zinc-800 active:text-zinc-100/70 active:transition-none dark:bg-emerald-500 dark:hover:bg-emerald-600 dark:active:bg-zinc-700 dark:active:text-zinc-100/70 md:py-3 lg:text-base'>
+          <a className='inline-flex cursor-pointer items-center justify-center gap-2 rounded-md bg-emerald-600 py-2 px-3 text-sm font-semibold text-zinc-100 outline-offset-2 transition hover:bg-zinc-700 active:bg-zinc-800 active:text-zinc-100/70 active:transition-none dark:bg-emerald-500 dark:hover:bg-emerald-600 dark:active:bg-zinc-700 dark:active:text-zinc-100/70 md:py-3 lg:text-[15px]'>
             <IoMdOpen className='mr-1 text-xl' />
             View Repository
           </a>
