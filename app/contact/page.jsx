@@ -14,7 +14,7 @@ function page () {
     <Container>
       <div className='sm:px-8'>
         <div className='mb-8 flex items-center justify-between px-0 lg:px-16'>
-          <h2 className='flex w-max flex-col pb-4 text-3xl font-bold leading-10 tracking-tighter text-zinc-800 dark:text-zinc-100 sm:pb-6 md:text-6xl'>
+          <h2 className='flex w-max flex-col pb-4 text-3xl font-bold leading-10 tracking-tighter text-zinc-100 dark:text-zinc-100 sm:pb-6 md:text-6xl'>
             Contact me
             <span className='mt-2 inline-flex h-2 w-full rounded-md bg-emerald-500 md:mt-4' />
           </h2>
@@ -29,19 +29,19 @@ function page () {
         <div className='mx-auto flex max-w-7xl flex-col justify-between gap-5 md:flex-row lg:px-8'>
           <form
             action='POST'
-            className='max-w-2xl flex-1 rounded-xl border border-zinc-100 p-6 shadow-inner transition-shadow duration-500 dark:border-zinc-700/40 dark:shadow-zinc-800 dark:hover:shadow-transparent md:p-8 lg:ml-6'
+            className='max-w-2xl flex-1 rounded-xl border border-indigo-500/50 border-zinc-100 p-6 shadow-inner transition-shadow duration-500 dark:border-zinc-700/40 dark:shadow-zinc-700/40 dark:hover:shadow-transparent md:p-8 lg:ml-6'
             onSubmit={handleSubmit}
           >
-            <h2 className='flex items-center font-semibold text-zinc-900 dark:text-zinc-100'>
+            <h2 className='flex items-center font-semibold text-zinc-100 dark:text-zinc-100'>
               <ContactIcon />
               <span className='ml-3 text-lg md:text-2xl'>
                 Contact me
               </span>
             </h2>
-            <p className='mt-2 pr-5 text-sm text-zinc-600 dark:text-zinc-400 sm:text-base md:text-lg'>
+            <p className='mt-2 pr-5 text-sm text-zinc-200 dark:text-zinc-400 sm:text-base md:text-lg'>
               Want to work with me? Send a message to{' '}
               <a
-                className='font-semibold text-zinc-700 dark:text-zinc-200'
+                className='font-semibold text-white hover:text-indigo-200 dark:text-zinc-200 dark:hover:text-emerald-400'
                 href='mailto:fabioalcocerdev@gmail.com'
               >
                 fabioalcocerdev@gmail.com
@@ -52,7 +52,7 @@ function page () {
               <div className='flex w-full flex-col gap-2'>
                 <label
                   htmlFor='name'
-                  className='font-semibold text-zinc-900 dark:text-zinc-100'
+                  className='font-semibold text-zinc-100 dark:text-zinc-100'
                 >
                   Name
                 </label>
@@ -68,7 +68,7 @@ function page () {
               <div className='flex w-full flex-col gap-2'>
                 <label
                   htmlFor='email'
-                  className='font-semibold text-zinc-900 dark:text-zinc-100'
+                  className='font-semibold text-zinc-100 dark:text-zinc-100'
                 >
                   Email
                 </label>
@@ -84,7 +84,7 @@ function page () {
               <div className='flex w-full flex-col gap-2'>
                 <label
                   htmlFor='message'
-                  className='font-semibold text-zinc-900 dark:text-zinc-100'
+                  className='font-semibold text-zinc-100 dark:text-zinc-100'
                 >
                   Message
                 </label>
@@ -111,36 +111,36 @@ function page () {
               <li className='flex items-center'>
                 <a
                   href=''
-                  className='group flex text-sm font-medium text-zinc-800 transition hover:text-teal-500 dark:text-zinc-200 md:text-base'
+                  className='group flex text-sm font-medium text-zinc-200 transition hover:text-teal-400 dark:text-zinc-200 dark:hover:text-teal-500 md:text-base'
                 >
-                  <BsTwitter className='h-5 w-5 flex-none fill-zinc-500 transition group-hover:fill-teal-500 md:h-6 md:w-6' />
+                  <BsTwitter className='h-5 w-5 flex-none fill-zinc-200 transition group-hover:fill-teal-400 dark:fill-zinc-400 md:h-6 md:w-6' />
                   <span class='ml-4'>Follow on Twitter</span>
                 </a>
               </li>
               <li className='flex items-center'>
                 <a
                   href=''
-                  className='group flex text-sm font-medium text-zinc-800 transition hover:text-teal-500 dark:text-zinc-200 dark:hover:text-teal-500 md:text-base'
+                  className='group flex text-sm font-medium text-zinc-200 transition hover:text-teal-400 dark:text-zinc-200 dark:hover:text-teal-500 md:text-base'
                 >
-                  <BsGithub className='h-5 w-5 flex-none fill-zinc-500 transition group-hover:fill-teal-500 md:h-6 md:w-6' />
+                  <BsGithub className='h-5 w-5 flex-none fill-zinc-200 transition group-hover:fill-teal-400 dark:fill-zinc-400 md:h-6 md:w-6' />
                   <span class='ml-4'>Follow on GitHub</span>
                 </a>
               </li>
               <li className='flex items-center'>
                 <a
                   href=''
-                  className='group flex text-sm font-medium text-zinc-800 transition hover:text-teal-500 dark:text-zinc-200 dark:hover:text-teal-500 md:text-base'
+                  className='group flex text-sm font-medium text-zinc-200 transition hover:text-teal-400 dark:text-zinc-200 dark:hover:text-teal-500 md:text-base'
                 >
-                  <BsLinkedin className='h-5 w-5 flex-none fill-zinc-500 transition group-hover:fill-teal-500 md:h-6 md:w-6' />
+                  <BsLinkedin className='h-5 w-5 flex-none fill-zinc-200 transition group-hover:fill-teal-400 dark:fill-zinc-400 md:h-6 md:w-6' />
                   <span class='ml-4'>Follow on LinkedIn</span>
                 </a>
               </li>
               <li className='flex items-center'>
                 <a
                   href='mailto:fabioalcocerdev@gmail.com'
-                  className='group flex text-sm font-medium text-zinc-800 transition hover:text-teal-500 dark:text-zinc-200 dark:hover:text-teal-500 md:text-base'
+                  className='group flex text-sm font-medium text-zinc-200 transition hover:text-teal-400 dark:text-zinc-200 dark:hover:text-teal-500 md:text-base'
                 >
-                  <IoMdMail className='h-5 w-5 flex-none fill-zinc-500 transition group-hover:fill-teal-500 md:h-6 md:w-6' />
+                  <IoMdMail className='h-5 w-5 flex-none fill-zinc-200 transition group-hover:fill-teal-400 dark:fill-zinc-400 md:h-6 md:w-6' />
                   <span class='ml-4'>fabioalcocerdev@gmail.com</span>
                 </a>
               </li>

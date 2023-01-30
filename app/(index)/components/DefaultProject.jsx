@@ -3,10 +3,10 @@ import Link from 'next/link'
 
 function DefaultProject ({ project }) {
   return (
-    <div className='duration-400 relative flex max-w-lg flex-col overflow-hidden rounded-xl border p-0 shadow-inner transition-all dark:border-zinc-700/40 dark:shadow-zinc-800 dark:hover:shadow-transparent lg:w-full lg:max-w-max lg:flex-row-reverse lg:items-center'>
+    <div className='duration-400 relative flex max-w-lg flex-col overflow-hidden rounded-xl border border-indigo-300/30 p-0 shadow-inner transition-all dark:border-zinc-700/40 dark:shadow-zinc-700/40 dark:hover:shadow-transparent lg:w-full lg:max-w-max lg:flex-row-reverse lg:items-center'>
       <div className='flex-1'>
         {project.progress && (
-          <p className='absolute left-0 top-0 z-10 rounded-br-md bg-zinc-400/70 p-1 font-semibold  text-zinc-100 dark:text-zinc-200 lg:bg-zinc-700'>
+          <p className='absolute left-0 top-0 z-10 rounded-br-md  bg-zinc-300/40 p-1 font-semibold text-zinc-100  dark:bg-zinc-500/70 dark:text-zinc-200'>
             Work in Progress
           </p>
         )}
@@ -22,7 +22,7 @@ function DefaultProject ({ project }) {
       </div>
 
       <div className='flex flex-1 flex-col gap-4 p-5 py-7'>
-        <ul className='flex gap-3 text-xs text-zinc-700 dark:text-zinc-200 lg:mt-8 lg:text-sm'>
+        <ul className='flex gap-3 text-xs text-zinc-200 dark:text-zinc-200 lg:mt-8 lg:text-sm'>
           {project.stack.map((technology) => (
             <li
               className={`rounded-sm border ${technology.color} p-1 font-semibold`}
@@ -34,20 +34,20 @@ function DefaultProject ({ project }) {
         </ul>
 
         <div>
-          <h2 className='mt-2 flex text-xl font-semibold text-zinc-900 dark:text-zinc-100 lg:text-3xl'>
+          <h2 className='mt-2 flex text-xl font-semibold text-zinc-100 dark:text-zinc-100 lg:text-3xl'>
             {project.name}
           </h2>
-          <p className='mt-1 text-sm font-medium  text-zinc-900 dark:text-zinc-300/70 lg:mt-3 '>
+          <p className='mt-1 text-sm font-medium  text-zinc-200 dark:text-zinc-300/70 lg:mt-3 '>
             {project.date}
           </p>
         </div>
 
-        <p className='text-sm text-zinc-600 dark:text-zinc-300 sm:text-base lg:pr-20'>
+        <p className='text-sm text-zinc-200 dark:text-zinc-300 sm:text-base lg:pr-20'>
           {project.description}
         </p>
 
         <div className='mt-2 mb-1 flex items-center gap-3 lg:mt-9 lg:max-w-xs'>
-          <a className='inline-flex flex-1 cursor-pointer items-center justify-center gap-2 rounded-md bg-zinc-800 py-2 px-3 text-sm font-semibold text-zinc-100 outline-offset-2 transition hover:bg-zinc-700 active:bg-zinc-800 active:text-zinc-100/70 active:transition-none dark:bg-emerald-500 dark:hover:bg-emerald-600 dark:active:bg-zinc-700 dark:active:text-zinc-100/70 lg:text-base'>
+          <a href={project.url} target='_blank' className='inline-flex flex-1 cursor-pointer items-center justify-center gap-2 rounded-md bg-zinc-800 py-2 px-3 text-sm font-semibold text-zinc-100 outline-offset-2 transition hover:bg-zinc-700 active:bg-zinc-800 active:text-zinc-100/70 active:transition-none dark:bg-emerald-500 dark:hover:bg-emerald-600 dark:active:bg-zinc-700 dark:active:text-zinc-100/70 lg:text-base' rel='noreferrer'>
             Open App
           </a>
 

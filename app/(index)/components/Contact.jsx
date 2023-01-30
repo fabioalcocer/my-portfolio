@@ -8,7 +8,7 @@ function Contact () {
 
   return (
     <div className='mt-16 flex flex-col gap-7 md:flex-row'>
-      <h2 className='mr-4 flex h-max flex-col items-center self-center pr-4 pb-4 text-4xl font-bold leading-10 tracking-tighter text-zinc-800 dark:text-zinc-100 sm:pb-8 lg:px-14 lg:text-7xl'>
+      <h2 className='mr-4 flex h-max flex-col items-center self-center pr-4 pb-4 text-4xl font-bold leading-10 tracking-tighter text-zinc-100 dark:text-zinc-100 sm:pb-8 lg:px-14 lg:text-7xl'>
         Contact me!
         <span className='z-20 mt-4  inline-flex h-2 w-full animate-[rightGrow_3s_infinite_alternate] rounded-md bg-emerald-500' />
       </h2>
@@ -16,16 +16,16 @@ function Contact () {
       <form
         action='POST'
         onSubmit={handleSubmit}
-        className='mx-auto max-w-2xl flex-1 rounded-xl border p-6 shadow-inner transition-shadow duration-500 dark:border-zinc-700/40 dark:shadow-zinc-800 dark:hover:shadow-transparent md:ml-5 md:mt-10'
+        className='mx-auto max-w-2xl flex-1 rounded-xl border border-indigo-300/30 p-6 shadow-inner transition-shadow duration-500 dark:border-zinc-700/40 dark:shadow-zinc-700/40 dark:hover:shadow-transparent md:ml-5 md:mt-10'
       >
-        <h2 className='flex items-center font-semibold text-zinc-900 dark:text-zinc-100'>
+        <h2 className='flex items-center font-semibold text-zinc-100 dark:text-zinc-100'>
           <ContactIcon />
           <span className='ml-3 text-lg md:text-2xl'>Contact me</span>
         </h2>
-        <p className='mt-2 pr-5 text-sm text-zinc-600 dark:text-zinc-400 sm:text-base md:text-lg'>
+        <p className='mt-2 pr-5 text-sm text-zinc-200 dark:text-zinc-400 sm:text-base md:text-lg'>
           Want to work with me? Send a message to{' '}
           <a
-            className='font-semibold text-zinc-700 dark:text-zinc-200'
+            className='font-semibold text-white hover:text-indigo-200 dark:hover:text-emerald-400 dark:text-zinc-200'
             href='mailto:fabioalcocerdev@gmail.com'
           >
             fabioalcocerdev@gmail.com
@@ -41,7 +41,7 @@ function Contact () {
               <div className='flex w-full flex-col gap-2'>
                 <label
                   htmlFor='name'
-                  className='font-semibold text-zinc-900 dark:text-zinc-100'
+                  className='font-semibold text-zinc-100 dark:text-zinc-100'
                 >
                   Name
                 </label>
@@ -57,7 +57,7 @@ function Contact () {
               <div className='flex w-full flex-col gap-2'>
                 <label
                   htmlFor='email'
-                  className='font-semibold text-zinc-900 dark:text-zinc-100'
+                  className='font-semibold text-zinc-100 dark:text-zinc-100'
                 >
                   Email
                 </label>
@@ -73,7 +73,7 @@ function Contact () {
               <div className='flex w-full flex-col gap-2'>
                 <label
                   htmlFor='message'
-                  className='font-semibold text-zinc-900 dark:text-zinc-100'
+                  className='font-semibold text-zinc-100 dark:text-zinc-100'
                 >
                   Message
                 </label>

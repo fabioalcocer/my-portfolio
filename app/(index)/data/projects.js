@@ -21,8 +21,9 @@ export const projects = [
       }
     ],
     description:
-      'Nize a web app that helps you create beautiful images of screenshots and code fast and with little effort. Blurred background images, gradients, easy rotation and tilt, coding fonts.',
+      'Developed with the MERN stack, this app allows you to store your products in a database and consume them from the Front-end, it has a cart, local storage, connection with Whatsapp API. Made for real use.',
     img: 'https://res.cloudinary.com/daobmfotr/image/upload/v1675057530/projects/1675057527169-nize_qwppul.webp',
+    url: 'https://e-commerce-x.vercel.app/',
     progress: false,
     date: 'During 2022'
   },
@@ -48,8 +49,9 @@ export const projects = [
       }
     ],
     description:
-      'Nize a web app that helps you create beautiful images of screenshots and code fast and with little effort. Blurred background images, gradients, easy rotation and tilt, coding fonts.',
+      'Developed with the MERN stack, this app allows you to store your products in a database and consume them from the Front-end, it has a cart, local storage, connection with Whatsapp API. Made for real use.',
     img: 'https://res.cloudinary.com/daobmfotr/image/upload/v1675057530/projects/1675057527169-nize_qwppul.webp',
+    url: 'https://e-commerce-x.vercel.app/',
     progress: true,
     date: 'Since February 2022'
   },
@@ -77,6 +79,7 @@ export const projects = [
     description:
       'Nize a web app that helps you create beautiful images of screenshots and code fast and with little effort. Blurred background images, gradients, easy rotation and tilt, coding fonts.',
     img: 'https://res.cloudinary.com/daobmfotr/image/upload/v1675057530/projects/1675057527169-nize_qwppul.webp',
+    url: 'https://e-commerce-x.vercel.app/',
     progress: false,
     date: 'Since July 2022'
   }

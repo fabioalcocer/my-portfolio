@@ -10,9 +10,9 @@ module.exports = {
     extend: {
       keyframes: {
         btnpulse: {
-          '0%': { 'box-shadow': '0 0 0 0 theme("colors.zinc.400")' },
+          '0%': { 'box-shadow': '0 0 0 0 theme("colors.zinc.400/80")' },
           '30%': {
-            'box-shadow': '0 0 0 0 theme("colors.zinc.400/50")'
+            'box-shadow': '0 0 0 0 theme("colors.zinc.400/40")'
           },
           '100%': {
             'box-shadow': '0 0 0 12px theme("colors.zinc.400/0")'
