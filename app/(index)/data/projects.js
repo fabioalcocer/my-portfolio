@@ -22,7 +22,7 @@ export const projects = [
     ],
     description:
       'Nize a web app that helps you create beautiful images of screenshots and code fast and with little effort. Blurred background images, gradients, easy rotation and tilt, coding fonts.',
-    img: 'https://res.cloudinary.com/daobmfotr/image/upload/v1674671775/projects/ecommerce_d9olau.webp',
+    img: 'https://res.cloudinary.com/daobmfotr/image/upload/v1675057530/projects/1675057527169-nize_qwppul.webp',
     progress: false,
     date: 'During 2022'
   },
@@ -49,7 +49,7 @@ export const projects = [
     ],
     description:
       'Nize a web app that helps you create beautiful images of screenshots and code fast and with little effort. Blurred background images, gradients, easy rotation and tilt, coding fonts.',
-    img: 'https://res.cloudinary.com/daobmfotr/image/upload/v1674671775/projects/ecommerce_d9olau.webp',
+    img: 'https://res.cloudinary.com/daobmfotr/image/upload/v1675057530/projects/1675057527169-nize_qwppul.webp',
     progress: true,
     date: 'Since February 2022'
   },
@@ -76,7 +76,7 @@ export const projects = [
     ],
     description:
       'Nize a web app that helps you create beautiful images of screenshots and code fast and with little effort. Blurred background images, gradients, easy rotation and tilt, coding fonts.',
-    img: 'https://res.cloudinary.com/daobmfotr/image/upload/v1674671775/projects/ecommerce_d9olau.webp',
+    img: 'https://res.cloudinary.com/daobmfotr/image/upload/v1675057530/projects/1675057527169-nize_qwppul.webp',
     progress: false,
     date: 'Since July 2022'
   }

@@ -6,12 +6,12 @@ import { BsArrowDownShort } from 'react-icons/bs'
 function Experience () {
   return (
     <div className='mt-16 mb-5 flex flex-col gap-7 md:px-8 lg:px-14'>
-      <h2 className='mx-auto flex h-max w-max flex-col items-center pr-4 pb-4 text-4xl font-bold leading-10 tracking-tighter text-zinc-100 sm:pb-8 md:mx-0 md:text-6xl'>
+      <h2 className='mx-auto flex h-max w-max flex-col items-center pr-4 pb-4 text-4xl font-bold leading-10 tracking-tighter text-zinc-800 dark:text-zinc-100 sm:pb-8 md:mx-0 md:text-6xl'>
         Experience
         <span className='bg-primary z-20  mt-4  inline-flex h-2 w-full animate-[rightGrow_2s_infinite_alternate] rounded-md bg-emerald-500' />
       </h2>
       <div className='mx-auto flex flex-col gap-6 lg:flex-row'>
-        <div className='flex max-w-xl flex-1 flex-col rounded-2xl border border-zinc-100 p-6 shadow-inner shadow-zinc-800 transition-shadow duration-500 hover:shadow-transparent dark:border-zinc-700/40 md:gap-2'>
+        <div className='flex max-w-xl flex-1 flex-col rounded-2xl border p-6 shadow-inner transition-shadow duration-500 dark:border-zinc-700/40 dark:shadow-zinc-800 dark:hover:shadow-transparent md:gap-2'>
           <div className='flex items-center gap-3'>
             <SuitcaseIcon />
             <h2 className='flex text-lg font-semibold text-zinc-900 dark:text-zinc-100 md:text-xl'>
@@ -57,7 +57,7 @@ function Experience () {
             <BsArrowDownShort className='stroke-zinc-400 text-xl transition group-active:stroke-zinc-600 dark:group-hover:stroke-zinc-50 dark:group-active:stroke-zinc-50' />
           </a>
         </div>
-        <div className='flex max-w-xl flex-1 flex-col rounded-2xl border border-zinc-100 p-6 shadow-inner shadow-zinc-800 transition-shadow duration-500 hover:shadow-transparent dark:border-zinc-700/40 md:gap-2'>
+        <div className='flex max-w-xl flex-1 flex-col rounded-2xl border p-6 shadow-inner transition-shadow duration-500 dark:border-zinc-700/40 dark:shadow-zinc-800 dark:hover:shadow-transparent md:gap-2'>
           <div className='flex items-center gap-3'>
             <SuitcaseIcon />
             <h2 className='flex text-lg font-semibold text-zinc-900 dark:text-zinc-100 md:text-xl'>

@@ -9,7 +9,7 @@ export default function Home () {
     <Container>
       <div className='md:p-6'>
         <div className='flex items-center justify-between'>
-          <h2 className='flex w-max flex-col pb-4 text-3xl font-bold leading-10 tracking-tighter text-zinc-100 sm:pb-6 md:text-6xl'>
+          <h2 className='flex w-max flex-col pb-4 text-3xl font-bold leading-10 tracking-tighter dark:text-zinc-100 text-zinc-800 sm:pb-6 md:text-6xl'>
             Projects
             <span className='mt-2 inline-flex h-2 w-full rounded-md bg-emerald-500 md:mt-4' />
           </h2>

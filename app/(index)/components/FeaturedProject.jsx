@@ -2,12 +2,13 @@ import Image from 'next/image'
 
 function FeaturedProject ({ project }) {
   return (
-    <div className='duration-400 flex max-w-sm cursor-pointer flex-col overflow-hidden rounded-xl border border-zinc-100 p-0 shadow-inner shadow-zinc-800 transition-all hover:-translate-y-4 hover:bg-zinc-600/30 hover:shadow-transparent dark:border-zinc-700/40'>
+    <div className='duration-400 flex max-w-sm cursor-pointer flex-col overflow-hidden rounded-xl border p-0 shadow-inner transition-all hover:-translate-y-4 hover:bg-zinc-300/50 dark:border-zinc-700/40 dark:shadow-zinc-800 dark:hover:bg-zinc-600/30 dark:hover:shadow-transparent'>
       <div className='flex-1'>
-        <div className='relative h-72'>
+        <div className='relative'>
           <Image
             className='object-cover'
-            fill
+            width={500}
+            height={600}
             src={project?.img}
             alt='Ecommerce project screenshot'
           />
@@ -21,7 +22,7 @@ function FeaturedProject ({ project }) {
           </h2>
         </div>
 
-        <ul className='flex gap-3 text-xs text-zinc-200'>
+        <ul className='flex gap-3 text-xs text-zinc-700 dark:text-zinc-200 md:text-[13px]'>
           {project?.stack.map((technology) => (
             <li
               className={`rounded-sm border ${technology.color} p-1 font-semibold`}

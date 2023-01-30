@@ -12,22 +12,22 @@ function Player ({ params }) {
     <Container>
       <div className='flex flex-col gap-9 md:flex-row lg:px-12'>
         <div className='flex flex-1 flex-col gap-5'>
-          <h2 className='flex w-max flex-col pb-2 text-3xl font-bold leading-10 tracking-tighter text-zinc-100 md:text-4xl lg:text-[55px]'>
+          <h2 className='flex w-max flex-col pb-2 text-3xl font-bold leading-10 tracking-tighter dark:text-zinc-100 text-zinc-800 md:text-4xl lg:text-[55px]'>
             {project?.name}
             <span className='mt-2 inline-flex h-2 w-full rounded-md bg-emerald-500 md:mt-4' />
           </h2>
           <div className='mt-2 md:mt-4'>
-            <p className='text-sm font-medium text-zinc-200/90'>
-              <span className='font-semibold text-zinc-100'>
+            <p className='text-sm font-medium text-zinc-600/90 dark:text-zinc-200/90'>
+              <span className='font-semibold dark:text-zinc-100 text-zinc-600'>
                 Timeframe:
               </span>{' '}
               {project?.date}
             </p>
           </div>
-          <ul className='flex gap-3 text-xs text-zinc-200'>
+          <ul className='flex gap-3 text-xs dark:text-zinc-200 text-zinc-700'>
             {project?.stack.map((technology) => (
               <li
-                className='rounded-sm border border-zinc-300/50 p-1 font-semibold'
+                className='rounded-sm border border-zinc-500/50 dark:border-zinc-300/50 p-1 font-semibold'
                 key={technology.name}
               >
                 {technology.name}

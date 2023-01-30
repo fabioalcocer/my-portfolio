@@ -26,7 +26,7 @@ export const skills = [
     id: 13,
     name: 'Express.js',
     description:
-      'Fast, unopinionated, minimalist web framework for Node.jss.',
+      'Fast, unopinionated, minimalist web framework for Node.js.',
     color: 'bg-green-500',
     link: 'https://expressjs.com/es/'
   },

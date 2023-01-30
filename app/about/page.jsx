@@ -10,7 +10,7 @@ function page () {
     <Container>
       <div className='sm:px-8'>
         <div className='mb-12 flex items-center justify-between px-0 lg:px-16'>
-          <h2 className='flex w-max flex-col pb-4 text-3xl font-bold leading-10 tracking-tighter text-zinc-100 sm:pb-6 md:text-6xl'>
+          <h2 className='flex w-max flex-col pb-4 text-3xl font-bold leading-10 tracking-tighter dark:text-zinc-100 text-zinc-800 sm:pb-6 md:text-6xl'>
             About Me
             <span className='mt-2 inline-flex h-2 w-full rounded-md bg-emerald-500 md:mt-4' />
           </h2>

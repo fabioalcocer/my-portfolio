@@ -27,7 +27,7 @@ const ICONS = {
 function Skill ({ skill }) {
   return (
     <a href={skill.link} target='_blank' rel='noreferrer'>
-      <div className='duration-400 relative flex max-w-[346px]  cursor-pointer flex-col items-center gap-4 rounded-xl border border-zinc-100 p-6 shadow-inner shadow-zinc-800 transition-all hover:-translate-y-2 hover:bg-zinc-600/30 hover:shadow-transparent dark:border-zinc-700/40'>
+      <div className='duration-400 relative flex min-h-[286px] max-w-[346px] cursor-pointer flex-col items-center gap-4 rounded-xl border p-6 shadow-inner transition-all hover:-translate-y-2 hover:bg-zinc-300/50 dark:border-zinc-700/40 dark:shadow-zinc-800 dark:hover:bg-zinc-600/30 dark:hover:shadow-transparent'>
         <span
           className={`absolute top-4 left-4 rounded-full ${skill.color} p-[6px]`}
         />
