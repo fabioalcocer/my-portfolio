@@ -36,37 +36,41 @@ function PageAbout () {
               </div>
               <div className='lg:order-first lg:row-span-2'>
                 <h2 className='text-4xl font-bold tracking-tighter text-zinc-100 dark:text-zinc-100 sm:text-5xl sm:leading-[3.5rem]'>
-                  I’m Fabio Alcocer. Software developer, founder, and
-                  content creator.
+                  I’m Fabio Alcocer. Software developer and Content
+                  creator.
                 </h2>
                 <div className='mt-6 space-y-7 text-base text-zinc-200 dark:text-zinc-400'>
                   <p>
-                    I’ve loved making things for as long as I can
-                    remember, and wrote my first program when I was 6
-                    years old, just two weeks after my mom brought
-                    home the brand new Macintosh LC 550 that I taught
-                    myself to type on.
+                    Tengo 21 años y me dedico diariamente a mis 2
+                    pasiones: La programación y la creación de
+                    contenido. Hago uso de mis habilidades de
+                    comunicación y mis habilidades técnicas para
+                    facilitar a los demás su proceso de aprendizaje en
+                    el mundo del desarrollo.
                   </p>
                   <p>
-                    I’ve loved making things for as long as I can
-                    remember, and wrote my first program when I was 6
-                    years old, just two weeks after my mom brought
-                    home the brand new Macintosh LC 550 that I taught
-                    myself to type on.
+                    Después de haber vivido casi toda mi vida en
+                    España, actualmente vivo en Bolivia y desde hace
+                    casi 2 años que comencé a formarme como
+                    programador a la par que comencé con la creación
+                    de contenido. Pude sacar lo mejor de ambos roles y
+                    fusionarlos me permitió impulsar mi carrera.
                   </p>
                   <p>
-                    I’ve loved making things for as long as I can
-                    remember, and wrote my first program when I was 6
-                    years old, just two weeks after my mom brought
-                    home the brand new Macintosh LC 550 that I taught
-                    myself to type on.
+                    Disfruto mucho trabajar en equipo, aportar ideas,
+                    preguntar lo que no sé y aprenderlo lo antes
+                    posible. Mi meta profesional es poder trabajar en
+                    una empresa con mis mismos ideales y juntos crear
+                    productos que cambien la vida de muchas personas.
                   </p>
+
                   <p>
-                    I’ve loved making things for as long as I can
-                    remember, and wrote my first program when I was 6
-                    years old, just two weeks after my mom brought
-                    home the brand new Macintosh LC 550 that I taught
-                    myself to type on.
+                    A día de hoy tengo una comunidad de +30K personas
+                    y 2 productos que ayudaron a muchas de ellas. Uno
+                    de mis objetivos personales es usar la
+                    programación para crear un producto que acerque a
+                    muchísimas personas a cumplir su meta de dedicarse
+                    a la programación.
                   </p>
                 </div>
               </div>

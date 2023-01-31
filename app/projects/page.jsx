@@ -1,5 +1,5 @@
 import Container from 'app/(index)/components/Container'
-import DefaultProject from 'app/(index)/components/DefaultProject'
+import DefaultProject from 'app/projects/components/DefaultProject'
 import Link from 'next/link'
 import { IoMdReturnLeft } from 'react-icons/io'
 import { projects } from '../(index)/data/projects'

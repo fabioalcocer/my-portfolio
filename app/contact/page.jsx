@@ -5,6 +5,7 @@ import ContactIcon from 'app/(index)/icons/ContactIcon'
 import { IoMdReturnLeft, IoMdMail } from 'react-icons/io'
 import { BsTwitter, BsGithub, BsLinkedin } from 'react-icons/bs'
 import { useForm } from '@formspree/react'
+import MailSuccess from 'app/(index)/components/MailSuccess'
 
 function PageContact () {
   const [state, handleSubmit] = useForm('xbjedgoy')
@@ -47,63 +48,69 @@ function PageContact () {
               </a>{' '}
               or use the contact form.
             </p>
-            <div className='mt-6 flex flex-wrap gap-4'>
-              <div className='flex w-full flex-col gap-2'>
-                <label
-                  htmlFor='name'
-                  className='font-semibold text-zinc-100 dark:text-zinc-100'
-                >
-                  Name
-                </label>
-                <input
-                  id='name'
-                  type='text'
-                  name='name'
-                  placeholder='Ash Lynx'
-                  required
-                  className='min-w-0 flex-auto appearance-none rounded-md border border-zinc-900/10 bg-white px-3 py-[calc(theme(spacing.2)-1px)] shadow-md shadow-zinc-800/5 placeholder:text-sm placeholder:text-zinc-400 focus:border-teal-500 focus:outline-none focus:ring-4 focus:ring-teal-500/10 dark:border-zinc-700 dark:bg-zinc-700/[0.15] dark:text-zinc-200 dark:placeholder:text-zinc-500 dark:focus:border-teal-400 dark:focus:ring-teal-400/10 sm:text-sm sm:placeholder:text-base'
-                />
-              </div>
-              <div className='flex w-full flex-col gap-2'>
-                <label
-                  htmlFor='email'
-                  className='font-semibold text-zinc-100 dark:text-zinc-100'
-                >
-                  Email
-                </label>
-                <input
-                  id='email'
-                  type='email'
-                  name='email'
-                  placeholder='thebestcompany@gmail.com'
-                  required
-                  className='min-w-0 flex-auto appearance-none rounded-md border border-zinc-900/10 bg-white px-3 py-[calc(theme(spacing.2)-1px)] shadow-md shadow-zinc-800/5 placeholder:text-sm placeholder:text-zinc-400 focus:border-teal-500 focus:outline-none focus:ring-4 focus:ring-teal-500/10 dark:border-zinc-700 dark:bg-zinc-700/[0.15] dark:text-zinc-200 dark:placeholder:text-zinc-500 dark:focus:border-teal-400 dark:focus:ring-teal-400/10 sm:text-sm sm:placeholder:text-base'
-                />
-              </div>
-              <div className='flex w-full flex-col gap-2'>
-                <label
-                  htmlFor='message'
-                  className='font-semibold text-zinc-100 dark:text-zinc-100'
-                >
-                  Message
-                </label>
-                <textarea
-                  id='message'
-                  type='text'
-                  name='message'
-                  placeholder='How i can work with you?'
-                  required
-                  className='min-w-0 flex-auto appearance-none rounded-md border border-zinc-900/10 bg-white px-3 py-[calc(theme(spacing.2)-1px)] pb-14 shadow-md shadow-zinc-800/5 placeholder:text-sm placeholder:text-zinc-400 focus:border-teal-500 focus:outline-none focus:ring-4 focus:ring-teal-500/10 dark:border-zinc-700 dark:bg-zinc-700/[0.15] dark:text-zinc-200 dark:placeholder:text-zinc-500 dark:focus:border-teal-400 dark:focus:ring-teal-400/10 sm:text-sm sm:placeholder:text-base'
-                />
-              </div>
-              <button
-                disabled={state.submitting}
-                type='submit'
-                className='mt-2 inline-flex flex-none items-center justify-center gap-2 rounded-md bg-emerald-500 py-2 px-4 text-base  font-bold text-zinc-100/90 text-zinc-100 outline-offset-2 transition hover:bg-emerald-600 active:bg-emerald-800 active:text-zinc-100/90 active:transition-none dark:bg-emerald-500 dark:hover:bg-emerald-600 dark:active:bg-emerald-800 dark:active:text-zinc-100/90'
-              >
-                Get in Touch
-              </button>
-            </div>
+            {state.succeeded
+              ? (
+                <MailSuccess />
+                )
+              : (
+                <div className='mt-6 flex flex-wrap gap-4'>
+                  <div className='flex w-full flex-col gap-2'>
+                    <label
+                      htmlFor='name'
+                      className='font-semibold text-zinc-100 dark:text-zinc-100'
+                    >
+                      Name
+                    </label>
+                    <input
+                      id='name'
+                      type='text'
+                      name='name'
+                      placeholder='Ash Lynx'
+                      required
+                      className='min-w-0 flex-auto appearance-none rounded-md border border-zinc-900/10 bg-white px-3 py-[calc(theme(spacing.2)-1px)] shadow-md shadow-zinc-800/5 placeholder:text-sm placeholder:text-zinc-400 focus:border-teal-500 focus:outline-none focus:ring-4 focus:ring-teal-500/10 dark:border-zinc-700 dark:bg-zinc-700/[0.15] dark:text-zinc-200 dark:placeholder:text-zinc-500 dark:focus:border-teal-400 dark:focus:ring-teal-400/10 sm:text-sm sm:placeholder:text-base'
+                    />
+                  </div>
+                  <div className='flex w-full flex-col gap-2'>
+                    <label
+                      htmlFor='email'
+                      className='font-semibold text-zinc-100 dark:text-zinc-100'
+                    >
+                      Email
+                    </label>
+                    <input
+                      id='email'
+                      type='email'
+                      name='email'
+                      placeholder='thebestcompany@gmail.com'
+                      required
+                      className='min-w-0 flex-auto appearance-none rounded-md border border-zinc-900/10 bg-white px-3 py-[calc(theme(spacing.2)-1px)] shadow-md shadow-zinc-800/5 placeholder:text-sm placeholder:text-zinc-400 focus:border-teal-500 focus:outline-none focus:ring-4 focus:ring-teal-500/10 dark:border-zinc-700 dark:bg-zinc-700/[0.15] dark:text-zinc-200 dark:placeholder:text-zinc-500 dark:focus:border-teal-400 dark:focus:ring-teal-400/10 sm:text-sm sm:placeholder:text-base'
+                    />
+                  </div>
+                  <div className='flex w-full flex-col gap-2'>
+                    <label
+                      htmlFor='message'
+                      className='font-semibold text-zinc-100 dark:text-zinc-100'
+                    >
+                      Message
+                    </label>
+                    <textarea
+                      id='message'
+                      type='text'
+                      name='message'
+                      placeholder='How i can work with you?'
+                      required
+                      className='min-w-0 flex-auto appearance-none rounded-md border border-zinc-900/10 bg-white px-3 py-[calc(theme(spacing.2)-1px)] pb-14 shadow-md shadow-zinc-800/5 placeholder:text-sm placeholder:text-zinc-400 focus:border-teal-500 focus:outline-none focus:ring-4 focus:ring-teal-500/10 dark:border-zinc-700 dark:bg-zinc-700/[0.15] dark:text-zinc-200 dark:placeholder:text-zinc-500 dark:focus:border-teal-400 dark:focus:ring-teal-400/10 sm:text-sm sm:placeholder:text-base'
+                    />
+                  </div>
+                  <button
+                    disabled={state.submitting}
+                    type='submit'
+                    className='mt-2 inline-flex flex-none items-center justify-center gap-2 rounded-md bg-emerald-500 py-2 px-4 text-base  font-bold text-zinc-100/90 text-zinc-100 outline-offset-2 transition hover:bg-emerald-600 active:bg-emerald-800 active:text-zinc-100/90 active:transition-none dark:bg-emerald-500 dark:hover:bg-emerald-600 dark:active:bg-emerald-800 dark:active:text-zinc-100/90'
+                  >
+                    Get in Touch
+                  </button>
+                </div>
+                )}
           </form>
           <div className='mt-6 ml-2 md:mt-0 md:pt-8 lg:pr-20'>
             <ul className='flex flex-col gap-4 md:gap-6' role='list'>
