@@ -43,7 +43,7 @@ function MyPopover () {
         <Popover.Panel className='fixed inset-x-4 top-6 z-50 mx-auto max-w-sm origin-top scale-100 rounded-3xl bg-white p-8 opacity-100 ring-1 ring-zinc-900/5 dark:bg-zinc-900 dark:ring-zinc-800'>
           <div className='flex flex-row-reverse items-center justify-between'>
             <Popover.Button className='-m-1 p-1'>
-              <BiX className='text-2xl' />
+              <BiX className='text-2xl text-zinc-900 dark:text-zinc-100' />
             </Popover.Button>
             <h2 className='text-sm font-medium text-zinc-600 dark:text-zinc-400'>
               Navigation
@@ -52,11 +52,9 @@ function MyPopover () {
           <nav className='mt-6'>
             <ul className='-my-2 divide-y divide-zinc-100 text-base text-zinc-800 dark:divide-zinc-100/5 dark:text-zinc-300'>
               {links.map(({ label, route }) => (
-                <li className='block py-3' key={label}>
-                  <Popover.Button as={Link} href={route}>
-                    {label}
-                  </Popover.Button>
-                </li>
+                <Popover.Button as={Link} href={route} key={label}>
+                  <li className='block py-3'>{label}</li>
+                </Popover.Button>
               ))}
             </ul>
           </nav>

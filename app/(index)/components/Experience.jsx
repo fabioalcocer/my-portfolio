@@ -51,7 +51,7 @@ function Experience () {
           <a
             href=''
             download='../assets/CV Fabio Alcocer.pdf'
-            className='group mt-6 inline-flex w-full animate-[btnpulse_2s_infinite] items-center justify-center gap-2 rounded-md bg-zinc-50 py-2 px-3 text-sm font-medium text-zinc-900 outline-offset-2 transition-all duration-300 hover:bg-zinc-100 active:bg-zinc-100 active:text-zinc-900/60 active:transition-none dark:bg-zinc-800/50 dark:text-zinc-300 dark:hover:bg-zinc-800 dark:hover:text-zinc-50 dark:active:bg-zinc-800/50 dark:active:text-zinc-50/70 md:py-3'
+            className='group mt-6 inline-flex w-full animate-[btnpulse_2s_infinite] items-center justify-center gap-2 rounded-md bg-zinc-50 py-2 px-3 text-sm font-medium text-zinc-900 outline-offset-2 transition-all duration-300 hover:bg-zinc-100 active:bg-zinc-100 active:text-zinc-900/60 active:transition-none dark:bg-zinc-900/70 dark:text-zinc-300 dark:hover:bg-zinc-800 dark:hover:text-zinc-50 dark:active:bg-zinc-800/50 dark:active:text-zinc-50/70 md:py-3'
           >
             <span>Download CV</span>
             <BsArrowDownShort className='stroke-zinc-400 text-xl transition group-active:stroke-zinc-600 dark:group-hover:stroke-zinc-50 dark:group-active:stroke-zinc-50' />

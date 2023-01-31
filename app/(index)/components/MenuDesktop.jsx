@@ -34,7 +34,7 @@ function MenuDesktop () {
               {route === path && (
                 <motion.span
                   layoutId='underline'
-                  className='absolute left-0 top-full block h-[2px] w-full bg-emerald-500'
+                  className='absolute left-0 z-50 top-full block h-[3px] dark:h-[2px] w-full rounded-sm bg-emerald-500'
                 />
               )}
               {label}

@@ -4,7 +4,7 @@ import Image from 'next/image'
 import { projects } from '../../(index)/data/projects'
 import { IoMdOpen, IoMdReturnLeft } from 'react-icons/io'
 
-function Player ({ params }) {
+function Project ({ params }) {
   const { id } = params
   const project = projects.find((p) => p.id === parseInt(id))
 
@@ -48,9 +48,9 @@ function Player ({ params }) {
             Go Back
           </Link>
 
-          <a className='inline-flex cursor-pointer items-center justify-center gap-2 rounded-md bg-emerald-600 py-2 px-3 text-sm font-semibold text-zinc-100 outline-offset-2 transition hover:bg-zinc-700 active:bg-zinc-800 active:text-zinc-100/70 active:transition-none dark:bg-emerald-500 dark:hover:bg-emerald-600 dark:active:bg-zinc-700 dark:active:text-zinc-100/70 md:py-3 lg:text-[15px]'>
+          <a className='inline-flex cursor-pointer items-center justify-center gap-2 rounded-md bg-emerald-500 py-2 px-3 text-sm font-semibold text-zinc-100 outline-offset-2 transition hover:bg-emerald-600 active:bg-emerald-800 active:text-zinc-100/70 active:transition-none dark:bg-emerald-500 dark:hover:bg-emerald-600 dark:active:bg-zinc-700 dark:active:text-zinc-100/70 md:py-3 lg:text-[15px]' href='https://e-commerce-x.vercel.app/' target='_blank' rel='noreferrer'>
             <IoMdOpen className='mr-1 text-xl' />
-            View Repository
+            Open App
           </a>
         </div>
       </div>
@@ -66,4 +66,4 @@ function Player ({ params }) {
   )
 }
 
-export default Player
+export default Project

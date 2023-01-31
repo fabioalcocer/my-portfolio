@@ -5,7 +5,7 @@ import { BsGithub, BsLinkedin, BsTwitter } from 'react-icons/bs'
 import { IoMdMail, IoMdReturnLeft } from 'react-icons/io'
 import myLogo from '../(index)/assets/mylogo.jpg'
 
-function page () {
+function PageAbout () {
   return (
     <Container>
       <div className='sm:px-8'>
@@ -120,4 +120,4 @@ function page () {
   )
 }
 
-export default page
+export default PageAbout

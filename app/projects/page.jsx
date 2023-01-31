@@ -4,7 +4,7 @@ import Link from 'next/link'
 import { IoMdReturnLeft } from 'react-icons/io'
 import { projects } from '../(index)/data/projects'
 
-export default function Home () {
+export default function PageProjects () {
   return (
     <Container>
       <div className='md:p-6'>

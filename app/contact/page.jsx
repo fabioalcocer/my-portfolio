@@ -1,4 +1,3 @@
-/* eslint-disable react-hooks/rules-of-hooks */
 'use client'
 import Container from 'app/(index)/components/Container'
 import Link from 'next/link'
@@ -7,7 +6,7 @@ import { IoMdReturnLeft, IoMdMail } from 'react-icons/io'
 import { BsTwitter, BsGithub, BsLinkedin } from 'react-icons/bs'
 import { useForm } from '@formspree/react'
 
-function page () {
+function PageContact () {
   const [state, handleSubmit] = useForm('xbjedgoy')
 
   return (
@@ -29,7 +28,7 @@ function page () {
         <div className='mx-auto flex max-w-7xl flex-col justify-between gap-5 md:flex-row lg:px-8'>
           <form
             action='POST'
-            className='max-w-2xl flex-1 rounded-xl border border-indigo-500/50 border-zinc-100 p-6 shadow-inner transition-shadow duration-500 dark:border-zinc-700/40 dark:shadow-zinc-700/40 dark:hover:shadow-transparent md:p-8 lg:ml-6'
+            className='max-w-2xl flex-1 rounded-xl border border-indigo-400/30 p-6 shadow-inner transition-shadow duration-500 dark:border-zinc-700/40 dark:shadow-zinc-700/40 dark:hover:shadow-transparent md:p-8 lg:ml-6'
             onSubmit={handleSubmit}
           >
             <h2 className='flex items-center font-semibold text-zinc-100 dark:text-zinc-100'>
@@ -152,4 +151,4 @@ function page () {
   )
 }
 
-export default page
+export default PageContact
