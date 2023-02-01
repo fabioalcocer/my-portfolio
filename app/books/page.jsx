@@ -55,10 +55,10 @@ function PageBook () {
                   </li>
                 </ul>
                 <p className='text-sm text-zinc-200 dark:text-zinc-300 sm:text-base'>
-                  Lorem ipsum dolor sit amet consectetur adipisicing
-                  elit. Quia, deserunt vel fuga ea ut laborum hic quos
-                  quam harum explicabo libero, aliquam nam excepturi
-                  error deleniti eligendi nobis corporis quisquam!
+                  Complete guide on how to start training in the world
+                  of programming, in a self-taught way, covering
+                  everything you need, from starting to build a
+                  learning path, to start applying for job offers.
                 </p>
                 <div className='mt-4 flex h-5 items-center justify-between md:mt-6'>
                   <p className='text-sm font-medium text-zinc-200 dark:text-zinc-100 md:text-base'>
@@ -103,10 +103,10 @@ function PageBook () {
                   </li>
                 </ul>
                 <p className='text-sm text-zinc-200 dark:text-zinc-300 sm:text-base'>
-                  Lorem ipsum dolor sit amet consectetur adipisicing
-                  elit. Quia, deserunt vel fuga ea ut laborum hic quos
-                  quam harum explicabo libero, aliquam nam excepturi
-                  error deleniti eligendi nobis corporis quisquam!
+                  This E-Book will make it easier for you to find
+                  resources, tools, documentations, job portals and
+                  much more. It has over 500 resources to help you be
+                  more productive and save time.
                 </p>
                 <div className='mt-4 flex h-5 items-center justify-between md:mt-6'>
                   <p className='text-sm font-medium text-zinc-200 dark:text-zinc-100 md:text-base'>

@@ -7,7 +7,7 @@ function Hero () {
   return (
     <div className='max-w-3xl md:px-8 lg:px-14'>
       <div className='flex flex-col gap-4 md:gap-6'>
-        <div className='relative flex h-20 w-20 flex-none cursor-pointer items-center justify-center rounded-full border border-zinc-700/10 bg-indigo-500/50 shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 dark:border-zinc-700/50 dark:bg-zinc-900/40 dark:ring-0 md:h-24 md:w-24'>
+        <div className='relative flex h-20 w-20 flex-none cursor-pointer items-center justify-center rounded-full border border-zinc-700/10 bg-indigo-400/20 shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 dark:border-zinc-700/50 dark:bg-zinc-900/40 dark:ring-0 md:h-24 md:w-24'>
           <Image
             src={myLogo}
             alt='photo profile'
@@ -18,7 +18,7 @@ function Hero () {
           I’m Fabio Alcocer. <br /> Software developer and content
           creator.
         </h1>
-        <p className='text-base font-normal leading-7 text-zinc-100 dark:text-zinc-400 md:pr-10 md:text-lg'>
+        <p className='text-base font-normal leading-7 text-zinc-200 dark:text-zinc-400 md:pr-10 md:text-lg'>
           I currently have 1 year of experience in the IT world and I
           finished my degree in systems analysis. My personal goal is
           to use programming to create a product that brings many

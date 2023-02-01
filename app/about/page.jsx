@@ -1,9 +1,9 @@
 import Container from 'app/(index)/components/Container'
 import Image from 'next/image'
 import Link from 'next/link'
-import { BsGithub, BsLinkedin, BsTwitter } from 'react-icons/bs'
-import { IoMdMail, IoMdReturnLeft } from 'react-icons/io'
+import { IoMdReturnLeft } from 'react-icons/io'
 import myLogo from '../(index)/assets/mylogo.jpg'
+import SocialSideBar from './components/SocialSideBar'
 
 function PageAbout () {
   return (
@@ -41,81 +41,38 @@ function PageAbout () {
                 </h2>
                 <div className='mt-6 space-y-7 text-base text-zinc-200 dark:text-zinc-400'>
                   <p>
-                    Tengo 21 años y me dedico diariamente a mis 2
-                    pasiones: La programación y la creación de
-                    contenido. Hago uso de mis habilidades de
-                    comunicación y mis habilidades técnicas para
-                    facilitar a los demás su proceso de aprendizaje en
-                    el mundo del desarrollo.
+                    I’m 21 years old and I dedicate myself daily to my
+                    2 passions: Programming and content creation. I
+                    make use of my communication skills and my
+                    technical skills to facilitate others in their
+                    learning process in the development world.
                   </p>
                   <p>
-                    Después de haber vivido casi toda mi vida en
-                    España, actualmente vivo en Bolivia y desde hace
-                    casi 2 años que comencé a formarme como
-                    programador a la par que comencé con la creación
-                    de contenido. Pude sacar lo mejor de ambos roles y
-                    fusionarlos me permitió impulsar mi carrera.
+                    After having lived almost all my life in Spain, I
+                    currently live in Bolivia and since almost 2 years
+                    ago I started to train as a programmer at the same
+                    time I started to create content. I was able to
+                    get the best out of both roles and merge them,
+                    this allowed me to boost my career.
                   </p>
                   <p>
-                    Disfruto mucho trabajar en equipo, aportar ideas,
-                    preguntar lo que no sé y aprenderlo lo antes
-                    posible. Mi meta profesional es poder trabajar en
-                    una empresa con mis mismos ideales y juntos crear
-                    productos que cambien la vida de muchas personas.
+                    I really enjoy working in a team, contributing
+                    ideas, asking what I don't know and learning it as
+                    soon as possible. My professional goal is to be
+                    able to work in a company with my same ideals and
+                    together create products that change the lives of
+                    many people.
                   </p>
-
                   <p>
-                    A día de hoy tengo una comunidad de +30K personas
-                    y 2 productos que ayudaron a muchas de ellas. Uno
-                    de mis objetivos personales es usar la
-                    programación para crear un producto que acerque a
-                    muchísimas personas a cumplir su meta de dedicarse
-                    a la programación.
+                    Today I have a community of +30K people and 2
+                    products that helped many of them. One of my
+                    personal goals is to use programming to create a
+                    product that brings many, many people closer to
+                    achieving their goal of getting into programming.
                   </p>
                 </div>
               </div>
-              <div className='lg:pl-20'>
-                <ul className='flex flex-col gap-4' role='list'>
-                  <li className='flex items-center'>
-                    <a
-                      href=''
-                      className='group flex text-sm font-medium text-zinc-200 transition hover:text-teal-500 dark:text-zinc-200'
-                    >
-                      <BsTwitter className='h-5 w-5 flex-none fill-zinc-200 transition group-hover:fill-teal-500 dark:fill-zinc-500' />
-                      <span class='ml-4'>Follow on Twitter</span>
-                    </a>
-                  </li>
-                  <li className='flex items-center'>
-                    <a
-                      href=''
-                      className='group flex text-sm font-medium text-zinc-200 transition hover:text-teal-500 dark:text-zinc-200 dark:hover:text-teal-500'
-                    >
-                      <BsGithub className='h-5 w-5 flex-none fill-zinc-200 transition group-hover:fill-teal-500 dark:fill-zinc-500' />
-                      <span class='ml-4'>Follow on GitHub</span>
-                    </a>
-                  </li>
-                  <li className='flex items-center'>
-                    <a
-                      href=''
-                      className='group flex text-sm font-medium text-zinc-200 transition hover:text-teal-500 dark:text-zinc-200 dark:hover:text-teal-500'
-                    >
-                      <BsLinkedin className='h-5 w-5 flex-none fill-zinc-200 transition group-hover:fill-teal-500 dark:fill-zinc-500' />
-                      <span class='ml-4'>Follow on LinkedIn</span>
-                    </a>
-                  </li>
-                  <li className='flex items-center'>
-                    <a
-                      href='mailto:fabioalcocerdev@gmail.com'
-                      className='group flex text-sm font-medium text-zinc-200 transition hover:text-teal-500 dark:text-zinc-200 dark:hover:text-teal-500'
-                    >
-                      <IoMdMail className='h-5 w-5 flex-none fill-zinc-200 transition group-hover:fill-teal-500 dark:fill-zinc-500' />
-                      <span class='ml-4'>
-                        fabioalcocerdev@gmail.com
-                      </span>
-                    </a>
-                  </li>
-                </ul>
-              </div>
+              <SocialSideBar />
             </div>
           </div>
         </div>
