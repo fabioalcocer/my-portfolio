@@ -12,7 +12,7 @@ export default function Head () {
         creator.'
       />
       <meta name='author' content='Fabio Alcocer' />
-      <meta property='og:image' content='https://res.cloudinary.com/daobmfotr/image/upload/v1675451808/preview_ljqwef.png' />
+      <meta property='og:image' content='https://fabioalcocer.vercel.app/api/og' />
       <link rel='icon' href='/favicon.ico' />
     </>
   )
