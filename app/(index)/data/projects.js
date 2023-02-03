@@ -5,19 +5,19 @@ export const projects = [
     stack: [
       {
         name: 'React',
-        color: 'border-sky-500/40'
+        color: 'dark:border-sky-500/40'
       },
       {
         name: 'ContextAPI',
-        color: 'border-teal-200/40'
+        color: 'dark:border-teal-200/40'
       },
       {
         name: 'Express.js',
-        color: 'border-green-500/40'
+        color: 'dark:border-green-500/40'
       },
       {
         name: 'Tailwind',
-        color: 'border-sky-400/40'
+        color: 'dark:border-sky-400/40'
       }
     ],
     description:
@@ -32,20 +32,20 @@ export const projects = [
     name: 'SNK Magic Player',
     stack: [
       {
-        name: 'React',
-        color: 'border-sky-500/40'
+        name: 'Next.js',
+        color: 'dark:border-slate-100/30'
       },
       {
-        name: 'ContextAPI',
-        color: 'border-teal-200/40'
+        name: 'TypeScript',
+        color: 'dark:border-blue-500/30'
       },
       {
         name: 'Express.js',
-        color: 'border-green-500/40'
+        color: 'dark:border-green-500/30'
       },
       {
         name: 'Tailwind',
-        color: 'border-sky-400/40'
+        color: 'dark:border-sky-400/30'
       }
     ],
     description:
@@ -57,29 +57,29 @@ export const projects = [
   },
   {
     id: 3,
-    name: 'Studio Ghibli App',
+    name: 'Encrypted Notes',
     stack: [
       {
         name: 'React',
-        color: 'border-sky-500/40'
+        color: 'dark:border-sky-500/30'
       },
       {
-        name: 'ContextAPI',
-        color: 'border-teal-200/40'
+        name: 'TypeScript',
+        color: 'dark:border-blue-500/30'
       },
       {
-        name: 'Express.js',
-        color: 'border-green-500/40'
+        name: 'Crypto.js',
+        color: 'dark:border-yellow-400/30'
       },
       {
         name: 'Tailwind',
-        color: 'border-sky-400/40'
+        color: 'dark:border-sky-400/30'
       }
     ],
     description:
       'Nize a web app that helps you create beautiful images of screenshots and code fast and with little effort. Blurred background images, gradients, easy rotation and tilt, coding fonts.',
     img: 'https://res.cloudinary.com/daobmfotr/image/upload/v1675057530/projects/1675057527169-nize_qwppul.webp',
-    url: 'https://e-commerce-x.vercel.app/',
+    url: 'https://notes-ts-crypto.vercel.app/',
     progress: false,
     date: 'Since July 2022'
   }

@@ -22,10 +22,10 @@ function DefaultProject ({ project }) {
       </div>
 
       <div className='flex flex-1 flex-col gap-4 p-5 py-7'>
-        <ul className='flex gap-3 text-xs text-zinc-200 dark:text-zinc-200 lg:mt-8 lg:text-sm'>
+        <ul className='flex gap-3 text-xs text-zinc-200 dark:text-zinc-200 lg:mt-8 lg:text-sm items-center'>
           {project.stack.map((technology) => (
             <li
-              className={`rounded-sm border ${technology.color} p-1 font-semibold`}
+              className={`rounded-sm border-2 border-zinc-100/40 ${technology.color} p-1 font-semibold`}
               key={technology.name}
             >
               {technology.name}

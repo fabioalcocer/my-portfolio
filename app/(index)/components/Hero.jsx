@@ -31,18 +31,23 @@ function Hero () {
           target='_blank'
           className='group -m-1 p-1'
           rel='noreferrer'
+          aria-label='Go to my Twitter account'
         >
           <BsTwitter className='h-5 w-5 fill-zinc-300 hover:fill-blue-400 hover:group-hover:fill-blue-400 dark:fill-zinc-400 dark:hover:group-hover:fill-zinc-300 md:h-6 md:w-6' />
         </a>
         <a
           href='https://github.com/fabioAlcocer'
           className='group -m-1 p-1'
+          target='_blank'
+          rel='noreferrer'
+          aria-label='Go to my GitHub account'
         >
           <BsGithub className='h-5 w-5 fill-zinc-300 hover:fill-zinc-800 hover:group-hover:fill-zinc-700 dark:fill-zinc-400 dark:hover:group-hover:fill-zinc-300 md:h-6 md:w-6' />
         </a>
         <a
           href='mailto:fabioalcocerdev@gmail.com'
           className='group -m-1 p-1'
+          aria-label='Send me an email'
         >
           <IoMdMail className='h-5 w-5 fill-zinc-300 hover:fill-rose-500 hover:group-hover:fill-rose-500 dark:fill-zinc-400 dark:hover:group-hover:fill-zinc-300 md:h-6 md:w-6' />
         </a>
@@ -51,6 +56,7 @@ function Hero () {
           target='_blank'
           className='group -m-1 p-1'
           rel='noreferrer'
+          aria-label='Go to my LinkedIn account'
         >
           <BsLinkedin className='h-5 w-5 fill-zinc-300 hover:fill-blue-600 hover:group-hover:fill-blue-600 dark:fill-zinc-400 dark:hover:group-hover:fill-zinc-300 md:h-6 md:w-6' />
         </a>
