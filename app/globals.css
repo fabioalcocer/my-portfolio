@@ -18,3 +18,54 @@ a {
   color: inherit;
   text-decoration: none;
 }
+
+.switch {
+  font-size: 17px;
+  position: relative;
+  display: inline-block;
+  width: 3.5em;
+  height: 2em;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  --background: #1f0a2fbb;
+  border: 1px solid #50486094;
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: var(--background);
+  transition: .5s;
+  border-radius: 30px;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 1.4em;
+  width: 1.4em;
+  border-radius: 50%;
+  left: 10%;
+  bottom: 13%;
+  box-shadow: inset 8px -4px 0px 0px #dacc00;
+  background: var(--background);
+  transition: .5s;
+}
+
+input:checked + .slider {
+  border: 1px solid #818df84d;
+  background-color: #818df85c;
+}
+
+input:checked + .slider:before {
+  transform: translateX(100%);
+  box-shadow: inset 15px -4px 0px 15px #fff000;
+}
