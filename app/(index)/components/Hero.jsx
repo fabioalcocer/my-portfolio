@@ -18,7 +18,7 @@ function Hero () {
           I’m Fabio Alcocer. <br /> Software developer and content
           creator.
         </h1>
-        <p className='text-base font-normal leading-7 text-zinc-200 dark:text-zinc-400 md:pr-10 md:text-lg'>
+        <p className='text-base font-normal leading-7 text-zinc-100 dark:text-zinc-400 md:pr-10 md:text-lg'>
           I currently have 1 year of experience in the IT world and I
           finished my degree in systems analysis. My personal goal is
           to use programming to create a product that brings many
@@ -33,7 +33,7 @@ function Hero () {
           rel='noreferrer'
           aria-label='Go to my Twitter account'
         >
-          <BsTwitter className='h-5 w-5 fill-zinc-300 hover:fill-blue-400 hover:group-hover:fill-blue-400 dark:fill-zinc-400 dark:hover:group-hover:fill-zinc-300 md:h-6 md:w-6' />
+          <BsTwitter className='h-5 w-5 fill-zinc-200 hover:fill-blue-400 hover:group-hover:fill-blue-400 dark:fill-zinc-400 dark:hover:group-hover:fill-zinc-300 md:h-6 md:w-6' />
         </a>
         <a
           href='https://github.com/fabioAlcocer'
@@ -42,14 +42,14 @@ function Hero () {
           rel='noreferrer'
           aria-label='Go to my GitHub account'
         >
-          <BsGithub className='h-5 w-5 fill-zinc-300 hover:fill-zinc-800 hover:group-hover:fill-zinc-700 dark:fill-zinc-400 dark:hover:group-hover:fill-zinc-300 md:h-6 md:w-6' />
+          <BsGithub className='h-5 w-5 fill-zinc-200 hover:fill-zinc-800 hover:group-hover:fill-zinc-700 dark:fill-zinc-400 dark:hover:group-hover:fill-zinc-300 md:h-6 md:w-6' />
         </a>
         <a
           href='mailto:fabioalcocerdev@gmail.com'
           className='group -m-1 p-1'
           aria-label='Send me an email'
         >
-          <IoMdMail className='h-5 w-5 fill-zinc-300 hover:fill-rose-500 hover:group-hover:fill-rose-500 dark:fill-zinc-400 dark:hover:group-hover:fill-zinc-300 md:h-6 md:w-6' />
+          <IoMdMail className='h-5 w-5 fill-zinc-200 hover:fill-rose-500 hover:group-hover:fill-rose-500 dark:fill-zinc-400 dark:hover:group-hover:fill-zinc-300 md:h-6 md:w-6' />
         </a>
         <a
           href='https://www.linkedin.com/in/fabio-alcocer/'
@@ -58,7 +58,7 @@ function Hero () {
           rel='noreferrer'
           aria-label='Go to my LinkedIn account'
         >
-          <BsLinkedin className='h-5 w-5 fill-zinc-300 hover:fill-blue-600 hover:group-hover:fill-blue-600 dark:fill-zinc-400 dark:hover:group-hover:fill-zinc-300 md:h-6 md:w-6' />
+          <BsLinkedin className='h-5 w-5 fill-zinc-200 hover:fill-blue-600 hover:group-hover:fill-blue-600 dark:fill-zinc-400 dark:hover:group-hover:fill-zinc-300 md:h-6 md:w-6' />
         </a>
       </div>
     </div>

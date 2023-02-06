@@ -28,7 +28,7 @@ function PageBook () {
             target='_blank'
             rel='noreferrer'
           >
-            <div className='duration-400 flex max-w-md cursor-pointer flex-col overflow-hidden rounded-xl border border-indigo-300/50 bg-sky-200/20 p-0 shadow-inner transition-all hover:-translate-y-4 hover:bg-sky-300/40 dark:border-zinc-700/40 dark:bg-transparent dark:shadow-zinc-800 dark:hover:bg-zinc-600/30 dark:hover:shadow-transparent'>
+            <div className='duration-400 flex max-w-md cursor-pointer flex-col overflow-hidden rounded-xl border border-indigo-300/50 bg-indigo-300/20 p-0 shadow-inner transition-all hover:-translate-y-4 hover:bg-indigo-300/40 dark:border-zinc-700/40 dark:bg-transparent dark:shadow-zinc-800 dark:hover:bg-zinc-600/30 dark:hover:shadow-transparent'>
               <div className='flex-1'>
                 <div className='relative h-72'>
                   <Image
@@ -54,7 +54,7 @@ function PageBook () {
                     Consejos
                   </li>
                 </ul>
-                <p className='text-sm text-zinc-200 dark:text-zinc-300 sm:text-base'>
+                <p className='text-sm text-zinc-100 dark:text-zinc-300 sm:text-base'>
                   Complete guide on how to start training in the world
                   of programming, in a self-taught way, covering
                   everything you need, from starting to build a
@@ -63,9 +63,6 @@ function PageBook () {
                 <div className='mt-4 flex h-5 items-center justify-between md:mt-6'>
                   <p className='text-sm font-medium text-zinc-200 dark:text-zinc-100 md:text-base'>
                     Released on February 2023
-                  </p>
-                  <p className='text-sm font-semibold text-emerald-500 md:text-base'>
-                    Work in Progress
                   </p>
                 </div>
               </div>
@@ -77,7 +74,7 @@ function PageBook () {
             target='_blank'
             rel='noreferrer'
           >
-            <div className='duration-400 flex max-w-md cursor-pointer flex-col overflow-hidden rounded-xl border border-indigo-300/50 bg-sky-200/20 p-0 shadow-inner transition-all hover:-translate-y-4 hover:bg-sky-300/40 dark:border-zinc-700/40 dark:bg-transparent dark:shadow-zinc-800 dark:hover:bg-zinc-600/30 dark:hover:shadow-transparent'>
+            <div className='duration-400 flex max-w-md cursor-pointer flex-col overflow-hidden rounded-xl border border-indigo-300/50 bg-indigo-300/20 p-0 shadow-inner transition-all hover:-translate-y-4 hover:bg-indigo-300/40 dark:border-zinc-700/40 dark:bg-transparent dark:shadow-zinc-800 dark:hover:bg-zinc-600/30 dark:hover:shadow-transparent'>
               <div className='flex-1'>
                 <div className='relative h-72'>
                   <Image
@@ -102,7 +99,7 @@ function PageBook () {
                     Herramientas
                   </li>
                 </ul>
-                <p className='text-sm text-zinc-200 dark:text-zinc-300 sm:text-base'>
+                <p className='text-sm text-zinc-100 dark:text-zinc-300 sm:text-base'>
                   This E-Book will make it easier for you to find
                   resources, tools, documentations, job portals and
                   much more. It has over 500 resources to help you be

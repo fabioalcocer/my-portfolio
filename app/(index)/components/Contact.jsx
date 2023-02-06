@@ -25,7 +25,7 @@ function Contact () {
         <p className='mt-2 pr-5 text-sm text-zinc-200 dark:text-zinc-400 sm:text-base md:text-lg'>
           Want to work with me? Send a message to{' '}
           <a
-            className='font-semibold text-white hover:text-indigo-200 dark:hover:text-emerald-400 dark:text-zinc-200'
+            className='font-semibold text-white hover:text-indigo-200 dark:text-zinc-200 dark:hover:text-emerald-400'
             href='mailto:fabioalcocerdev@gmail.com'
           >
             fabioalcocerdev@gmail.com
@@ -89,7 +89,7 @@ function Contact () {
               <button
                 disabled={state.submitting}
                 type='submit'
-                className='mt-2 inline-flex flex-none items-center justify-center gap-2 rounded-md bg-emerald-500 py-2 px-4 text-base font-bold text-zinc-50 dark:text-zinc-100 outline-offset-2 transition hover:bg-emerald-600 active:bg-emerald-800 active:text-zinc-100/90 active:transition-none dark:bg-emerald-500 dark:hover:bg-emerald-600 dark:active:bg-emerald-800 dark:active:text-zinc-100/90'
+                className='mt-2 inline-flex flex-none items-center justify-center gap-2 rounded-md bg-emerald-500/90 py-2 px-4 text-base font-bold text-zinc-50 outline-offset-2 transition-all duration-300 hover:bg-emerald-600 active:bg-emerald-800 active:text-zinc-100/90 active:transition-none dark:bg-emerald-500 dark:text-zinc-100 dark:hover:bg-emerald-600 dark:active:bg-emerald-800 dark:active:text-zinc-100/90'
               >
                 Get in Touch
               </button>

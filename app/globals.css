@@ -34,8 +34,8 @@ a {
 }
 
 .slider {
-  --background: #1f0a2fbb;
-  border: 1px solid #50486094;
+  --background: #27272a7b;
+  border: 1px solid #ffffff26;
   position: absolute;
   cursor: pointer;
   top: 0;

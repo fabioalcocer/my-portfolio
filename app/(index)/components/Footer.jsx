@@ -12,7 +12,7 @@ function Footer () {
                   <div className='flex gap-6 text-sm font-medium text-zinc-200 dark:text-zinc-200'>
                     <Link
                       href='/about'
-                      className='transition hover:text-teal-500 dark:hover:text-teal-400'
+                      className='transition hover:text-emerald-400/90 dark:hover:text-teal-400'
                     >
                       About
                     </Link>

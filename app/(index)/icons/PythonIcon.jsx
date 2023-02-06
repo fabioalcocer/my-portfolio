@@ -10,8 +10,8 @@ function PythonIcon () {
         y2='1151.089'
         gradientTransform='matrix(.563 0 0 -.568 -29.215 707.817)'
       >
-        <stop offset='0' stop-color='#5A9FD4' />
-        <stop offset='1' stop-color='#306998' />
+        <stop offset='0' stopColor='#5A9FD4' />
+        <stop offset='1' stopColor='#306998' />
       </linearGradient>
       <linearGradient
         id='python-original-b'
@@ -22,8 +22,8 @@ function PythonIcon () {
         y2='1149.537'
         gradientTransform='matrix(.563 0 0 -.568 -29.215 707.817)'
       >
-        <stop offset='0' stop-color='#FFD43B' />
-        <stop offset='1' stop-color='#FFE873' />
+        <stop offset='0' stopColor='#FFD43B' />
+        <stop offset='1' stopColor='#FFE873' />
       </linearGradient>
       <path
         fill='url(#python-original-a)'
@@ -43,8 +43,8 @@ function PythonIcon () {
         gradientTransform='matrix(0 -.24 -1.055 0 532.979 557.576)'
         gradientUnits='userSpaceOnUse'
       >
-        <stop offset='0' stop-color='#B8B8B8' stop-opacity='.498' />
-        <stop offset='1' stop-color='#7F7F7F' stop-opacity='0' />
+        <stop offset='0' stopColor='#B8B8B8' stop-opacity='.498' />
+        <stop offset='1' stopColor='#7F7F7F' stop-opacity='0' />
       </radialGradient>
       <path
         opacity='.444'

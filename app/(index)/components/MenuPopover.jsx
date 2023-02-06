@@ -53,7 +53,7 @@ function MyPopover () {
             <ul className='-my-2 divide-y divide-zinc-100 text-base text-zinc-800 dark:divide-zinc-100/5 dark:text-zinc-300'>
               {links.map(({ label, route }) => (
                 <Popover.Button as={Link} href={route} key={label}>
-                  <li className='block py-3'>{label}</li>
+                  <li className='block py-3 border-b border-b-zinc-800/10 dark:border-b-zinc-100/5'>{label}</li>
                 </Popover.Button>
               ))}
             </ul>

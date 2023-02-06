@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 function FeaturedProject ({ project }) {
   return (
-    <div className='duration-400 flex max-w-sm cursor-pointer flex-col overflow-hidden rounded-xl border border-indigo-300/50 bg-sky-200/20 p-0 shadow-inner transition-all hover:-translate-y-4 hover:bg-sky-300/40 dark:border-zinc-700/40 dark:bg-transparent dark:shadow-zinc-800 dark:hover:bg-zinc-600/30 dark:hover:shadow-transparent'>
+    <div className='duration-400 flex max-w-sm cursor-pointer flex-col overflow-hidden rounded-xl border border-indigo-300/50 bg-indigo-300/20 p-0 shadow-inner transition-all hover:-translate-y-4 hover:bg-indigo-300/40 dark:border-zinc-700/40 dark:bg-transparent dark:shadow-zinc-800 dark:hover:bg-zinc-600/30 dark:hover:shadow-transparent'>
       <div className='flex-1'>
         <div className='relative h-72'>
           <Image
@@ -16,7 +16,7 @@ function FeaturedProject ({ project }) {
 
       <div className='flex flex-1 flex-col gap-4 p-5 pb-6'>
         <div className='flex items-center gap-3'>
-          <h2 className='flex text-xl font-semibold text-zinc-100 dark:text-zinc-100'>
+          <h2 className='flex text-xl font-semibold text-zinc-100'>
             {project?.name}
           </h2>
         </div>
@@ -32,13 +32,13 @@ function FeaturedProject ({ project }) {
           ))}
         </ul>
 
-        <p className='text-sm text-zinc-200 dark:text-zinc-300 sm:text-base'>
+        <p className='text-sm text-zinc-100 dark:text-zinc-300 sm:text-base'>
           {project?.description}
         </p>
 
         <div className='mt-8 flex h-5 items-center justify-between'>
           {project?.progress && (
-            <p className='font-semibold text-emerald-500'>
+            <p className='font-semibold text-indigo-100 dark:text-emerald-500'>
               Work in Progress
             </p>
           )}
