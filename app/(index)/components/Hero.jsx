@@ -5,7 +5,7 @@ import myLogo from '../assets/logo.png'
 
 function Hero () {
   return (
-    <div className='max-w-3xl md:px-8 lg:px-14'>
+    <div className='max-w-4xl md:px-8 lg:px-14'>
       <div className='flex flex-col gap-4 md:gap-6'>
         <div className='relative flex h-20 w-20 flex-none cursor-pointer items-center justify-center rounded-full border border-zinc-700/10 bg-indigo-400/20 shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 dark:border-zinc-700/50 dark:bg-zinc-900/40 dark:ring-0 md:h-24 md:w-24'>
           <Image
@@ -14,15 +14,12 @@ function Hero () {
             className='h-24 w-24 object-cover md:h-32 md:w-32'
           />
         </div>
-        <h1 className='text-[32px] font-bold leading-10 tracking-tighter text-zinc-100 dark:text-zinc-100 md:text-5xl md:leading-[50px]'>
-          I’m Fabio Alcocer. <br /> Software developer and content
+        <h1 className='text-[32px] font-bold leading-10 tracking-tighter text-zinc-100 dark:text-zinc-100 md:text-5xl md:leading-[54px]'>
+          I’m Fabio Alcocer. <br /> Software developer, Community builder and Content
           creator.
         </h1>
         <p className='text-base font-normal leading-7 text-zinc-100 dark:text-zinc-400 md:pr-10 md:text-lg'>
-          I currently have 1 year of experience in the IT world and I
-          finished my degree in systems analysis. My personal goal is
-          to use programming to create a product that brings many
-          people closer to fulfill their goal of becoming a developer.
+          I currently have 1 year of experience as a Front-end Developer and I’m finishing my bachelor's degree in systems analysis. My personal goal is to use programming to create a product that brings many people closer to fulfill their goal of becoming a developer.
         </p>
       </div>
       <div className='mt-6 flex gap-6 text-zinc-400'>
