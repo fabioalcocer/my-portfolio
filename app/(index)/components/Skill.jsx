@@ -1,6 +1,7 @@
 import DjangoIcon from '../icons/DjangoIcon'
 import ExpressIcon from '../icons/ExpressIcon'
 import FigmaIcon from '../icons/FigmaIcon'
+import FirebaseIcon from '../icons/FirebaseIcon'
 import GitIcon from '../icons/GitIcon'
 import MongoIcon from '../icons/MongoIcon'
 import MySqlIcon from '../icons/MySqlIcon'
@@ -21,7 +22,8 @@ const ICONS = {
   Git: <GitIcon />,
   Figma: <FigmaIcon />,
   Django: <DjangoIcon />,
-  Python: <PythonIcon />
+  Python: <PythonIcon />,
+  Firebase: <FirebaseIcon />
 }
 
 function Skill ({ skill }) {

@@ -18,7 +18,7 @@ function FeaturedProjects () {
       </h2>
 
       <div className='mt-8 flex flex-wrap justify-center gap-8 md:mt-10 md:gap-4'>
-        {projects.map((project) => (
+        {projects.slice(0, 3).map((project) => (
           <Link
             key={project.id}
             href='/projects/[id]'

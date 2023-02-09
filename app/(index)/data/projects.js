@@ -29,58 +29,114 @@ export const projects = [
   },
   {
     id: 2,
-    name: 'SNK Magic Player',
+    name: 'Real Time Chat',
     stack: [
       {
-        name: 'Next.js',
-        color: 'dark:border-slate-100/30'
+        name: 'React.js',
+        color: 'dark:border-sky-500/40'
       },
       {
-        name: 'TypeScript',
-        color: 'dark:border-blue-500/30'
+        name: 'React Router',
+        color: 'dark:border-red-600/30'
       },
       {
-        name: 'Express.js',
-        color: 'dark:border-green-500/30'
+        name: 'Sass',
+        color: 'dark:border-rose-500/30'
       },
       {
-        name: 'Tailwind',
-        color: 'dark:border-sky-400/30'
+        name: 'Firebase',
+        color: 'dark:border-yellow-400/30'
       }
     ],
     description:
-      'Developed with the MERN stack, this app allows you to store your products in a database and consume them from the Front-end, it has a cart, local storage, connection with Whatsapp API. Made for real use.',
-    img: 'https://res.cloudinary.com/daobmfotr/image/upload/v1675057530/projects/1675057527169-nize_qwppul.webp',
-    url: 'https://e-commerce-x.vercel.app/',
-    progress: true,
-    date: 'Since February 2022'
+      'Real-time chat that allows sending messages and files in real time, allows user registration and login. Developed with Firebase for the backend, React for the frontend and Sass for the styles.',
+    img: 'https://res.cloudinary.com/daobmfotr/image/upload/v1675884698/projects/1675884578417-really-nize_t68kjp.webp',
+    url: 'https://chat-real-fas.vercel.app/',
+    progress: false,
+    date: 'Since January 2023'
   },
   {
     id: 3,
-    name: 'Encrypted Notes',
+    name: 'AI app: Thoughts of gratitude',
     stack: [
       {
-        name: 'React',
-        color: 'dark:border-sky-500/30'
+        name: 'Next.js',
+        color: 'dark:border-zinc-50/40'
       },
       {
         name: 'TypeScript',
-        color: 'dark:border-blue-500/30'
+        color: 'dark:border-blue-500/40'
       },
       {
-        name: 'Crypto.js',
-        color: 'dark:border-yellow-400/30'
+        name: 'OpenAI API',
+        color: 'dark:border-emerald-400/40'
       },
       {
-        name: 'Tailwind',
-        color: 'dark:border-sky-400/30'
+        name: 'ChakraUI',
+        color: 'dark:border-teal-300/40'
       }
     ],
     description:
-      'Nize a web app that helps you create beautiful images of screenshots and code fast and with little effort. Blurred background images, gradients, easy rotation and tilt, coding fonts.',
-    img: 'https://res.cloudinary.com/daobmfotr/image/upload/v1675057530/projects/1675057527169-nize_qwppul.webp',
-    url: 'https://notes-ts-crypto.vercel.app/',
+      'This app makes use of the API offered by OpenAI to generate compliments and words of gratitude to people, places, pets or things. Developed with Next.js, TypeScript, ChakraUI and Formik.',
+    img: 'https://res.cloudinary.com/daobmfotr/image/upload/v1675902396/projects/1675902394145-godly-nize_iqrxvr.webp',
+    url: 'https://gpt-api-app-thoughts.vercel.app/',
     progress: false,
-    date: 'Since July 2022'
+    date: 'Since February 2023'
+  },
+  {
+    id: 4,
+    name: 'Youtube Tutorials Gallery ',
+    stack: [
+      {
+        name: 'Next.js',
+        color: 'dark:border-zinc-50/40'
+      },
+      {
+        name: 'TypeScript',
+        color: 'dark:border-blue-500/40'
+      },
+      {
+        name: 'Tailwind',
+        color: 'dark:border-sky-400/40'
+      },
+      {
+        name: 'Youtube API',
+        color: 'dark:border-red-500/40'
+      }
+    ],
+    description:
+      'This app allows you to create a list of videos using the ID provided by YT and store them in the LocalStorage. It also allows you to open a modal and preview the selected video. Developed with Next13, TypeScript and Tailwind. ',
+    img: 'https://res.cloudinary.com/daobmfotr/image/upload/v1675917349/projects/1675917251095-mega-nize_nudmek.webp',
+    url: 'https://youtube-tutorials-gallery.vercel.app/',
+    progress: true,
+    date: 'February 2023'
+  },
+  {
+    id: 5,
+    name: 'Encrypted Note Editor ',
+    stack: [
+      {
+        name: 'Next.js',
+        color: 'dark:border-zinc-50/40'
+      },
+      {
+        name: 'TypeScript',
+        color: 'dark:border-blue-500/40'
+      },
+      {
+        name: 'Crypto.js',
+        color: 'dark:border-yellow-400/40'
+      },
+      {
+        name: 'TipTap',
+        color: 'dark:border-purple-300/40'
+      }
+    ],
+    description:
+      'Notes application, in which the user has a text editor built with TipTap, with which he can create and store notes. Both the credentials and the user’s note information are encrypted using crypto.js. Debouncing was used to improve the performance of the application.',
+    img: 'https://res.cloudinary.com/daobmfotr/image/upload/v1675904219/projects/1675904091849-epic-nize_hxupps.webp',
+    url: 'https://notes-ts-crypto.vercel.app/',
+    progress: true,
+    date: 'Since January 2023'
   }
 ]

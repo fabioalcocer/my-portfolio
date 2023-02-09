@@ -85,5 +85,13 @@ export const skills = [
       'Django is a high-level Python web framework that encourages rapid development and clean, pragmatic design.',
     color: 'bg-emerald-500',
     link: 'https://www.djangoproject.com/'
+  },
+  {
+    id: 21,
+    name: 'Firebase',
+    description:
+      'Firebase provides tools to grow your app and business & global enterprises. Get your app managed backend infrastructure.',
+    color: 'bg-yellow-400',
+    link: 'https://firebase.google.com/'
   }
 ]
