@@ -24,7 +24,7 @@ function FeaturedProject ({ project }) {
         <ul className='flex gap-3 text-xs text-zinc-200 dark:text-zinc-200 md:text-[13px]'>
           {project?.stack.map((technology) => (
             <li
-              className={`max-h-7 truncate rounded-sm border-2 border-zinc-100/40 ${technology.color} p-1 font-semibold`}
+              className={`truncate rounded-sm border-2 border-zinc-100/40 ${technology.color} p-1 font-semibold`}
               key={technology.name}
             >
               {technology.name}
