@@ -15,11 +15,15 @@ function Hero () {
           />
         </div>
         <h1 className='text-[32px] font-bold leading-10 tracking-tighter text-zinc-100 dark:text-zinc-100 md:text-5xl md:leading-[54px]'>
-          I’m Fabio Alcocer. <br /> Software developer, Community builder and Content
-          creator.
+          I’m Fabio Alcocer. <br /> Software developer, Community
+          builder and Content creator.
         </h1>
         <p className='text-base font-normal leading-7 text-zinc-100 dark:text-zinc-400 md:pr-10 md:text-lg'>
-          I currently have 1 year of experience as a Front-end Developer and I’m finishing my bachelor's degree in systems analysis. My personal goal is to use programming to create a product that brings many people closer to fulfill their goal of becoming a developer.
+          I currently have 1 year of experience as a Front-end
+          Developer and I’m finishing my bachelor's degree in systems
+          analysis. My personal goal is to use programming to create a
+          product that brings many people closer to fulfill their goal
+          of becoming a developer.
         </p>
       </div>
       <div className='mt-6 flex gap-6 text-zinc-400'>
