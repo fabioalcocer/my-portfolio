@@ -108,7 +108,7 @@ export const projects = [
       'This app allows you to create a list of videos using the ID provided by YT and store them in the LocalStorage. It also allows you to open a modal and preview the selected video. Developed with Next13, TypeScript and Tailwind. ',
     img: 'https://res.cloudinary.com/daobmfotr/image/upload/v1675917349/projects/1675917251095-mega-nize_nudmek.webp',
     url: 'https://youtube-tutorials-gallery.vercel.app/',
-    progress: true,
+    progress: false,
     date: 'February 2023'
   },
   {
@@ -136,6 +136,34 @@ export const projects = [
       'Notes application, in which the user has a text editor built with TipTap, with which he can create and store notes. Both the credentials and the user’s note information are encrypted using crypto.js. Debouncing was used to improve the performance of the application.',
     img: 'https://res.cloudinary.com/daobmfotr/image/upload/v1675904219/projects/1675904091849-epic-nize_hxupps.webp',
     url: 'https://notes-ts-crypto.vercel.app/',
+    progress: true,
+    date: 'Since January 2023'
+  },
+  {
+    id: 6,
+    name: 'My Personal Portfolio',
+    stack: [
+      {
+        name: 'Next.js',
+        color: 'dark:border-zinc-50/40'
+      },
+      {
+        name: 'Headless UI',
+        color: 'dark:border-cyan-400/40'
+      },
+      {
+        name: 'Framer Motion',
+        color: 'dark:border-rose-400/40'
+      },
+      {
+        name: 'Tailwind',
+        color: 'dark:border-sky-400/40'
+      }
+    ],
+    description:
+      'My personal website designed and developed by me. Here you can learn more about me, my experience, projects and skills. You can also see the two E-Books created by me for the community, which were a success in sales.',
+    img: 'https://res.cloudinary.com/daobmfotr/image/upload/v1675919501/projects/screenshot_wm6wgc.webp',
+    url: 'http://fabioalcocer.vercel.app/',
     progress: true,
     date: 'Since January 2023'
   }
