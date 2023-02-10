@@ -48,15 +48,20 @@ function Project ({ params }) {
             Go Back
           </Link>
 
-          <a className='inline-flex cursor-pointer items-center justify-center gap-2 rounded-md bg-emerald-500 py-2 px-3 text-sm font-semibold text-zinc-100 outline-offset-2 transition hover:bg-emerald-600 active:bg-emerald-800 active:text-zinc-100/70 active:transition-none dark:bg-emerald-500 dark:hover:bg-emerald-600 dark:active:bg-zinc-700 dark:active:text-zinc-100/70 md:py-3 lg:text-[15px]' href='https://e-commerce-x.vercel.app/' target='_blank' rel='noreferrer'>
+          <a
+            className='inline-flex cursor-pointer items-center justify-center gap-2 rounded-md bg-emerald-500 py-2 px-3 text-sm font-semibold text-zinc-100 outline-offset-2 transition hover:bg-emerald-600 active:bg-emerald-800 active:text-zinc-100/70 active:transition-none dark:bg-emerald-500 dark:hover:bg-emerald-600 dark:active:bg-zinc-700 dark:active:text-zinc-100/70 md:py-3 lg:text-[15px]'
+            href={project?.url}
+            target='_blank'
+            rel='noreferrer'
+          >
             <IoMdOpen className='mr-1 text-xl' />
             Open App
           </a>
         </div>
       </div>
-      <div className='relative mt-1 h-72 sm:h-80 md:mt-10 md:h-96 lg:h-[80vh] rounded-md overflow-hidden'>
+      <div className='relative mt-1 h-72 overflow-hidden rounded-md sm:h-80 md:mt-10 md:h-96 lg:h-[80vh]'>
         <Image
-          className='w-full object-contain rounded-md'
+          className='w-full rounded-md object-contain'
           fill
           src={project?.img}
           alt='Ecommerce project screenshoot'
