@@ -7,7 +7,7 @@ function SocialSideBar () {
       <ul className='flex flex-col gap-4' role='list'>
         <li className='flex items-center'>
           <a
-            href=''
+            href='https://twitter.com/fabioalcocer17'
             className='group flex text-sm font-medium text-zinc-200 transition hover:text-teal-500 dark:text-zinc-200'
           >
             <BsTwitter className='h-5 w-5 flex-none fill-zinc-200 transition group-hover:fill-teal-500 dark:fill-zinc-500' />
@@ -16,7 +16,7 @@ function SocialSideBar () {
         </li>
         <li className='flex items-center'>
           <a
-            href=''
+            href='https://github.com/fabioAlcocer'
             className='group flex text-sm font-medium text-zinc-200 transition hover:text-teal-500 dark:text-zinc-200 dark:hover:text-teal-500'
           >
             <BsGithub className='h-5 w-5 flex-none fill-zinc-200 transition group-hover:fill-teal-500 dark:fill-zinc-500' />
@@ -25,7 +25,7 @@ function SocialSideBar () {
         </li>
         <li className='flex items-center'>
           <a
-            href=''
+            href='https://www.linkedin.com/in/fabio-alcocer/'
             className='group flex text-sm font-medium text-zinc-200 transition hover:text-teal-500 dark:text-zinc-200 dark:hover:text-teal-500'
           >
             <BsLinkedin className='h-5 w-5 flex-none fill-zinc-200 transition group-hover:fill-teal-500 dark:fill-zinc-500' />

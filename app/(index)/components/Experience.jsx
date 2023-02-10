@@ -61,7 +61,7 @@ function Experience () {
           <div className='flex items-center gap-3'>
             <SuitcaseIcon />
             <h2 className='flex text-lg font-semibold text-zinc-100 dark:text-zinc-100 md:text-xl'>
-              Responsabilities
+              Responsibilities
             </h2>
           </div>
           <div className='mt-3 flex flex-col gap-4'>
