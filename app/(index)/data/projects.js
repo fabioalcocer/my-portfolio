@@ -141,6 +141,34 @@ export const projects = [
   },
   {
     id: 6,
+    name: 'SNK Moments Fullstack',
+    stack: [
+      {
+        name: 'Next.js',
+        color: 'dark:border-zinc-50/40'
+      },
+      {
+        name: 'TypeScript',
+        color: 'dark:border-blue-500/40'
+      },
+      {
+        name: 'Express.js',
+        color: 'dark:border-green-400/40'
+      },
+      {
+        name: 'Tailwind',
+        color: 'dark:border-sky-400/40'
+      }
+    ],
+    description:
+      'Fullstack web application that allows you to find and enjoy the most exciting and significant moments of the characters of the anime Shingeki no Kyojin. You can select a specific character and see his or her highlights throughout the series.',
+    img: 'https://res.cloudinary.com/daobmfotr/image/upload/v1676689662/projects/1676689569046-epic-nize_idsszz.webp',
+    url: 'https://snk-moments.vercel.app/',
+    progress: false,
+    date: 'March 2023'
+  },
+  {
+    id: 7,
     name: 'My Personal Portfolio',
     stack: [
       {

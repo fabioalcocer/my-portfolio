@@ -61,7 +61,7 @@ function PageBook () {
                   learning path, to start applying for job offers.
                 </p>
                 <div className='mt-4 flex h-5 items-center justify-between md:mt-6'>
-                  <p className='text-sm font-medium text-zinc-200 dark:text-zinc-100 md:text-base'>
+                  <p className='text-sm font-semibold text-zinc-200 dark:text-emerald-500 md:text-base'>
                     Released on February 2023
                   </p>
                 </div>
@@ -106,7 +106,7 @@ function PageBook () {
                   more productive and save time.
                 </p>
                 <div className='mt-4 flex h-5 items-center justify-between md:mt-6'>
-                  <p className='text-sm font-medium text-zinc-200 dark:text-zinc-100 md:text-base'>
+                  <p className='text-sm font-semibold text-zinc-200 dark:text-emerald-500 md:text-base'>
                     Released on January 2022
                   </p>
                 </div>
