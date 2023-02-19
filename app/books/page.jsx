@@ -24,7 +24,7 @@ function PageBook () {
         </div>
         <div className='mx-auto flex flex-col items-center gap-10 md:justify-center lg:flex-row lg:px-16'>
           <a
-            href='https://fabioalcocer.gumroad.com/'
+            href='https://fabioalcocer.gumroad.com/l/de-cero-al-exito'
             target='_blank'
             rel='noreferrer'
           >
