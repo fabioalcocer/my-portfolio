@@ -15,14 +15,6 @@ export const skills = [
     link: 'https://beta.reactjs.org/'
   },
   {
-    id: 12,
-    name: 'Tailwind',
-    description:
-      'A utility-first CSS framework for rapidly building custom designs.',
-    color: 'bg-emerald-400',
-    link: 'https://tailwindcss.com/docs/installation'
-  },
-  {
     id: 13,
     name: 'Express.js',
     description:
@@ -37,6 +29,14 @@ export const skills = [
       'TypeScript is a strongly typed programming language that builds on JavaScript, giving you better tooling at any scale.',
     color: 'bg-blue-600',
     link: 'https://www.typescriptlang.org/docs/handbook/jsx.html'
+  },
+  {
+    id: 12,
+    name: 'Tailwind',
+    description:
+      'A utility-first CSS framework for rapidly building custom designs.',
+    color: 'bg-emerald-400',
+    link: 'https://tailwindcss.com/docs/installation'
   },
   {
     id: 15,
@@ -63,14 +63,6 @@ export const skills = [
     link: 'https://git-scm.com/doc'
   },
   {
-    id: 18,
-    name: 'Figma',
-    description:
-      'Figma is a vector graphics editor and prototyping tool, primarily web-based.',
-    color: 'bg-purple-500',
-    link: 'https://www.figma.com/'
-  },
-  {
     id: 19,
     name: 'Python',
     description:
@@ -93,5 +85,13 @@ export const skills = [
       'Firebase provides tools to grow your app and business & global enterprises. Get your app managed backend infrastructure.',
     color: 'bg-yellow-400',
     link: 'https://firebase.google.com/'
+  },
+  {
+    id: 18,
+    name: 'Figma',
+    description:
+      'Figma is a vector graphics editor and prototyping tool, primarily web-based.',
+    color: 'bg-purple-500',
+    link: 'https://www.figma.com/'
   }
 ]
