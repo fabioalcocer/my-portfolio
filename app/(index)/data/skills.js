@@ -31,6 +31,14 @@ export const skills = [
     link: 'https://www.typescriptlang.org/docs/handbook/jsx.html'
   },
   {
+    id: 22,
+    name: 'React Query',
+    description:
+      'Fetch, cache and update data in your React and React Native applications all without touching any "global state".',
+    color: 'bg-red-500',
+    link: 'https://react-query-v3.tanstack.com/'
+  },
+  {
     id: 12,
     name: 'Tailwind',
     description:

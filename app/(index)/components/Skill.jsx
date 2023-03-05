@@ -7,12 +7,14 @@ import MongoIcon from '../icons/MongoIcon'
 import MySqlIcon from '../icons/MySqlIcon'
 import NextjsIcon from '../icons/NextjsIcon'
 import PythonIcon from '../icons/PythonIcon'
+import QueryIcon from '../icons/QueryIcon'
 import ReactIcon from '../icons/ReactIcon'
 import TailwindIcon from '../icons/TailwindIcon'
 import TypeScriptIcon from '../icons/TypeScriptIcon'
 
 const ICONS = {
   'Next.js': <NextjsIcon />,
+  'React Query': <QueryIcon />,
   'Express.js': <ExpressIcon />,
   React: <ReactIcon />,
   Tailwind: <TailwindIcon />,
