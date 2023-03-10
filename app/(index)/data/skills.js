@@ -69,7 +69,10 @@ export const skills = [
       'Git is a version control system designed to handle everything from small to very large projects with speed and efficiency.',
     color: 'bg-orange-500',
     link: 'https://git-scm.com/doc'
-  },
+  }
+]
+
+export const defaultSkills = [
   {
     id: 19,
     name: 'Python',
@@ -95,11 +98,27 @@ export const skills = [
     link: 'https://firebase.google.com/'
   },
   {
-    id: 18,
-    name: 'Figma',
+    id: 23,
+    name: 'Java',
     description:
-      'Figma is a vector graphics editor and prototyping tool, primarily web-based.',
-    color: 'bg-purple-500',
-    link: 'https://www.figma.com/'
+      'Java is a programming language. It reduces costs, shortens development times and improves application services.',
+    color: 'bg-orange-500',
+    link: 'https://www.java.com/'
+  },
+  {
+    id: 24,
+    name: 'Redux',
+    description:
+      'Redux is a predictable JavaScript application state container. It helps you write applications that behave consistently.',
+    color: 'bg-violet-500',
+    link: 'https://redux.js.org/'
+  },
+  {
+    id: 25,
+    name: 'Vitest',
+    description:
+      ' Vite Powered. Reuse Vite config, transformers, resolvers, and plugins - consistent across your app and tests.',
+    color: 'bg-green-400',
+    link: 'https://vitest.dev/'
   }
 ]

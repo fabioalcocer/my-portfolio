@@ -2,7 +2,6 @@ import Image from 'next/image'
 import { BsGithub, BsLinkedin, BsTwitter } from 'react-icons/bs'
 import { IoMdMail } from 'react-icons/io'
 import myLogo from '../assets/logo.png'
-import ContainerAtom from './ContainerAtom'
 
 function Hero () {
   return (
@@ -28,11 +27,7 @@ function Hero () {
             fulfill their goal of becoming a developer.
           </p>
         </div>
-        <div className='xl:opacity-100 absolute right-0 -top-28 -z-10 h-[728px] min-w-[350px] opacity-10 xl:z-10'>
-          <ContainerAtom />
-        </div>
       </div>
-
       <div className='mt-6 flex gap-6 text-zinc-400'>
         <a
           href='https://twitter.com/fabioalcocer17'

@@ -25,7 +25,7 @@
     "react-dom": "18.2.0",
     "react-icons": "^4.7.1",
     "standard": "^17.0.0",
-    "three": "^0.150.1"
+    "three": "0.150.1"
   },
   "devDependencies": {
     "@types/node": "18.15.0",

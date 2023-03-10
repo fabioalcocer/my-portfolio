@@ -1,37 +1,14 @@
-import DjangoIcon from '../icons/DjangoIcon'
-import ExpressIcon from '../icons/ExpressIcon'
-import FigmaIcon from '../icons/FigmaIcon'
-import FirebaseIcon from '../icons/FirebaseIcon'
-import GitIcon from '../icons/GitIcon'
-import MongoIcon from '../icons/MongoIcon'
-import MySqlIcon from '../icons/MySqlIcon'
-import NextjsIcon from '../icons/NextjsIcon'
-import PythonIcon from '../icons/PythonIcon'
-import QueryIcon from '../icons/QueryIcon'
-import ReactIcon from '../icons/ReactIcon'
-import TailwindIcon from '../icons/TailwindIcon'
-import TypeScriptIcon from '../icons/TypeScriptIcon'
-
-const ICONS = {
-  'Next.js': <NextjsIcon />,
-  'React Query': <QueryIcon />,
-  'Express.js': <ExpressIcon />,
-  React: <ReactIcon />,
-  Tailwind: <TailwindIcon />,
-  TypeScript: <TypeScriptIcon />,
-  MongoDB: <MongoIcon />,
-  MySQL: <MySqlIcon />,
-  Git: <GitIcon />,
-  Figma: <FigmaIcon />,
-  Django: <DjangoIcon />,
-  Python: <PythonIcon />,
-  Firebase: <FirebaseIcon />
-}
+import { ICONS } from '../icons/IndexIcons'
 
 function Skill ({ skill }) {
   return (
-    <a href={skill.link} target='_blank' rel='noreferrer'>
-      <div className='duration-400 relative flex md:min-h-[286px] max-w-[346px] cursor-pointer flex-col items-center gap-4 rounded-xl border border-indigo-300/50 p-6 shadow-inner transition-all hover:-translate-y-2 hover:bg-indigo-300/50 dark:border-zinc-700/40 dark:shadow-zinc-700/40 dark:hover:bg-zinc-600/30 dark:hover:shadow-transparent'>
+    <a
+      href={skill.link}
+      target='_blank'
+      rel='noreferrer'
+      title={skill.name}
+    >
+      <div className='duration-400 relative flex max-w-[346px] cursor-pointer flex-col items-center gap-4 rounded-xl border border-indigo-300/50 p-6 shadow-inner transition-all hover:-translate-y-2 hover:bg-indigo-300/50 dark:border-zinc-700/40 dark:shadow-zinc-700/40 dark:hover:bg-zinc-600/30 dark:hover:shadow-transparent md:min-h-[286px]'>
         <span
           className={`absolute top-4 left-4 rounded-full ${skill.color} p-[6px]`}
         />

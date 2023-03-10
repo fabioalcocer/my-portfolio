@@ -1,7 +1,8 @@
 'use client'
-import Skill from './Skill'
-import { skills } from '../data/skills'
 import { motion } from 'framer-motion'
+import { skills, defaultSkills } from '../data/skills'
+import Skill from './Skill'
+import DefaultSkill from './DefaultSkill'
 
 function SkillsBoard () {
   return (
@@ -19,6 +20,11 @@ function SkillsBoard () {
       <div className='mt-8 flex flex-wrap justify-center gap-5 md:mt-10'>
         {skills.map((skill) => (
           <Skill skill={skill} key={skill.id} />
+        ))}
+      </div>
+      <div className='mt-8 flex max-w-5xl mx-auto flex-wrap justify-center gap-4 md:gap-5 md:mt-10'>
+        {defaultSkills.map((skill) => (
+          <DefaultSkill skill={skill} key={skill.id} />
         ))}
       </div>
     </motion.div>
