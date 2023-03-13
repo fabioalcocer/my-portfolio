@@ -1,6 +1,11 @@
 import Image from 'next/image'
+import { Project } from 'app/types'
 
-function FeaturedProject ({ project }) {
+type Props = {
+  project: Project
+}
+
+function FeaturedProject ({ project }: Props) {
   return (
     <div className='duration-400 flex max-w-sm cursor-pointer flex-col overflow-hidden rounded-xl border border-indigo-300/50 bg-indigo-300/20 p-0 shadow-inner transition-all hover:-translate-y-4 hover:bg-indigo-300/40 dark:border-zinc-700/40 dark:bg-transparent dark:shadow-zinc-800 dark:hover:bg-zinc-600/30 dark:hover:shadow-transparent'>
       <div className='flex-1'>

@@ -1,11 +1,16 @@
 import './globals.css'
+import React from 'react'
 import { Inter } from '@next/font/google'
 import Footer from './(index)/components/Footer'
 import Header from './(index)/components/Header'
 
 const inter = Inter({ subsets: ['latin'] })
 
-export default function RootLayout ({ children }) {
+type Props = {
+  children: React.ReactNode
+}
+
+export default function RootLayout ({ children }: Props) {
   return (
     <html lang='en'>
       <head />

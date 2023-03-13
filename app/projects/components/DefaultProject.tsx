@@ -1,7 +1,12 @@
+import { Project } from 'app/types'
 import Image from 'next/image'
 import Link from 'next/link'
 
-function DefaultProject ({ project }) {
+type Props = {
+  project: Project
+}
+
+function DefaultProject ({ project }: Props) {
   return (
     <div className='duration-400 relative flex max-w-lg flex-col overflow-hidden rounded-xl border border-indigo-300/30 p-0 shadow-inner transition-all dark:border-zinc-700/40 dark:shadow-zinc-700/40 dark:hover:shadow-transparent lg:w-full lg:max-w-max lg:flex-row-reverse lg:items-center'>
       <div className='flex-1'>
@@ -22,7 +27,7 @@ function DefaultProject ({ project }) {
       </div>
 
       <div className='flex flex-1 flex-col gap-4 p-5 py-7'>
-        <ul className='flex gap-3 text-xs text-zinc-200 dark:text-zinc-200 lg:mt-8 lg:text-sm items-center'>
+        <ul className='flex items-center gap-3 text-xs text-zinc-200 dark:text-zinc-200 lg:mt-8 lg:text-sm'>
           {project.stack.map((technology) => (
             <li
               className={`truncate rounded-sm border-2 border-zinc-100/40 ${technology.color} p-1 font-semibold`}
@@ -47,7 +52,12 @@ function DefaultProject ({ project }) {
         </p>
 
         <div className='mt-2 mb-1 flex items-center gap-3 lg:mt-9 lg:max-w-xs'>
-          <a href={project.url} target='_blank' className='inline-flex flex-1 cursor-pointer items-center justify-center gap-2 rounded-md bg-emerald-500 py-2 px-3 text-sm font-semibold text-zinc-100 outline-offset-2 transition hover:bg-emerald-600 active:bg-emerald-800 active:text-zinc-100/70 active:transition-none dark:bg-emerald-500 dark:hover:bg-emerald-600 dark:active:bg-zinc-700 dark:active:text-zinc-100/70 lg:text-base' rel='noreferrer'>
+          <a
+            href={project.url}
+            target='_blank'
+            className='inline-flex flex-1 cursor-pointer items-center justify-center gap-2 rounded-md bg-emerald-500 py-2 px-3 text-sm font-semibold text-zinc-100 outline-offset-2 transition hover:bg-emerald-600 active:bg-emerald-800 active:text-zinc-100/70 active:transition-none dark:bg-emerald-500 dark:hover:bg-emerald-600 dark:active:bg-zinc-700 dark:active:text-zinc-100/70 lg:text-base'
+            rel='noreferrer'
+          >
             Open App
           </a>
 

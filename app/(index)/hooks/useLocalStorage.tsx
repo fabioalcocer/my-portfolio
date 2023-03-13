@@ -1,6 +1,6 @@
 import { useState } from 'react'
 
-function useLocalStorage (key, initialValue) {
+function useLocalStorage (key: string, initialValue: unknown) {
   // State to store our value
   // Pass initial state function to useState so logic is only executed once
   const [storedValue, setStoredValue] = useState(() => {
@@ -20,7 +20,7 @@ function useLocalStorage (key, initialValue) {
   })
   // Return a wrapped version of useState's setter function that ...
   // ... persists the new value to localStorage.
-  const setValue = (value) => {
+  const setValue = (value: any) => {
     try {
       // Allow value to be a function so we have same API as useState
       const valueToStore =

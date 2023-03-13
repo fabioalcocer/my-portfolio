@@ -1,7 +1,12 @@
 'use client'
 import { motion } from 'framer-motion'
+import React from 'react'
 
-function Container ({ children }) {
+type Props = {
+  children: React.ReactNode
+}
+
+function Container ({ children }: Props) {
   return (
     <motion.main
       layout

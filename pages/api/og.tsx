@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import { ImageResponse } from '@vercel/og'
 
 export const config = {
@@ -19,6 +20,7 @@ export default function () {
         }}
       >
         <img
+          alt='og image'
           width='100%'
           src='https://res.cloudinary.com/daobmfotr/image/upload/v1675451808/preview_ljqwef.png'
           style={{

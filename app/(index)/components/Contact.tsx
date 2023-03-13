@@ -79,7 +79,6 @@ function Contact () {
                 </label>
                 <textarea
                   id='message'
-                  type='text'
                   name='message'
                   placeholder='How i can work with you?'
                   required

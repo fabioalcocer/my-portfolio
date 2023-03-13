@@ -1,4 +1,6 @@
-export const projects = [
+import type { Project } from 'app/types'
+
+export const projects: Project[] = [
   {
     id: 1,
     name: 'E-Commerce Fullstack',

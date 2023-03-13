@@ -4,10 +4,13 @@ import useLocalStorage from '../hooks/useLocalStorage'
 
 function ThemeHandler () {
   const [theme, setTheme] = useLocalStorage('theme', 'dark')
-  const [checkedTheme, setCheckedTheme] = useLocalStorage('checkedTheme', false)
+  const [checkedTheme, setCheckedTheme] = useLocalStorage(
+    'checkedTheme',
+    false
+  )
 
   useEffect(() => {
-    document.querySelector('body').className = theme
+    ;(document.querySelector('body') as HTMLElement).className = theme
   }, [theme])
 
   const handleTheme = () => {
@@ -17,7 +20,11 @@ function ThemeHandler () {
 
   return (
     <label className='switch'>
-      <input type='checkbox' onClick={handleTheme} defaultChecked={checkedTheme} />
+      <input
+        type='checkbox'
+        onClick={handleTheme}
+        defaultChecked={checkedTheme}
+      />
       <span className='slider' />
     </label>
   )

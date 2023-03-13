@@ -4,7 +4,13 @@ import Image from 'next/image'
 import { projects } from '../../(index)/data/projects'
 import { IoMdOpen, IoMdReturnLeft } from 'react-icons/io'
 
-function Project ({ params }) {
+type Props = {
+  params: {
+    id: string
+  }
+}
+
+function Project ({ params }: Props) {
   const { id } = params
   const project = projects.find((p) => p.id === parseInt(id))
 
@@ -63,7 +69,7 @@ function Project ({ params }) {
         <Image
           className='w-full rounded-md object-contain'
           fill
-          src={project?.img}
+          src={project?.img as string}
           alt='Ecommerce project screenshoot'
         />
       </div>

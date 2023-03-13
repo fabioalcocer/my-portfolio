@@ -1,4 +1,6 @@
-export const skills = [
+import type { Skill } from 'app/types'
+
+export const skills: Skill[] = [
   {
     id: 10,
     name: 'Next.js',

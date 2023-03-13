@@ -120,7 +120,7 @@ function PageContact () {
                   className='group flex text-sm font-medium text-zinc-200 transition hover:text-teal-400 dark:text-zinc-200 dark:hover:text-teal-500 md:text-base'
                 >
                   <BsTwitter className='h-5 w-5 flex-none fill-zinc-200 transition group-hover:fill-teal-400 dark:fill-zinc-400 md:h-6 md:w-6' />
-                  <span class='ml-4'>Follow on Twitter</span>
+                  <span className='ml-4'>Follow on Twitter</span>
                 </a>
               </li>
               <li className='flex items-center'>
@@ -129,7 +129,7 @@ function PageContact () {
                   className='group flex text-sm font-medium text-zinc-200 transition hover:text-teal-400 dark:text-zinc-200 dark:hover:text-teal-500 md:text-base'
                 >
                   <BsGithub className='h-5 w-5 flex-none fill-zinc-200 transition group-hover:fill-teal-400 dark:fill-zinc-400 md:h-6 md:w-6' />
-                  <span class='ml-4'>Follow on GitHub</span>
+                  <span className='ml-4'>Follow on GitHub</span>
                 </a>
               </li>
               <li className='flex items-center'>
@@ -138,7 +138,7 @@ function PageContact () {
                   className='group flex text-sm font-medium text-zinc-200 transition hover:text-teal-400 dark:text-zinc-200 dark:hover:text-teal-500 md:text-base'
                 >
                   <BsLinkedin className='h-5 w-5 flex-none fill-zinc-200 transition group-hover:fill-teal-400 dark:fill-zinc-400 md:h-6 md:w-6' />
-                  <span class='ml-4'>Follow on LinkedIn</span>
+                  <span className='ml-4'>Follow on LinkedIn</span>
                 </a>
               </li>
               <li className='flex items-center'>
@@ -147,7 +147,9 @@ function PageContact () {
                   className='group flex text-sm font-medium text-zinc-200 transition hover:text-teal-400 dark:text-zinc-200 dark:hover:text-teal-500 md:text-base'
                 >
                   <IoMdMail className='h-5 w-5 flex-none fill-zinc-200 transition group-hover:fill-teal-400 dark:fill-zinc-400 md:h-6 md:w-6' />
-                  <span class='ml-4'>fabioalcocerdev@gmail.com</span>
+                  <span className='ml-4'>
+                    fabioalcocerdev@gmail.com
+                  </span>
                 </a>
               </li>
             </ul>

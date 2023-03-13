@@ -13,7 +13,7 @@ function SocialSideBar () {
             rel='noreferrer'
           >
             <BsTwitter className='h-5 w-5 flex-none fill-zinc-200 transition group-hover:fill-teal-500 dark:fill-zinc-500' />
-            <span class='ml-4'>Follow on Twitter</span>
+            <span className='ml-4'>Follow on Twitter</span>
           </a>
         </li>
         <li className='flex items-center'>
@@ -24,7 +24,7 @@ function SocialSideBar () {
             rel='noreferrer'
           >
             <BsGithub className='h-5 w-5 flex-none fill-zinc-200 transition group-hover:fill-teal-500 dark:fill-zinc-500' />
-            <span class='ml-4'>Follow on GitHub</span>
+            <span className='ml-4'>Follow on GitHub</span>
           </a>
         </li>
         <li className='flex items-center'>
@@ -35,7 +35,7 @@ function SocialSideBar () {
             rel='noreferrer'
           >
             <BsLinkedin className='h-5 w-5 flex-none fill-zinc-200 transition group-hover:fill-teal-500 dark:fill-zinc-500' />
-            <span class='ml-4'>Follow on LinkedIn</span>
+            <span className='ml-4'>Follow on LinkedIn</span>
           </a>
         </li>
         <li className='flex items-center'>
@@ -46,7 +46,7 @@ function SocialSideBar () {
             rel='noreferrer'
           >
             <IoMdMail className='h-5 w-5 flex-none fill-zinc-200 transition group-hover:fill-teal-500 dark:fill-zinc-500' />
-            <span class='ml-4'>fabioalcocerdev@gmail.com</span>
+            <span className='ml-4'>fabioalcocerdev@gmail.com</span>
           </a>
         </li>
       </ul>
