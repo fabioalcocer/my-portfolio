@@ -1,8 +1,8 @@
-import Container from 'app/(index)/components/Container'
-import DefaultProject from 'app/projects/components/DefaultProject'
+import Container from '@/components/Container'
+import DefaultProject from './components/DefaultProject'
 import Link from 'next/link'
 import { IoMdReturnLeft } from 'react-icons/io'
-import { projects } from '../(index)/data/projects'
+import { projects } from '@/data/projects'
 
 export default function PageProjects () {
   return (

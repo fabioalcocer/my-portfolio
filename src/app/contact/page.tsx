@@ -1,11 +1,11 @@
 'use client'
-import Container from 'app/(index)/components/Container'
+import Container from '@/components/Container'
 import Link from 'next/link'
-import ContactIcon from 'app/(index)/icons/ContactIcon'
+import ContactIcon from '@/icons/ContactIcon'
 import { IoMdReturnLeft, IoMdMail } from 'react-icons/io'
 import { BsTwitter, BsGithub, BsLinkedin } from 'react-icons/bs'
 import { useForm } from '@formspree/react'
-import MailSuccess from 'app/(index)/components/MailSuccess'
+import MailSuccess from '@/components/MailSuccess'
 
 function PageContact () {
   const [state, handleSubmit] = useForm('xbjedgoy')
@@ -95,7 +95,6 @@ function PageContact () {
                     </label>
                     <textarea
                       id='message'
-                      type='text'
                       name='message'
                       placeholder='How i can work with you?'
                       required

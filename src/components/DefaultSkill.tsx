@@ -1,6 +1,11 @@
 import { ICONS } from '../icons/IndexIcons'
+import type { Skill } from '@/app/types'
 
-function DefaultSkill ({ skill }) {
+type Props = {
+  skill: Skill
+}
+
+function DefaultSkill ({ skill }: Props) {
   return (
     <a
       href={skill.link}

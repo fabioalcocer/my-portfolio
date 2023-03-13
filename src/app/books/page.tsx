@@ -1,9 +1,9 @@
-import Container from 'app/(index)/components/Container'
+import Container from '@/components/Container'
 import Image from 'next/image'
 import Link from 'next/link'
 import { IoMdReturnLeft } from 'react-icons/io'
-import Book2 from '../(index)/assets/book2.webp'
-import Book from '../(index)/assets/book.webp'
+import Book2 from '@/assets/book2.webp'
+import Book from '@/assets/book.webp'
 
 function PageBook () {
   return (

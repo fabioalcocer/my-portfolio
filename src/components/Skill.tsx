@@ -1,6 +1,11 @@
+import { Skill } from '@/app/types'
 import { ICONS } from '../icons/IndexIcons'
 
-function Skill ({ skill }) {
+type Props = {
+  skill: Skill
+}
+
+function SkillIcon ({ skill }: Props) {
   return (
     <a
       href={skill.link}
@@ -25,4 +30,4 @@ function Skill ({ skill }) {
   )
 }
 
-export default Skill
+export default SkillIcon

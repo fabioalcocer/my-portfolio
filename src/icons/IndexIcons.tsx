@@ -1,3 +1,4 @@
+import { ReactNode } from 'react'
 import {
   DjangoIcon,
   ExpressIcon,
@@ -17,7 +18,7 @@ import {
   VitestIcon
 } from './SkillsIcons'
 
-export const ICONS = {
+export const ICONS: Record<string, ReactNode> = {
   'Next.js': <NextjsIcon />,
   'React Query': <QueryIcon />,
   'Express.js': <ExpressIcon />,

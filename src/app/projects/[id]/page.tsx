@@ -1,9 +1,8 @@
-import Container from '@/app/(index)/components/Container'
+import Container from '@/components/Container'
 import Link from 'next/link'
 import Image from 'next/image'
-import { projects } from '../../(index)/data/projects'
+import { projects } from '@/data/projects'
 import { IoMdOpen, IoMdReturnLeft } from 'react-icons/io'
-import { Project } from '@/app/types'
 
 type Props = {
   params: {
@@ -13,7 +12,7 @@ type Props = {
 
 function ProjectPage ({ params }: Props) {
   const { id } = params
-  const project: Project = projects.find((p) => p.id === parseInt(id))
+  const project = projects.find((p) => p.id === parseInt(id))
 
   return (
     <Container>

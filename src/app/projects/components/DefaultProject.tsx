@@ -1,4 +1,4 @@
-import { Project } from 'app/types'
+import { Project } from '@/app/types'
 import Image from 'next/image'
 import Link from 'next/link'
 

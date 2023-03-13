@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import { Project } from 'app/types'
+import { Project } from '@/app/types'
 
 type Props = {
   project: Project

@@ -1,8 +1,8 @@
-import Container from 'app/(index)/components/Container'
+import Container from '@/components/Container'
 import Image from 'next/image'
 import Link from 'next/link'
 import { IoMdReturnLeft } from 'react-icons/io'
-import myLogo from '../(index)/assets/mylogo.jpg'
+import myLogo from '@/assets/mylogo.jpg'
 import SocialSideBar from './components/SocialSideBar'
 
 function PageAbout () {
