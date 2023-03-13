@@ -1,5 +1,5 @@
 'use client'
-import ContactIcon from 'app/(index)/icons/ContactIcon'
+import ContactIcon from '../icons/ContactIcon'
 import { useForm } from '@formspree/react'
 import MailSuccess from './MailSuccess'
 

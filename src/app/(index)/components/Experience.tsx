@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import SuitcaseIcon from 'app/(index)/icons/SuitcaseIcon'
+import SuitcaseIcon from '../icons/SuitcaseIcon'
 import logoOB from '../assets/ob-logo.png'
 import { BsArrowDownShort } from 'react-icons/bs'
 
