@@ -15,7 +15,8 @@ import {
   TypeScriptIcon,
   JavaIcon,
   ReduxIcon,
-  VitestIcon
+  VitestIcon,
+  PrismaIcon
 } from './SkillsIcons'
 
 export const ICONS: Record<string, ReactNode> = {
@@ -34,5 +35,6 @@ export const ICONS: Record<string, ReactNode> = {
   Firebase: <FirebaseIcon />,
   Java: <JavaIcon />,
   Redux: <ReduxIcon />,
+  Prisma: <PrismaIcon />,
   Vitest: <VitestIcon />
 }

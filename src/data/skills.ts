@@ -117,9 +117,17 @@ export const defaultSkills = [
   },
   {
     id: 25,
+    name: 'Prisma',
+    description:
+      'Next-generation Node.js and TypeScript ORM.Prisma unlocks a new level of developer experience when working with databases.',
+    color: 'bg-zinc-50',
+    link: 'https://www.prisma.io/'
+  },
+  {
+    id: 26,
     name: 'Vitest',
     description:
-      ' Vite Powered. Reuse Vite config, transformers, resolvers, and plugins - consistent across your app and tests.',
+      'Vite Powered. Reuse Vite config, transformers, resolvers, and plugins - consistent across your app and tests.',
     color: 'bg-green-400',
     link: 'https://vitest.dev/'
   }
