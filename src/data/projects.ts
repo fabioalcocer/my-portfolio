@@ -164,7 +164,7 @@ export const projects: Project[] = [
     ],
     description:
       'Fullstack web application that allows you to find and enjoy the most exciting and significant moments of the characters of the anime Shingeki no Kyojin. You can select a specific character and see his or her highlights throughout the series.',
-    img: 'https://res.cloudinary.com/daobmfotr/image/upload/v1676689662/projects/1676689569046-epic-nize_idsszz.webp',
+    img: 'https://res.cloudinary.com/daobmfotr/image/upload/v1678820017/projects/wths3twozaotr7ugtzzb.webp',
     url: 'https://snk-moments.vercel.app/',
     progress: false,
     date: 'March 2023'
