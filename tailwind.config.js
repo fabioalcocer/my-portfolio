@@ -9,7 +9,18 @@ module.exports = {
   ],
   theme: {
     extend: {
+      backgroundImage: {
+        'gradient-conic': 'conic-gradient(var(--tw-gradient-stops))'
+      },
+      animation: {
+        'bounce-slow': 'bounce 2s linear infinite',
+        disco: 'disco 2.5s linear infinite'
+      },
       keyframes: {
+        disco: {
+          '0%': { transform: 'translateY(-50%) rotate(0deg)' },
+          '100%': { transform: 'translateY(-50%) rotate(360deg)' }
+        },
         btnpulse: {
           '0%': {
             'box-shadow': '0 0 0 0 theme("colors.zinc.400/80")'

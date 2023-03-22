@@ -15,9 +15,11 @@ function Hero () {
               className='h-24 w-24 object-cover md:h-32 md:w-32'
             />
           </div>
+
           <h1 className='text-[32px] font-bold leading-10 tracking-tighter text-zinc-100 dark:text-zinc-100 md:text-5xl md:leading-[54px]'>
-            I’m Fabio Alcocer. <br /> Software developer, Community
-            builder and Content creator.
+            I’m Fabio Alcocer.
+            <br />
+            Software developer, Community builder and Content creator.
           </h1>
           <p className='text-base font-normal leading-7 text-zinc-100 dark:text-zinc-400 md:pr-10 md:text-lg'>
             I currently have 1 year of experience as a Front-end
