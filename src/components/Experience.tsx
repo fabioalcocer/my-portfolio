@@ -48,12 +48,11 @@ function Experience () {
             development regardless of your level of knowledge and
             experience, we will adapt to your objectives.
           </p>
-
           <a
             href='https://drive.google.com/file/d/1T1cezEvqrX4OYa0MuH6bA83fHkM4gtmV/view'
             target='_blank'
             rel='noreferrer'
-            className='relative mt-6 overflow-hidden rounded-lg bg-black px-20 py-6 ring-red-500/50 ring-offset-black will-change-transform focus:outline-none focus:ring-1 focus:ring-offset-2'
+            className='relative mt-6 overflow-hidden rounded-lg bg-black px-20 py-6 ring-0 ring-offset-black will-change-transform focus:outline-none focus:ring-1'
           >
             <span className='absolute inset-px z-10 flex items-center justify-center gap-2 rounded-lg bg-black bg-gradient-to-t from-zinc-900 text-sm text-zinc-50 hover:bg-zinc-900 transition-all duration-500'>
               Download CV
@@ -64,16 +63,6 @@ function Experience () {
               className='absolute inset-0 z-0 scale-x-[2.0] blur before:absolute before:inset-0 before:top-1/2 before:aspect-square before:animate-disco before:bg-gradient-conic before:from-green-700 before:via-emerald-500 before:to-blue-400'
             />
           </a>
-          {/*
-          <a
-            href='https://drive.google.com/file/d/11qhdJPIp06cXDpMde1wBc0qy61qSFhOm/view'
-            target='_blank'
-            rel='noreferrer'
-            className='group mt-6 inline-flex w-full items-center justify-center gap-2 rounded-md bg-zinc-50 py-2 px-3 text-sm font-medium text-zinc-900 outline-offset-2 transition-all duration-500 hover:bg-indigo-300 hover:text-zinc-100 active:bg-zinc-100 active:text-zinc-700/70 active:transition-none dark:bg-zinc-900/70 dark:text-zinc-300 dark:hover:bg-zinc-800 dark:hover:text-zinc-50 dark:active:bg-zinc-800/50 dark:active:text-zinc-50/70'
-          >
-            <span>Download CV</span>
-            <BsArrowDownShort className='animate-bounce-slow stroke-zinc-400 text-[30px] group-hover:stroke-zinc-100 group-active:stroke-zinc-600 dark:group-hover:stroke-zinc-50 dark:group-active:stroke-zinc-50' />
-          </a> */}
         </div>
         <div className='flex max-w-xl flex-1 flex-col rounded-2xl border border-indigo-400/70 p-6 shadow-inner transition-shadow duration-500 dark:border-zinc-700/40 dark:shadow-zinc-700/40 dark:hover:shadow-transparent md:gap-2'>
           <div className='flex items-center gap-3'>

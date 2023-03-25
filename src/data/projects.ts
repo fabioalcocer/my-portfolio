@@ -143,6 +143,37 @@ export const projects: Project[] = [
   },
   {
     id: 6,
+    name: 'RAWG Videogames',
+    stack: [
+      {
+        name: 'Next.js',
+        color: 'dark:border-zinc-50/40'
+      },
+      {
+        name: 'React Query',
+        color: 'dark: border-red-500/40'
+      },
+      {
+        name: 'Zustand',
+        color: 'dark: border-purple-400/50'
+      },
+      {
+        name: 'TypeScript',
+        color: 'dark:border-blue-500/40'
+      },
+      {
+        name: 'Tailwind',
+        color: 'dark:border-sky-400/40'
+      }
+    ],
+    description: 'Application that allows you to visualize, search and add video games of all platforms and consoles, has infinite scroll, uses React query to manage the state from the server and zustand to manage the global state.',
+    img: 'https://res.cloudinary.com/daobmfotr/image/upload/v1679775064/projects/prikrezxe2wzyfnm8kds.webp',
+    url: 'https://videogames-library-app.vercel.app/',
+    progress: true,
+    date: 'Since March 2023'
+  },
+  {
+    id: 7,
     name: 'SNK Moments Fullstack',
     stack: [
       {
@@ -170,7 +201,7 @@ export const projects: Project[] = [
     date: 'March 2023'
   },
   {
-    id: 7,
+    id: 8,
     name: 'My Personal Portfolio',
     stack: [
       {
