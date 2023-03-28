@@ -30,10 +30,10 @@ function ProjectPage ({ params }: Props) {
               {project?.date}
             </p>
           </div>
-          <ul className='flex gap-3 text-xs text-zinc-100 dark:text-zinc-200'>
+          <ul className='flex gap-3 text-xs text-zinc-100 dark:text-zinc-200 overflow-x-auto'>
             {project?.stack.map((technology) => (
               <li
-                className='rounded-sm border border-zinc-500/50 p-1 font-semibold dark:border-zinc-300/50'
+                className='rounded-sm border min-w-max border-zinc-500/50 p-1 font-semibold dark:border-zinc-300/50'
                 key={technology.name}
               >
                 {technology.name}

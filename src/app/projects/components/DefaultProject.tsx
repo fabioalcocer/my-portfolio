@@ -8,7 +8,7 @@ type Props = {
 
 function DefaultProject ({ project }: Props) {
   return (
-    <div className='duration-400 relative flex max-w-lg flex-col overflow-hidden rounded-xl border border-indigo-300/30 p-0 shadow-inner transition-all dark:border-zinc-700/40 dark:shadow-zinc-700/40 dark:hover:shadow-transparent lg:w-full lg:max-w-max lg:flex-row-reverse lg:items-center'>
+    <div className='duration-400 relative flex w-full max-w-lg flex-col overflow-hidden rounded-xl border border-indigo-300/30 p-0 shadow-inner transition-all dark:border-zinc-700/40 dark:shadow-zinc-700/40 dark:hover:shadow-transparent lg:w-max lg:max-w-full lg:flex-row-reverse lg:items-center'>
       <div className='flex-1'>
         {project.progress && (
           <p className='absolute left-0 top-0 z-10 rounded-br-md  bg-zinc-300/40 p-1 font-semibold text-zinc-100  dark:bg-zinc-500/70 dark:text-zinc-200'>
@@ -26,11 +26,11 @@ function DefaultProject ({ project }: Props) {
         </div>
       </div>
 
-      <div className='flex flex-1 flex-col gap-4 p-5 py-7'>
-        <ul className='flex items-center gap-3 text-xs text-zinc-200 dark:text-zinc-200 lg:mt-8 lg:text-sm'>
+      <div className='flex w-full flex-1 flex-col gap-4 p-5 py-7'>
+        <ul className='flex w-full overflow-x-auto items-center gap-3 text-xs text-zinc-200 dark:text-zinc-200 lg:mt-8 lg:text-sm'>
           {project.stack.map((technology) => (
             <li
-              className={`truncate rounded-sm border-2 border-zinc-100/40 ${technology.color} p-1 font-semibold`}
+              className={`rounded-sm border-2 min-w-max border-zinc-100/40 ${technology.color} p-1 font-semibold`}
               key={technology.name}
             >
               {technology.name}
