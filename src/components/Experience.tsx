@@ -54,7 +54,7 @@ function Experience () {
             rel='noreferrer'
             className='relative mt-6 overflow-hidden rounded-lg bg-black px-20 py-6 ring-0 ring-offset-black will-change-transform focus:outline-none focus:ring-1'
           >
-            <span className='absolute inset-px z-10 flex items-center justify-center gap-2 rounded-lg bg-black bg-gradient-to-t from-zinc-900 text-sm text-zinc-50 hover:bg-zinc-900 transition-all duration-500'>
+            <span className='absolute inset-px z-10 flex items-center justify-center gap-2 rounded-lg bg-emerald-400 from-emerald-500 dark:bg-black bg-gradient-to-t dark:from-zinc-900 text-sm text-zinc-50 dark:hover:bg-zinc-900 hover:bg-emerald-500 transition-all duration-500'>
               Download CV
               <BsArrowDownShort className='animate-bounce-slow stroke-zinc-400 text-[30px] group-hover:stroke-zinc-100 group-active:stroke-zinc-600 dark:group-hover:stroke-zinc-50 dark:group-active:stroke-zinc-50' />
             </span>
