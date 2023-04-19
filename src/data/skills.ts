@@ -57,13 +57,24 @@ export const skills: Skill[] = [
     link: 'https://www.mongodb.com/'
   },
   {
+    id: 19,
+    name: 'Python',
+    description:
+      'Python is a popular programming language. Python can be used on a server to create web applications and much more',
+    color: 'bg-yellow-500',
+    link: 'https://docs.python.org/3/'
+  },
+  {
     id: 16,
     name: 'MySQL',
     description:
       'MySQL is a relational database management system that is based on structured query language (SQL).',
     color: 'bg-blue-700',
     link: 'https://dev.mysql.com/doc/'
-  },
+  }
+]
+
+export const defaultSkills = [
   {
     id: 17,
     name: 'Git',
@@ -71,17 +82,6 @@ export const skills: Skill[] = [
       'Git is a version control system designed to handle everything from small to very large projects with speed and efficiency.',
     color: 'bg-orange-500',
     link: 'https://git-scm.com/doc'
-  }
-]
-
-export const defaultSkills = [
-  {
-    id: 19,
-    name: 'Python',
-    description:
-      'Python is a popular programming language. Python can be used on a server to create web applications and much more',
-    color: 'bg-yellow-500',
-    link: 'https://docs.python.org/3/'
   },
   {
     id: 20,

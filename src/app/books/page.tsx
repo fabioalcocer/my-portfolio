@@ -42,8 +42,7 @@ function PageBook () {
               <div className='flex flex-1 flex-col gap-5 p-5 py-7'>
                 <div className='flex items-center gap-3'>
                   <h2 className='flex max-h-16 overflow-hidden text-2xl font-semibold text-zinc-100 dark:text-zinc-100'>
-                    De 0 al éxito: Guía completa para convertirse en
-                    desarrollador
+                    From 0 to Success: A Complete Guide to Becoming a Developer
                   </h2>
                 </div>
                 <ul className='flex gap-3 text-xs text-zinc-200 dark:text-zinc-200 md:text-[13px]'>
