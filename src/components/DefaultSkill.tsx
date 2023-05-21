@@ -13,7 +13,7 @@ function DefaultSkill ({ skill }: Props) {
       rel='noreferrer'
       title={skill.name}
     >
-      <div className='duration-400 relative flex min-h-[90px] min-w-[90px] max-w-[222px] cursor-pointer items-center gap-4 rounded-xl border border-indigo-300/50 px-4 py-4 shadow-inner transition-all hover:-translate-y-2 hover:bg-indigo-300/50 dark:border-zinc-700/40 dark:shadow-zinc-700/40 dark:hover:bg-zinc-600/30 dark:hover:shadow-transparent md:min-h-[98px] md:py-5 md:pr-8'>
+      <div className='duration-300 relative flex min-h-[90px] min-w-[90px] max-w-[222px] cursor-pointer items-center gap-4 rounded-xl border border-indigo-300/50 px-4 py-4 shadow-inner transition-all hover:-translate-y-2 hover:bg-indigo-300/50 dark:border-zinc-700/40 dark:shadow-zinc-700/40 dark:hover:bg-zinc-600/30 dark:hover:shadow-transparent md:min-h-[98px] md:py-5 md:pr-8'>
         <span
           className={`absolute top-3 right-3 hidden rounded-full md:block ${skill.color} p-[5px]`}
         />
