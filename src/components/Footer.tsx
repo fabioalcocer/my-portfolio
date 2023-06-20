@@ -35,7 +35,7 @@ function Footer () {
                       Contact
                     </Link>
                   </div>
-                  <p className='text-sm text-zinc-200 dark:text-zinc-500'>
+                  <p className='text-sm text-zinc-200 dark:text-zinc-400'>
                     © 2023 Fabio Alcocer. All rights reserved.
                   </p>
                 </div>

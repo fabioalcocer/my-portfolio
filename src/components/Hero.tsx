@@ -22,7 +22,7 @@ function Hero () {
             Software developer, Community builder and Content creator.
           </h1>
           <p className='text-base font-normal leading-7 text-zinc-100 dark:text-zinc-400 md:pr-10 md:text-lg'>
-            I currently have 1 year of experience as a Front-end
+            I currently have 2 year of experience as a Front-end
             Developer and I’m finishing my bachelor's degree in
             systems analysis. My personal goal is to use programming
             to create a product that brings many people closer to

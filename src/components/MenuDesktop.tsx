@@ -5,6 +5,10 @@ import { motion } from 'framer-motion'
 
 const links = [
   {
+    label: 'Home',
+    route: '/'
+  },
+  {
     label: 'About',
     route: '/about'
   },

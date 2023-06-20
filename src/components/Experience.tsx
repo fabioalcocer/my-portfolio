@@ -36,8 +36,8 @@ function Experience () {
                   <p className='text-sm text-zinc-100 dark:text-zinc-400 md:text-lg'>
                     Front-end Developer
                   </p>
-                  <p className='text-sm text-zinc-200 dark:text-zinc-500 md:text-base'>
-                    Apr 2022 - Present
+                  <p className='text-sm text-zinc-200 dark:text-zinc-400 md:text-base'>
+                    Apr 2022 - Mar 2023
                   </p>
                 </div>
               </div>
