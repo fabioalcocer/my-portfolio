@@ -30,10 +30,10 @@ function ProjectPage ({ params }: Props) {
               {project?.date}
             </p>
           </div>
-          <ul className='flex gap-3 text-xs text-zinc-100 dark:text-zinc-200 overflow-x-auto'>
+          <ul className='flex gap-3 overflow-x-auto text-xs text-zinc-100 dark:text-zinc-200'>
             {project?.stack.map((technology) => (
               <li
-                className='rounded-sm border min-w-max border-zinc-500/50 p-1 font-semibold dark:border-zinc-300/50'
+                className='min-w-max rounded-sm border border-zinc-500/50 p-1 font-semibold dark:border-zinc-300/50'
                 key={technology.name}
               >
                 {technology.name}
@@ -45,17 +45,17 @@ function ProjectPage ({ params }: Props) {
           </p>
         </div>
 
-        <div className='mt-5 mb-1 flex w-full flex-1 flex-col justify-center gap-4 md:mt-0 md:mb-8 md:flex-row md:items-start md:justify-end lg:items-start lg:justify-end'>
+        <div className='mb-1 mt-5 flex w-full flex-1 flex-col justify-center gap-4 md:mb-8 md:mt-0 md:flex-row md:items-start md:justify-end lg:items-start lg:justify-end'>
           <Link
             href='/projects'
-            className='group inline-flex items-center justify-center gap-2 rounded-md bg-zinc-50 py-2 px-3 text-sm font-extrabold text-zinc-900 outline-offset-2 transition hover:bg-zinc-100 active:bg-zinc-100 active:text-zinc-900/60 active:transition-none dark:bg-zinc-700/50 dark:text-zinc-200 dark:hover:bg-zinc-700/70 dark:hover:text-zinc-50 dark:active:bg-zinc-800/50 dark:active:text-zinc-50/70 md:px-4 md:py-3 lg:text-[15px]'
+            className='group inline-flex items-center justify-center gap-2 rounded-md bg-zinc-50 px-3 py-2 text-sm font-extrabold text-zinc-900 outline-offset-2 transition hover:bg-zinc-100 active:bg-zinc-100 active:text-zinc-900/60 active:transition-none dark:bg-zinc-700/50 dark:text-zinc-200 dark:hover:bg-zinc-700/70 dark:hover:text-zinc-50 dark:active:bg-zinc-800/50 dark:active:text-zinc-50/70 md:px-4 md:py-3 lg:text-[15px]'
           >
             <IoMdReturnLeft className='mr-2 text-lg' />
             Go Back
           </Link>
 
           <a
-            className='inline-flex cursor-pointer items-center justify-center gap-2 rounded-md bg-emerald-500 py-2 px-3 text-sm font-semibold text-zinc-100 outline-offset-2 transition hover:bg-emerald-600 active:bg-emerald-800 active:text-zinc-100/70 active:transition-none dark:bg-emerald-500 dark:hover:bg-emerald-600 dark:active:bg-zinc-700 dark:active:text-zinc-100/70 md:py-3 lg:text-[15px]'
+            className='inline-flex cursor-pointer items-center justify-center gap-2 rounded-md bg-emerald-500 px-3 py-2 text-sm font-semibold text-zinc-100 outline-offset-2 transition hover:bg-emerald-600 active:bg-emerald-800 active:text-zinc-100/70 active:transition-none dark:bg-emerald-500 dark:hover:bg-emerald-600 dark:active:bg-zinc-700 dark:active:text-zinc-100/70 md:py-3 lg:text-[15px]'
             href={project?.url}
             target='_blank'
             rel='noreferrer'

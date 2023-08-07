@@ -26,7 +26,7 @@ export default function RootLayout({ children }: Props) {
         <meta name="author" content="Fabio Alcocer" />
         <meta
           property="og:image"
-          content="https://fabioalcocer.vercel.app/api/og"
+          content="https://fabioalcocer.vercel.app"
         />
         <link rel="icon" href="/favicon.ico" />
       </head>

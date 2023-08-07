@@ -16,7 +16,7 @@ function PageAbout () {
           </h2>
           <Link
             href='/'
-            className='group inline-flex items-center justify-center gap-2 rounded-md bg-zinc-50 py-2 px-3 text-sm font-extrabold text-zinc-900 outline-offset-2 transition hover:bg-zinc-100 active:bg-zinc-100 active:text-zinc-900/60 active:transition-none dark:bg-zinc-700/50 dark:text-zinc-200 dark:hover:bg-zinc-700/70 dark:hover:text-zinc-50 dark:active:bg-zinc-800/50 dark:active:text-zinc-50/70 md:py-3 md:px-4 md:text-base lg:text-lg'
+            className='group inline-flex items-center justify-center gap-2 rounded-md bg-zinc-50 px-3 py-2 text-sm font-extrabold text-zinc-900 outline-offset-2 transition hover:bg-zinc-100 active:bg-zinc-100 active:text-zinc-900/60 active:transition-none dark:bg-zinc-700/50 dark:text-zinc-200 dark:hover:bg-zinc-700/70 dark:hover:text-zinc-50 dark:active:bg-zinc-800/50 dark:active:text-zinc-50/70 md:px-4 md:py-3 md:text-base lg:text-lg'
           >
             <IoMdReturnLeft className='mr-2 text-lg' />
             Go Back
@@ -57,7 +57,7 @@ function PageAbout () {
                   </p>
                   <p>
                     I really enjoy working in a team, contributing
-                    ideas, asking what I don't know and learning it as
+                    ideas, asking what I don’t know and learning it as
                     soon as possible. My professional goal is to be
                     able to work in a company with my same ideals and
                     together create products that change the lives of

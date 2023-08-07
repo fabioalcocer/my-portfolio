@@ -12,7 +12,7 @@ function FeaturedProjects () {
       transition={{ ease: 'easeIn', duration: 0.4, delay: 0.3 }}
       className='mt-14 md:mt-20'
     >
-      <h2 className='mx-auto flex w-max flex-col items-center pb-4 text-4xl font-bold leading-10 tracking-tighter dark:text-zinc-100 text-zinc-100 sm:pb-8 md:mx-0 md:text-6xl lg:px-14'>
+      <h2 className='mx-auto flex w-max flex-col items-center pb-4 text-4xl font-bold leading-10 tracking-tighter text-zinc-100 dark:text-zinc-100 sm:pb-8 md:mx-0 md:text-6xl lg:px-14'>
         Featured Projects
         <span className='z-20 mt-4  inline-flex h-2 w-full animate-[rightGrow_3s_infinite_alternate] rounded-md bg-emerald-500' />
       </h2>
