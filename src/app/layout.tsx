@@ -20,7 +20,7 @@ export default function RootLayout({ children }: Props) {
         <meta content="width=device-width, initial-scale=1" name="viewport" />
         <meta
           name="description"
-          content="I’m Fabio Alcocer. Software developer and content
+          content="I’m Fabio Alcocer. Software developer and Content
         creator."
         />
         <meta name="author" content="Fabio Alcocer" />
