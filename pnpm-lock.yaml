@@ -14,6 +14,9 @@ dependencies:
   '@headlessui/tailwindcss':
     specifier: ^0.1.2
     version: 0.1.2(tailwindcss@3.2.4)
+  '@types/swiper':
+    specifier: ^6.0.0
+    version: 6.0.0
   '@vercel/og':
     specifier: ^0.0.27
     version: 0.0.27
@@ -50,6 +53,9 @@ dependencies:
   standard:
     specifier: ^17.0.0
     version: 17.0.0(@typescript-eslint/parser@6.2.1)
+  swiper:
+    specifier: ^11.1.8
+    version: 11.1.8
   tailwind-merge:
     specifier: ^2.4.0
     version: 2.4.0
@@ -627,6 +633,13 @@ packages:
   /@types/scheduler@0.23.0:
     resolution: {integrity: sha512-YIoDCTH3Af6XM5VuwGG/QL/CJqga1Zm3NkU3HZ4ZHK2fRMPYP1VczsTUqtsf43PH/iJNVlPHAo2oWX7BSdB2Hw==}
     dev: true
+
+  /@types/swiper@6.0.0:
+    resolution: {integrity: sha512-QPZRgxZ+ivXXtzV43B3LxpXUIC7FE/EoKM+rtxngmgt2M7eeUYypZhyqZD8UxJtlBcUDw/ATGoVeSNpvBBrz2w==}
+    deprecated: This is a stub types definition. swiper provides its own type definitions, so you do not need this installed.
+    dependencies:
+      swiper: 11.1.8
+    dev: false
 
   /@typescript-eslint/parser@6.2.1(eslint@8.32.0)(typescript@4.9.5):
     resolution: {integrity: sha512-Ld+uL1kYFU8e6btqBFpsHkwQ35rw30IWpdQxgOqOh4NfxSDH6uCkah1ks8R/RgQqI5hHPXMaLy9fbFseIe+dIg==}
@@ -3219,6 +3232,11 @@ packages:
   /supports-preserve-symlinks-flag@1.0.0:
     resolution: {integrity: sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==}
     engines: {node: '>= 0.4'}
+
+  /swiper@11.1.8:
+    resolution: {integrity: sha512-sBFp7fA+IfZ/7BMcg8/JSEqDD1qZXBUyliT76yk3zIYVu2fMwFVAghhAJ9vBM5tJUtHW5qcD0pmeEGQs1EK14w==}
+    engines: {node: '>= 4.7.0'}
+    dev: false
 
   /tailwind-merge@2.4.0:
     resolution: {integrity: sha512-49AwoOQNKdqKPd9CViyH5wJoSKsCDjUlzL8DxuGp3P1FsGY36NJDAa18jLZcaHAUUuTj+JB8IAo8zWgBNvBF7A==}
