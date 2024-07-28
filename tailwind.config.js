@@ -6,7 +6,7 @@ const {
 module.exports = {
   darkMode: "class",
   content: [
-    "./app/**/*.{js,ts,jsx,tsx}", // Note the addition of the `app` directory.
+    "./app/**/*.{js,ts,jsx,tsx}",
     "./pages/**/*.{js,ts,jsx,tsx}",
     "./components/**/*.{js,ts,jsx,tsx}",
     "./src/**/*.{js,ts,jsx,tsx}",
@@ -17,7 +17,7 @@ module.exports = {
         "gradient-conic": "conic-gradient(var(--tw-gradient-stops))",
       },
       animation: {
-        "bounce-slow": "bounce 2s linear infinite",
+        "bounce-slow": "bounce 2.5s linear infinite",
         disco: "disco 2.5s linear infinite",
         aurora: "aurora 60s linear infinite",
         fadein: "fadein 3s linear",

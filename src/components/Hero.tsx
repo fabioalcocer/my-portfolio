@@ -1,12 +1,12 @@
 import Image from "next/image"
 import { BsGithub, BsLinkedin, BsTwitter } from "react-icons/bs"
 import { IoMdMail } from "react-icons/io"
-
 import myLogo from "../assets/logo.png"
+
 
 function Hero() {
   return (
-    <div className="max-w-7xl md:px-8 lg:px-14">
+    <div className="max-w-7xl md:px-8 lg:px-14 z-[99] relative">
       <div className="relative flex w-full items-center">
         <div className="flex max-w-[700px] flex-1 flex-col gap-4 md:gap-6">
           <div className="relative flex h-20 w-20 flex-none cursor-pointer items-center justify-center rounded-full border border-zinc-700/10 bg-indigo-400/20 shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 dark:border-zinc-700/50 dark:bg-zinc-900/40 dark:ring-0 md:h-24 md:w-24">
@@ -30,6 +30,7 @@ function Hero() {
           </p>
         </div>
       </div>
+
       <div className="mt-6 flex gap-6 text-zinc-400">
         <a
           href="https://twitter.com/fabioalcocer17"

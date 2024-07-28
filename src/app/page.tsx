@@ -7,6 +7,7 @@ import Experience from "@/components/Experience"
 import FeaturedProjects from "@/components/FeaturedProjects"
 import Hero from "@/components/Hero"
 import SkillsBoard from "@/components/SkillsBoard"
+import { ZodIcon } from "@/icons/SkillsIcons"
 
 export default function Home() {
   return (
@@ -16,7 +17,7 @@ export default function Home() {
           <Hero />
         </AuroraBackground>
       </Suspense>
-      
+
       <Experience />
       <FeaturedProjects />
       <SkillsBoard />

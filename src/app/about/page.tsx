@@ -42,14 +42,14 @@ function PageAbout() {
                 </h2>
                 <div className="mt-6 space-y-7 text-base text-zinc-200 dark:text-zinc-400">
                   <p>
-                    I’m 21 years old and I dedicate myself daily to my 2
+                    I’m 22 years old and I dedicate myself daily to my 2
                     passions: Programming and content creation. I make use of my
                     communication skills and my technical skills to facilitate
                     others in their learning process in the development world.
                   </p>
                   <p>
                     After having lived almost all my life in Spain, I currently
-                    live in Bolivia and since almost 3 years ago I started to
+                    live in Bolivia and since almost 5 years ago I started to
                     train as a programmer at the same time I started to create
                     content. I was able to get the best out of both roles and
                     merge them, this allowed me to boost my career.
@@ -64,9 +64,9 @@ function PageAbout() {
                   <p>
                     Today I have a community of +30K people and 2 products that
                     helped many of them. One of my personal goals is to use
-                    programming to create a product that brings many, many
-                    people closer to achieving their goal of getting into
-                    programming.
+                    programming to create a product that brings many people
+                    closer to achieving their goal of getting into the IT world
+                    of work.
                   </p>
                 </div>
               </div>
