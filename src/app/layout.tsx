@@ -1,7 +1,7 @@
 import "./globals.css"
 
 import React from "react"
-import { Inter } from "@next/font/google"
+import { Inter } from "next/font/google"
 
 import Footer from "@/components/Footer"
 import Header from "@/components/Header"
@@ -26,7 +26,7 @@ export default function RootLayout({ children }: Props) {
         <meta name="author" content="Fabio Alcocer" />
         <meta
           property="og:image"
-          content="https://fabioalcocer.vercel.app"
+          content="https://fabioalcocer.vercel.app/screenshot.png"
         />
         <link rel="icon" href="/favicon.ico" />
       </head>
