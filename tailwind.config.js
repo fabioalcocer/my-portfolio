@@ -20,8 +20,20 @@ module.exports = {
         "bounce-slow": "bounce 2s linear infinite",
         disco: "disco 2.5s linear infinite",
         aurora: "aurora 60s linear infinite",
+        fadein: "fadein 3s linear",
       },
       keyframes: {
+        fadein: {
+          "0%": {
+            opacity: "0",
+          },
+          "50%": {
+            opacity: "0",
+          },
+          "100%": {
+            opacity: "1",
+          },
+        },
         aurora: {
           from: {
             backgroundPosition: "50% 50%, 50% 50%",

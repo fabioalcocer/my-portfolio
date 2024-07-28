@@ -18,7 +18,7 @@ export const AuroraBackground = ({
   return (
     <main>
       <div className={cn("transition-bg", className)} {...props}>
-        <div className="absolute inset-0 overflow-hidden">
+        <div className="absolute inset-0 overflow-hidden animate-fadein">
           <div
             className={cn(
               `

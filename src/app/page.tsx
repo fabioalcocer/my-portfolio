@@ -1,3 +1,5 @@
+import { Suspense } from "react"
+
 import { AuroraBackground } from "@/components/ui/aurora-background"
 import Contact from "@/components/Contact"
 import Container from "@/components/Container"
@@ -9,9 +11,11 @@ import SkillsBoard from "@/components/SkillsBoard"
 export default function Home() {
   return (
     <Container>
-      <AuroraBackground>
-        <Hero />
-      </AuroraBackground>
+      <Suspense>
+        <AuroraBackground>
+          <Hero />
+        </AuroraBackground>
+      </Suspense>
       
       <Experience />
       <FeaturedProjects />
