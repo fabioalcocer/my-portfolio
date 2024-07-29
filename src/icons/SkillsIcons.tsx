@@ -552,7 +552,7 @@ export function AstroIcon() {
 export function FigmaIcon2() {
   return (
     <svg
-      className="mx-auto w-8"
+      className="mx-auto w-7"
       viewBox="0 0 256 384"
       version="1.1"
       xmlns="http://www.w3.org/2000/svg"
@@ -588,7 +588,7 @@ export function FigmaIcon2() {
 export function NeonDBIcon() {
   return (
     <svg
-      className="mx-auto w-[44px]"
+      className="mx-auto w-[40px]"
       viewBox="0 0 256 256"
       version="1.1"
       xmlns="http://www.w3.org/2000/svg"

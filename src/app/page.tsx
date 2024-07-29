@@ -1,4 +1,5 @@
 import { Suspense } from "react"
+import { ZodIcon } from "@/icons/SkillsIcons"
 
 import { AuroraBackground } from "@/components/ui/aurora-background"
 import Contact from "@/components/Contact"
@@ -7,15 +8,19 @@ import Experience from "@/components/Experience"
 import FeaturedProjects from "@/components/FeaturedProjects"
 import Hero from "@/components/Hero"
 import SkillsBoard from "@/components/SkillsBoard"
-import { ZodIcon } from "@/icons/SkillsIcons"
 
 export default function Home() {
   return (
     <Container>
       <Suspense>
-        <AuroraBackground>
+        <div className="hidden lg:block">
+          <AuroraBackground>
+            <Hero />
+          </AuroraBackground>
+        </div>
+        <div className="lg:hidden block">
           <Hero />
-        </AuroraBackground>
+        </div>
       </Suspense>
 
       <Experience />

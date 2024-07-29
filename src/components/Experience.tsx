@@ -16,7 +16,7 @@ function Experience() {
           href="https://drive.google.com/file/d/1mOPGKUdszOb5LwAVyrvrsm0KfM0gWuRk/view?usp=sharing"
           target="_blank"
           rel="noreferrer"
-          className="relative max-w-max mx-auto mt-2 overflow-hidden rounded-xl bg-black px-28 py-6 ring-0 ring-offset-black will-change-transform focus:outline-none focus:ring-1"
+          className="relative max-w-max mx-auto mt-6 lg:mt-2 overflow-hidden rounded-xl bg-black px-28 py-6 ring-0 ring-offset-black will-change-transform focus:outline-none focus:ring-1"
         >
           <span className="absolute inset-px z-10 flex items-center justify-center gap-3 rounded-xl bg-emerald-400 bg-gradient-to-t from-emerald-500 text-sm text-zinc-50 transition-all duration-500 hover:bg-emerald-500 dark:bg-black dark:from-zinc-900 dark:hover:bg-zinc-900">
             Download CV
