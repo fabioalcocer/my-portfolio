@@ -6,7 +6,7 @@ import "../app/globals.css"
 
 import Image from "next/image"
 import SuitcaseIcon from "@/icons/SuitcaseIcon"
-import { Autoplay, Mousewheel, Pagination } from "swiper/modules"
+import { Autoplay, Pagination } from "swiper/modules"
 import { Swiper, SwiperSlide } from "swiper/react"
 
 import { cn } from "@/lib/utils"
@@ -21,16 +21,17 @@ function JobsCarousel() {
           direction={"vertical"}
           slidesPerView={1}
           spaceBetween={30}
-          mousewheel={true}
+          // mousewheel={true}
           loop={true}
           autoplay={{
-            delay: 8000,
+            delay: 6000,
             disableOnInteraction: true,
           }}
           pagination={{
             clickable: true,
           }}
-          modules={[Mousewheel, Pagination, Autoplay]}
+          modules={[Pagination, Autoplay]}
+          // modules={[Mousewheel, Pagination, Autoplay]}
           className="w-full h-full max-h-96"
         >
           {JOBS_DATA.map((job, index) => (
@@ -114,7 +115,10 @@ function JobsCarousel() {
 
       <div className="lg:hidden flex flex-col items-center gap-6">
         {JOBS_DATA.map((job, index) => (
-          <div className="mx-auto flex flex-col gap-6 lg:flex-row bg-transparent" key={index}>
+          <div
+            className="mx-auto flex flex-col gap-6 lg:flex-row bg-transparent"
+            key={index}
+          >
             <div className="flex max-w-xl flex-1 flex-col rounded-2xl border border-indigo-400/70 p-6 shadow-inner transition-shadow duration-500 dark:border-zinc-700/40 dark:shadow-zinc-700/40 dark:hover:shadow-transparent md:gap-2">
               <div className="flex items-center gap-3">
                 <SuitcaseIcon />
